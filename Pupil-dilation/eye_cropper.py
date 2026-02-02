@@ -22,6 +22,7 @@ class EyeCropper:
             num_faces=1
         )
         self.detector = vision.FaceLandmarker.create_from_options(options)
+        self.last_landmarks = None
 
     def _euclidean(self, p1, p2):
         return np.linalg.norm(np.array(p1) - np.array(p2))
@@ -42,6 +43,10 @@ class EyeCropper:
             return None
 
         lm = result.face_landmarks[0]
+        self.last_landmarks = lm
+
+        if result.face_landmarks:
+            self.last_landmarks = result.face_landmarks[0]
 
         left_eye_width = self._euclidean(
             (lm[LEFT_EYE[0]].x * w, lm[LEFT_EYE[0]].y * h),
