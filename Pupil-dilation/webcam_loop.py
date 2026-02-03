@@ -18,6 +18,13 @@ BLINK_THRESHOLD = 3.2
 MIN_FRAMES = 3
 RATIO_HISTORY = []
 
+LOCKED_FACE_CENTER = None
+FACE_LOCKED = False
+FACE_LOST_FRAMES = 0
+MAX_FACE_LOST = 30  # ~1 second at 30 FPS
+LOCKED_LANDMARKS = None
+PRIMARY_USER_GONE = False
+
 START_TIME = time.time()
 BLINK_RATE = 0.0
 
@@ -29,10 +36,10 @@ LEFT_EYE = [362, 382, 381, 380, 374, 373, 390, 249,
 RIGHT_EYE = [33, 7, 163, 144, 145, 153, 154, 155,
              133, 173, 157, 158, 159, 160, 161, 246]
 
+
 # =========================
 # BLINK FUNCTIONS
 # =========================
-
 def euclideanDistance(p1, p2):
     return sqrt((p2[0] - p1[0])**2 + (p2[1] - p1[1])**2)
 
@@ -51,7 +58,6 @@ def blinkRatio(landmarks, right_indices, left_indices):
 # =========================
 # SETUP
 # =========================
-
 eye = EyeCropper()
 
 cap = cv2.VideoCapture(0)
@@ -66,9 +72,8 @@ start = time.time()
 print("[INFO] Starting webcam")
 
 # ===========================
-# Face Mesh Drawing Function
+# Face Mesh Function
 # ===========================
-
 def draw_face_mesh(frame, lm, w, h):
     # draw points
     for p in lm:
@@ -83,9 +88,25 @@ def draw_face_mesh(frame, lm, w, h):
         cv2.line(frame, pt1, pt2, (0, 200, 0), 1)
 
 # =========================
+# FACE CENTER FUNCTION
+# =========================
+def face_center(lm, w, h):
+    xs = [p.x * w for p in lm]
+    ys = [p.y * h for p in lm]
+    return (int(sum(xs) / len(xs)), int(sum(ys) / len(ys)))
+
+# =========================
+# FACE VISIBILITY FUNCTION
+# =========================
+def face_visibility(lm):
+    xs = [p.x for p in lm]
+    ys = [p.y for p in lm]
+    visible = sum(0 <= x <= 1 and 0 <= y <= 1 for x, y in zip(xs, ys))
+    return visible / len(lm)
+
+# =========================
 # MAIN LOOP
 # =========================
-
 while True:
     ret, frame = cap.read()
     if not ret:
@@ -117,7 +138,95 @@ while True:
     
     # ---------- BLINK ----------
     lm = eye.last_landmarks
+
+    # Check if primary user has returned
+    if PRIMARY_USER_GONE:
+        if lm is not None:
+            center = face_center(lm, w, h)
+            # Check if detected face is close to where primary user was last seen
+            dist = euclideanDistance(center, LOCKED_FACE_CENTER)
+            
+            if dist <= 120:  # Same person returned
+                visibility = face_visibility(lm)
+                if visibility >= 0.6:  # Good visibility
+                    PRIMARY_USER_GONE = False
+                    FACE_LOCKED = True
+                    FACE_LOST_FRAMES = 0
+                    LOCKED_LANDMARKS = lm
+                    LOCKED_FACE_CENTER = center
+                    print("[INFO] Primary user returned")
+                    cv2.putText(frame, "Primary user returned!", (30, 240), FONT, 0.8, (0, 255, 0), 2)
+                else:
+                    cv2.putText(frame, "Primary user not present - waiting...",
+                                (30, 240), FONT, 0.8, (0, 0, 255), 2)
+            else:
+                cv2.putText(frame, "Primary user not present - different person detected",
+                            (30, 240), FONT, 0.8, (0, 0, 255), 2)
+        else:
+            cv2.putText(frame, "Primary user not present - no face detected",
+                        (30, 240), FONT, 0.8, (0, 0, 255), 2)
+        
+        if PRIMARY_USER_GONE:  # Still gone after checks
+            cv2.imshow("Liveness Detection", frame)
+            if cv2.waitKey(1) & 0xFF == 27:
+                break
+            continue
+    
     if lm is not None:
+        center = face_center(lm, w, h)
+
+        if not FACE_LOCKED and not PRIMARY_USER_GONE:
+            # lock onto the FIRST face
+            LOCKED_FACE_CENTER = center
+            LOCKED_LANDMARKS = lm
+            FACE_LOCKED = True
+            FACE_LOST_FRAMES = 0
+            print("[INFO] Primary face locked")
+
+        else:
+            # ---------- DISTANCE CHECK (FIRST) ----------
+            # Check if this is still the same face BEFORE checking visibility
+            # This prevents switching to a new person when the primary user moves to edge of frame
+            dist = euclideanDistance(center, LOCKED_FACE_CENTER)
+
+            if dist > 120:   # pixel threshold - this is a DIFFERENT person
+                FACE_LOST_FRAMES += 1
+                lm = LOCKED_LANDMARKS   # ignore new detections, freeze on primary user
+                center = face_center(lm, w, h)
+                cv2.putText(frame, "Different person detected - ignoring", (30, 240), FONT, 0.8, (0, 0, 255), 2)
+                if FACE_LOST_FRAMES > MAX_FACE_LOST:
+                    PRIMARY_USER_GONE = True
+                    FACE_LOCKED = False
+                    cv2.putText(frame, "Primary user gone", (30, 240), FONT, 0.8, (0, 0, 255), 2)
+                    cv2.imshow("Liveness Detection", frame)
+                    if cv2.waitKey(1) & 0xFF == 27:
+                        break
+                    continue
+
+            else:
+                # ---------- VISIBILITY CHECK (SECOND) ----------
+                # Distance is OK, now check if primary user is visible enough
+                visibility = face_visibility(lm)
+
+                if visibility < 0.6:
+                    FACE_LOST_FRAMES += 1
+                    lm = LOCKED_LANDMARKS  # freeze on primary user
+                    center = face_center(lm, w, h)
+                    cv2.putText(frame, "Primary user leaving frame", (30, 240), FONT, 0.8, (0, 0, 255), 2)
+                    if FACE_LOST_FRAMES > MAX_FACE_LOST:
+                        PRIMARY_USER_GONE = True
+                        FACE_LOCKED = False
+                        cv2.putText(frame, "Primary user gone", (30, 240), FONT, 0.8, (0, 0, 255), 2)
+                        cv2.imshow("Liveness Detection", frame)
+                        if cv2.waitKey(1) & 0xFF == 27:
+                            break
+                        continue
+                else:
+                    # Same face, good visibility - update tracking
+                    FACE_LOST_FRAMES = 0
+                    LOCKED_LANDMARKS = lm
+                    LOCKED_FACE_CENTER = center     # Update center position for smooth tracking
+
         landmarks = [(int(p.x * w), int(p.y * h)) for p in lm]
         
         draw_face_mesh(frame, lm, w, h)
