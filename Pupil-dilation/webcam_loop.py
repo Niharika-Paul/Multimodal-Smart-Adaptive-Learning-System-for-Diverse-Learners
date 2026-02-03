@@ -65,6 +65,23 @@ start = time.time()
 
 print("[INFO] Starting webcam")
 
+# ===========================
+# Face Mesh Drawing Function
+# ===========================
+
+def draw_face_mesh(frame, lm, w, h):
+    # draw points
+    for p in lm:
+        x, y = int(p.x * w), int(p.y * h)
+        cv2.circle(frame, (x, y), 1, (0, 255, 0), -1)
+
+    # draw connections (optional but nice)
+    FACEMESH_CONNECTIONS = mp.solutions.face_mesh.FACEMESH_TESSELATION
+    for a, b in FACEMESH_CONNECTIONS:
+        pt1 = int(lm[a].x * w), int(lm[a].y * h)
+        pt2 = int(lm[b].x * w), int(lm[b].y * h)
+        cv2.line(frame, pt1, pt2, (0, 200, 0), 1)
+
 # =========================
 # MAIN LOOP
 # =========================
@@ -102,6 +119,8 @@ while True:
     lm = eye.last_landmarks
     if lm is not None:
         landmarks = [(int(p.x * w), int(p.y * h)) for p in lm]
+        
+        draw_face_mesh(frame, lm, w, h)
 
         eyes_ratio = blinkRatio(landmarks, RIGHT_EYE, LEFT_EYE)
 
