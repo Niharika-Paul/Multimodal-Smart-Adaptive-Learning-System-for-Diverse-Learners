@@ -1,0 +1,6 @@
+fold,train_students,students_ge3_all_classes,students_ge5_all_classes,students_ge3_support_ge5_query_all_classes
+1,65,12,9,7
+2,65,12,8,5
+3,66,12,9,7
+4,66,14,9,7
+5,66,14,9,6
