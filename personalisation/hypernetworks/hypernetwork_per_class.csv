@@ -1,0 +1,1969 @@
+method,outer_fold,student_group,k_shot,support_protocol,class,precision,recall,f1,support
+hypernetwork,1,video10_person0,5,random,Highly Disengage,0.0,0.0,0.0,9
+hypernetwork,1,video10_person0,5,random,Disengage,0.3,0.15,0.2,20
+hypernetwork,1,video10_person0,5,random,Engage,0.6119402985074627,0.8541666666666666,0.7130434782608696,48
+hypernetwork,1,video10_person0,5,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person0,5,early,Highly Disengage,0.0,0.0,0.0,9
+hypernetwork,1,video10_person0,5,early,Disengage,0.4444444444444444,0.2,0.27586206896551724,20
+hypernetwork,1,video10_person0,5,early,Engage,0.6231884057971014,0.8958333333333334,0.7350427350427351,48
+hypernetwork,1,video10_person0,5,early,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person0,10,random,Highly Disengage,0.0,0.0,0.0,8
+hypernetwork,1,video10_person0,10,random,Disengage,0.3333333333333333,0.1111111111111111,0.16666666666666666,18
+hypernetwork,1,video10_person0,10,random,Engage,0.6363636363636364,0.9130434782608695,0.75,46
+hypernetwork,1,video10_person0,10,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person0,10,early,Highly Disengage,0.0,0.0,0.0,9
+hypernetwork,1,video10_person0,10,early,Disengage,0.4444444444444444,0.2,0.27586206896551724,20
+hypernetwork,1,video10_person0,10,early,Engage,0.59375,0.8837209302325582,0.7102803738317757,43
+hypernetwork,1,video10_person0,10,early,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person0,20,random,Highly Disengage,0.0,0.0,0.0,7
+hypernetwork,1,video10_person0,20,random,Disengage,0.16666666666666666,0.0625,0.09090909090909091,16
+hypernetwork,1,video10_person0,20,random,Engage,0.6071428571428571,0.8717948717948718,0.7157894736842105,39
+hypernetwork,1,video10_person0,20,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person0,20,early,Highly Disengage,0.0,0.0,0.0,9
+hypernetwork,1,video10_person0,20,early,Disengage,0.42857142857142855,0.15789473684210525,0.23076923076923078,19
+hypernetwork,1,video10_person0,20,early,Engage,0.5454545454545454,0.8823529411764706,0.6741573033707865,34
+hypernetwork,1,video10_person0,20,early,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person14,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video10_person14,5,random,Disengage,1.0,0.17647058823529413,0.3,17
+hypernetwork,1,video10_person14,5,random,Engage,0.5581395348837209,1.0,0.7164179104477612,24
+hypernetwork,1,video10_person14,5,random,Highly Engage,1.0,0.2857142857142857,0.4444444444444444,7
+hypernetwork,1,video10_person14,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video10_person14,5,early,Disengage,1.0,0.11764705882352941,0.21052631578947367,17
+hypernetwork,1,video10_person14,5,early,Engage,0.5681818181818182,1.0,0.7246376811594203,25
+hypernetwork,1,video10_person14,5,early,Highly Engage,1.0,0.3333333333333333,0.5,6
+hypernetwork,1,video10_person14,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video10_person14,10,random,Disengage,1.0,0.35714285714285715,0.5263157894736842,14
+hypernetwork,1,video10_person14,10,random,Engage,0.6388888888888888,1.0,0.7796610169491526,23
+hypernetwork,1,video10_person14,10,random,Highly Engage,1.0,0.3333333333333333,0.5,6
+hypernetwork,1,video10_person14,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video10_person14,10,early,Disengage,1.0,0.14285714285714285,0.25,14
+hypernetwork,1,video10_person14,10,early,Engage,0.6153846153846154,1.0,0.7619047619047619,24
+hypernetwork,1,video10_person14,10,early,Highly Engage,1.0,0.4,0.5714285714285714,5
+hypernetwork,1,video10_person14,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video10_person14,20,random,Disengage,1.0,0.23076923076923078,0.375,13
+hypernetwork,1,video10_person14,20,random,Engage,0.5357142857142857,1.0,0.6976744186046512,15
+hypernetwork,1,video10_person14,20,random,Highly Engage,1.0,0.4,0.5714285714285714,5
+hypernetwork,1,video10_person14,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video10_person14,20,early,Disengage,1.0,0.2,0.3333333333333333,10
+hypernetwork,1,video10_person14,20,early,Engage,0.6206896551724138,1.0,0.7659574468085106,18
+hypernetwork,1,video10_person14,20,early,Highly Engage,1.0,0.4,0.5714285714285714,5
+hypernetwork,1,video10_person5,5,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person5,5,random,Disengage,0.0,0.0,0.0,10
+hypernetwork,1,video10_person5,5,random,Engage,0.7777777777777778,0.75,0.7636363636363637,56
+hypernetwork,1,video10_person5,5,random,Highly Engage,0.10526315789473684,0.3333333333333333,0.16,6
+hypernetwork,1,video10_person5,5,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person5,5,early,Disengage,0.0,0.0,0.0,10
+hypernetwork,1,video10_person5,5,early,Engage,0.7636363636363637,0.7777777777777778,0.7706422018348624,54
+hypernetwork,1,video10_person5,5,early,Highly Engage,0.16666666666666666,0.375,0.23076923076923078,8
+hypernetwork,1,video10_person5,10,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person5,10,random,Disengage,0.0,0.0,0.0,10
+hypernetwork,1,video10_person5,10,random,Engage,0.76,0.7307692307692307,0.7450980392156863,52
+hypernetwork,1,video10_person5,10,random,Highly Engage,0.05555555555555555,0.2,0.08695652173913043,5
+hypernetwork,1,video10_person5,10,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person5,10,early,Disengage,0.0,0.0,0.0,10
+hypernetwork,1,video10_person5,10,early,Engage,0.75,0.7959183673469388,0.7722772277227723,49
+hypernetwork,1,video10_person5,10,early,Highly Engage,0.1875,0.375,0.25,8
+hypernetwork,1,video10_person5,20,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person5,20,random,Disengage,0.0,0.0,0.0,10
+hypernetwork,1,video10_person5,20,random,Engage,0.7333333333333333,0.8048780487804879,0.7674418604651163,41
+hypernetwork,1,video10_person5,20,random,Highly Engage,0.15384615384615385,0.3333333333333333,0.21052631578947367,6
+hypernetwork,1,video10_person5,20,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person5,20,early,Disengage,0.0,0.0,0.0,9
+hypernetwork,1,video10_person5,20,early,Engage,0.7441860465116279,0.7619047619047619,0.7529411764705882,42
+hypernetwork,1,video10_person5,20,early,Highly Engage,0.13333333333333333,0.3333333333333333,0.19047619047619047,6
+hypernetwork,1,video10_person7,5,random,Highly Disengage,0.0,0.0,0.0,7
+hypernetwork,1,video10_person7,5,random,Disengage,0.8333333333333334,0.14705882352941177,0.25,34
+hypernetwork,1,video10_person7,5,random,Engage,0.34615384615384615,0.8181818181818182,0.4864864864864865,22
+hypernetwork,1,video10_person7,5,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person7,5,early,Highly Disengage,0.0,0.0,0.0,7
+hypernetwork,1,video10_person7,5,early,Disengage,0.8333333333333334,0.13157894736842105,0.22727272727272727,38
+hypernetwork,1,video10_person7,5,early,Engage,0.2830188679245283,0.8333333333333334,0.4225352112676056,18
+hypernetwork,1,video10_person7,5,early,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person7,10,random,Highly Disengage,0.0,0.0,0.0,5
+hypernetwork,1,video10_person7,10,random,Disengage,0.8333333333333334,0.15625,0.2631578947368421,32
+hypernetwork,1,video10_person7,10,random,Engage,0.3541666666666667,0.8095238095238095,0.4927536231884058,21
+hypernetwork,1,video10_person7,10,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video10_person7,10,early,Highly Disengage,0.0,0.0,0.0,7
+hypernetwork,1,video10_person7,10,early,Disengage,0.8333333333333334,0.13513513513513514,0.23255813953488372,37
+hypernetwork,1,video10_person7,10,early,Engage,0.26,0.8666666666666667,0.4,15
+hypernetwork,1,video10_person7,10,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,1,video10_person7,20,random,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,1,video10_person7,20,random,Disengage,1.0,0.12903225806451613,0.22857142857142856,31
+hypernetwork,1,video10_person7,20,random,Engage,0.25,0.8333333333333334,0.38461538461538464,12
+hypernetwork,1,video10_person7,20,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,1,video10_person7,20,early,Highly Disengage,0.0,0.0,0.0,7
+hypernetwork,1,video10_person7,20,early,Disengage,0.8333333333333334,0.16666666666666666,0.2777777777777778,30
+hypernetwork,1,video10_person7,20,early,Engage,0.2682926829268293,0.9166666666666666,0.41509433962264153,12
+hypernetwork,1,video10_person7,20,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person0,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person0,5,random,Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person0,5,random,Engage,0.8813559322033898,0.9285714285714286,0.9043478260869565,56
+hypernetwork,1,video14_person0,5,random,Highly Engage,0.8,0.36363636363636365,0.5,11
+hypernetwork,1,video14_person0,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person0,5,early,Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person0,5,early,Engage,0.8813559322033898,0.9454545454545454,0.9122807017543859,55
+hypernetwork,1,video14_person0,5,early,Highly Engage,0.8333333333333334,0.4166666666666667,0.5555555555555556,12
+hypernetwork,1,video14_person0,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person0,10,random,Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person0,10,random,Engage,0.8727272727272727,0.9230769230769231,0.897196261682243,52
+hypernetwork,1,video14_person0,10,random,Highly Engage,0.75,0.3,0.42857142857142855,10
+hypernetwork,1,video14_person0,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person0,10,early,Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person0,10,early,Engage,0.8727272727272727,0.9411764705882353,0.9056603773584906,51
+hypernetwork,1,video14_person0,10,early,Highly Engage,0.8,0.36363636363636365,0.5,11
+hypernetwork,1,video14_person0,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person0,20,random,Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person0,20,random,Engage,0.8863636363636364,0.9285714285714286,0.9069767441860465,42
+hypernetwork,1,video14_person0,20,random,Highly Engage,0.8333333333333334,0.5,0.625,10
+hypernetwork,1,video14_person0,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person0,20,early,Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person0,20,early,Engage,0.9148936170212766,0.9772727272727273,0.945054945054945,44
+hypernetwork,1,video14_person0,20,early,Highly Engage,1.0,0.5,0.6666666666666666,8
+hypernetwork,1,video14_person12,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person12,5,random,Disengage,0.6666666666666666,0.16666666666666666,0.26666666666666666,12
+hypernetwork,1,video14_person12,5,random,Engage,0.8,0.9565217391304348,0.8712871287128713,46
+hypernetwork,1,video14_person12,5,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video14_person12,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person12,5,early,Disengage,0.6666666666666666,0.18181818181818182,0.2857142857142857,11
+hypernetwork,1,video14_person12,5,early,Engage,0.8181818181818182,0.9574468085106383,0.8823529411764706,47
+hypernetwork,1,video14_person12,5,early,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video14_person12,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person12,10,random,Disengage,1.0,0.18181818181818182,0.3076923076923077,11
+hypernetwork,1,video14_person12,10,random,Engage,0.803921568627451,0.9761904761904762,0.8817204301075269,42
+hypernetwork,1,video14_person12,10,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video14_person12,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person12,10,early,Disengage,1.0,0.18181818181818182,0.3076923076923077,11
+hypernetwork,1,video14_person12,10,early,Engage,0.8235294117647058,0.9767441860465116,0.8936170212765957,43
+hypernetwork,1,video14_person12,10,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person12,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person12,20,random,Disengage,0.6666666666666666,0.25,0.36363636363636365,8
+hypernetwork,1,video14_person12,20,random,Engage,0.825,0.9428571428571428,0.88,35
+hypernetwork,1,video14_person12,20,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video14_person12,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person12,20,early,Disengage,0.0,0.0,0.0,6
+hypernetwork,1,video14_person12,20,early,Engage,0.8604651162790697,0.9736842105263158,0.9135802469135802,38
+hypernetwork,1,video14_person12,20,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person19,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person19,5,random,Disengage,0.5625,0.42857142857142855,0.4864864864864865,21
+hypernetwork,1,video14_person19,5,random,Engage,0.6571428571428571,0.7419354838709677,0.696969696969697,31
+hypernetwork,1,video14_person19,5,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video14_person19,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person19,5,early,Disengage,0.5333333333333333,0.38095238095238093,0.4444444444444444,21
+hypernetwork,1,video14_person19,5,early,Engage,0.6571428571428571,0.7419354838709677,0.696969696969697,31
+hypernetwork,1,video14_person19,5,early,Highly Engage,1.0,1.0,1.0,1
+hypernetwork,1,video14_person19,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person19,10,random,Disengage,0.6428571428571429,0.47368421052631576,0.5454545454545454,19
+hypernetwork,1,video14_person19,10,random,Engage,0.6875,0.7857142857142857,0.7333333333333333,28
+hypernetwork,1,video14_person19,10,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video14_person19,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person19,10,early,Disengage,0.5,0.3333333333333333,0.4,18
+hypernetwork,1,video14_person19,10,early,Engage,0.6857142857142857,0.8,0.7384615384615385,30
+hypernetwork,1,video14_person19,10,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person19,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person19,20,random,Disengage,0.6666666666666666,0.5,0.5714285714285714,16
+hypernetwork,1,video14_person19,20,random,Engage,0.68,0.8095238095238095,0.7391304347826086,21
+hypernetwork,1,video14_person19,20,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,1,video14_person19,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video14_person19,20,early,Disengage,0.4444444444444444,0.3333333333333333,0.38095238095238093,12
+hypernetwork,1,video14_person19,20,early,Engage,0.75,0.8076923076923077,0.7777777777777778,26
+hypernetwork,1,video14_person19,20,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person5,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person5,5,random,Disengage,0.0,0.0,0.0,6
+hypernetwork,1,video18_person5,5,random,Engage,0.9274193548387096,0.672514619883041,0.7796610169491526,171
+hypernetwork,1,video18_person5,5,random,Highly Engage,0.39361702127659576,0.9024390243902439,0.5481481481481482,41
+hypernetwork,1,video18_person5,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person5,5,early,Disengage,0.0,0.0,0.0,6
+hypernetwork,1,video18_person5,5,early,Engage,0.9230769230769231,0.5680473372781065,0.7032967032967034,169
+hypernetwork,1,video18_person5,5,early,Highly Engage,0.34210526315789475,0.9069767441860465,0.4968152866242038,43
+hypernetwork,1,video18_person5,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person5,10,random,Disengage,0.0,0.0,0.0,6
+hypernetwork,1,video18_person5,10,random,Engage,0.9238095238095239,0.5914634146341463,0.7211895910780669,164
+hypernetwork,1,video18_person5,10,random,Highly Engage,0.3611111111111111,0.9069767441860465,0.5165562913907285,43
+hypernetwork,1,video18_person5,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person5,10,early,Disengage,0.0,0.0,0.0,6
+hypernetwork,1,video18_person5,10,early,Engage,0.9252336448598131,0.6036585365853658,0.7306273062730627,164
+hypernetwork,1,video18_person5,10,early,Highly Engage,0.36792452830188677,0.9069767441860465,0.5234899328859061,43
+hypernetwork,1,video18_person5,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person5,20,random,Disengage,0.0,0.0,0.0,4
+hypernetwork,1,video18_person5,20,random,Engage,0.941747572815534,0.6178343949044586,0.7461538461538462,157
+hypernetwork,1,video18_person5,20,random,Highly Engage,0.38,0.9047619047619048,0.5352112676056338,42
+hypernetwork,1,video18_person5,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person5,20,early,Disengage,0.0,0.0,0.0,5
+hypernetwork,1,video18_person5,20,early,Engage,0.918918918918919,0.6538461538461539,0.7640449438202247,156
+hypernetwork,1,video18_person5,20,early,Highly Engage,0.40217391304347827,0.8809523809523809,0.5522388059701493,42
+hypernetwork,1,video18_person7,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person7,5,random,Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person7,5,random,Engage,0.8934010152284264,0.9214659685863874,0.9072164948453608,191
+hypernetwork,1,video18_person7,5,random,Highly Engage,0.8333333333333334,0.19230769230769232,0.3125,26
+hypernetwork,1,video18_person7,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person7,5,early,Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person7,5,early,Engage,0.8944723618090452,0.9319371727748691,0.9128205128205128,191
+hypernetwork,1,video18_person7,5,early,Highly Engage,0.7142857142857143,0.19230769230769232,0.30303030303030304,26
+hypernetwork,1,video18_person7,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person7,10,random,Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person7,10,random,Engage,0.9,0.9144385026737968,0.9071618037135278,187
+hypernetwork,1,video18_person7,10,random,Highly Engage,1.0,0.2,0.3333333333333333,25
+hypernetwork,1,video18_person7,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person7,10,early,Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person7,10,early,Engage,0.8911917098445595,0.9247311827956989,0.9076517150395779,186
+hypernetwork,1,video18_person7,10,early,Highly Engage,0.7142857142857143,0.19230769230769232,0.30303030303030304,26
+hypernetwork,1,video18_person7,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person7,20,random,Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person7,20,random,Engage,0.8961748633879781,0.9162011173184358,0.9060773480662984,179
+hypernetwork,1,video18_person7,20,random,Highly Engage,0.8,0.17391304347826086,0.2857142857142857,23
+hypernetwork,1,video18_person7,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person7,20,early,Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video18_person7,20,early,Engage,0.8839779005524862,0.9090909090909091,0.896358543417367,176
+hypernetwork,1,video18_person7,20,early,Highly Engage,0.7142857142857143,0.19230769230769232,0.30303030303030304,26
+hypernetwork,1,video5_person1,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video5_person1,5,random,Disengage,0.46153846153846156,0.20689655172413793,0.2857142857142857,29
+hypernetwork,1,video5_person1,5,random,Engage,0.808,0.8706896551724138,0.8381742738589212,116
+hypernetwork,1,video5_person1,5,random,Highly Engage,0.25,0.6,0.35294117647058826,5
+hypernetwork,1,video5_person1,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video5_person1,5,early,Disengage,0.625,0.1724137931034483,0.2702702702702703,29
+hypernetwork,1,video5_person1,5,early,Engage,0.808,0.8706896551724138,0.8381742738589212,116
+hypernetwork,1,video5_person1,5,early,Highly Engage,0.25,0.8,0.38095238095238093,5
+hypernetwork,1,video5_person1,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video5_person1,10,random,Disengage,0.5,0.15384615384615385,0.23529411764705882,26
+hypernetwork,1,video5_person1,10,random,Engage,0.819672131147541,0.8771929824561403,0.847457627118644,114
+hypernetwork,1,video5_person1,10,random,Highly Engage,0.2857142857142857,0.8,0.42105263157894735,5
+hypernetwork,1,video5_person1,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video5_person1,10,early,Disengage,0.4444444444444444,0.14814814814814814,0.2222222222222222,27
+hypernetwork,1,video5_person1,10,early,Engage,0.8099173553719008,0.8672566371681416,0.8376068376068376,113
+hypernetwork,1,video5_person1,10,early,Highly Engage,0.2857142857142857,0.8,0.42105263157894735,5
+hypernetwork,1,video5_person1,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video5_person1,20,random,Disengage,0.5,0.23076923076923078,0.3157894736842105,26
+hypernetwork,1,video5_person1,20,random,Engage,0.8090909090909091,0.8476190476190476,0.827906976744186,105
+hypernetwork,1,video5_person1,20,random,Highly Engage,0.16666666666666666,0.5,0.25,4
+hypernetwork,1,video5_person1,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video5_person1,20,early,Disengage,0.3333333333333333,0.13043478260869565,0.1875,23
+hypernetwork,1,video5_person1,20,early,Engage,0.8230088495575221,0.8532110091743119,0.8378378378378378,109
+hypernetwork,1,video5_person1,20,early,Highly Engage,0.16666666666666666,0.6666666666666666,0.26666666666666666,3
+hypernetwork,1,video5_person2,5,random,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,1,video5_person2,5,random,Disengage,0.3076923076923077,0.3076923076923077,0.3076923076923077,13
+hypernetwork,1,video5_person2,5,random,Engage,0.9166666666666666,0.8208955223880597,0.8661417322834646,134
+hypernetwork,1,video5_person2,5,random,Highly Engage,0.1,0.5,0.16666666666666666,4
+hypernetwork,1,video5_person2,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video5_person2,5,early,Disengage,0.36363636363636365,0.3076923076923077,0.3333333333333333,13
+hypernetwork,1,video5_person2,5,early,Engage,0.926829268292683,0.8382352941176471,0.8803088803088803,136
+hypernetwork,1,video5_person2,5,early,Highly Engage,0.10526315789473684,0.5,0.17391304347826086,4
+hypernetwork,1,video5_person2,10,random,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,1,video5_person2,10,random,Disengage,0.2631578947368421,0.38461538461538464,0.3125,13
+hypernetwork,1,video5_person2,10,random,Engage,0.9210526315789473,0.8076923076923077,0.860655737704918,130
+hypernetwork,1,video5_person2,10,random,Highly Engage,0.13333333333333333,0.6666666666666666,0.2222222222222222,3
+hypernetwork,1,video5_person2,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video5_person2,10,early,Disengage,0.4,0.4,0.4,10
+hypernetwork,1,video5_person2,10,early,Engage,0.9491525423728814,0.835820895522388,0.8888888888888888,134
+hypernetwork,1,video5_person2,10,early,Highly Engage,0.1,0.5,0.16666666666666666,4
+hypernetwork,1,video5_person2,20,random,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,1,video5_person2,20,random,Disengage,0.3,0.23076923076923078,0.2608695652173913,13
+hypernetwork,1,video5_person2,20,random,Engage,0.9009009009009009,0.8403361344537815,0.8695652173913043,119
+hypernetwork,1,video5_person2,20,random,Highly Engage,0.11764705882352941,0.5,0.19047619047619047,4
+hypernetwork,1,video5_person2,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video5_person2,20,early,Disengage,0.3,0.3333333333333333,0.3157894736842105,9
+hypernetwork,1,video5_person2,20,early,Engage,0.9454545454545454,0.832,0.8851063829787233,125
+hypernetwork,1,video5_person2,20,early,Highly Engage,0.1111111111111111,0.5,0.18181818181818182,4
+hypernetwork,1,video6_person14,5,random,Highly Disengage,0.4117647058823529,0.6666666666666666,0.509090909090909,21
+hypernetwork,1,video6_person14,5,random,Disengage,0.23076923076923078,0.07692307692307693,0.11538461538461539,39
+hypernetwork,1,video6_person14,5,random,Engage,0.78125,0.6493506493506493,0.7092198581560284,77
+hypernetwork,1,video6_person14,5,random,Highly Engage,0.15625,0.8333333333333334,0.2631578947368421,6
+hypernetwork,1,video6_person14,5,early,Highly Disengage,0.43243243243243246,0.7272727272727273,0.5423728813559322,22
+hypernetwork,1,video6_person14,5,early,Disengage,0.25,0.075,0.11538461538461539,40
+hypernetwork,1,video6_person14,5,early,Engage,0.7619047619047619,0.64,0.6956521739130435,75
+hypernetwork,1,video6_person14,5,early,Highly Engage,0.16129032258064516,0.8333333333333334,0.2702702702702703,6
+hypernetwork,1,video6_person14,10,random,Highly Disengage,0.43243243243243246,0.7272727272727273,0.5423728813559322,22
+hypernetwork,1,video6_person14,10,random,Disengage,0.2727272727272727,0.07692307692307693,0.12,39
+hypernetwork,1,video6_person14,10,random,Engage,0.765625,0.7,0.7313432835820896,70
+hypernetwork,1,video6_person14,10,random,Highly Engage,0.19230769230769232,0.7142857142857143,0.30303030303030304,7
+hypernetwork,1,video6_person14,10,early,Highly Disengage,0.38235294117647056,0.6842105263157895,0.49056603773584906,19
+hypernetwork,1,video6_person14,10,early,Disengage,0.25,0.075,0.11538461538461539,40
+hypernetwork,1,video6_person14,10,early,Engage,0.7540983606557377,0.6301369863013698,0.6865671641791045,73
+hypernetwork,1,video6_person14,10,early,Highly Engage,0.16129032258064516,0.8333333333333334,0.2702702702702703,6
+hypernetwork,1,video6_person14,20,random,Highly Disengage,0.42424242424242425,0.7,0.5283018867924528,20
+hypernetwork,1,video6_person14,20,random,Disengage,0.2727272727272727,0.09375,0.13953488372093023,32
+hypernetwork,1,video6_person14,20,random,Engage,0.7796610169491526,0.6571428571428571,0.7131782945736435,70
+hypernetwork,1,video6_person14,20,random,Highly Engage,0.2,0.8333333333333334,0.3225806451612903,6
+hypernetwork,1,video6_person14,20,early,Highly Disengage,0.36666666666666664,0.6470588235294118,0.46808510638297873,17
+hypernetwork,1,video6_person14,20,early,Disengage,0.25,0.07692307692307693,0.11764705882352941,39
+hypernetwork,1,video6_person14,20,early,Engage,0.7272727272727273,0.6060606060606061,0.6611570247933884,66
+hypernetwork,1,video6_person14,20,early,Highly Engage,0.16129032258064516,0.8333333333333334,0.2702702702702703,6
+hypernetwork,1,video6_person4,5,random,Highly Disengage,0.05405405405405406,0.6666666666666666,0.1,3
+hypernetwork,1,video6_person4,5,random,Disengage,1.0,0.02857142857142857,0.05555555555555555,35
+hypernetwork,1,video6_person4,5,random,Engage,0.7432432432432432,0.5,0.5978260869565217,110
+hypernetwork,1,video6_person4,5,random,Highly Engage,0.09523809523809523,0.6666666666666666,0.16666666666666666,6
+hypernetwork,1,video6_person4,5,early,Highly Disengage,0.029411764705882353,0.5,0.05555555555555555,2
+hypernetwork,1,video6_person4,5,early,Disengage,1.0,0.03125,0.06060606060606061,32
+hypernetwork,1,video6_person4,5,early,Engage,0.7567567567567568,0.49122807017543857,0.5957446808510638,114
+hypernetwork,1,video6_person4,5,early,Highly Engage,0.08888888888888889,0.6666666666666666,0.1568627450980392,6
+hypernetwork,1,video6_person4,10,random,Highly Disengage,0.030303030303030304,0.3333333333333333,0.05555555555555555,3
+hypernetwork,1,video6_person4,10,random,Disengage,1.0,0.029411764705882353,0.05714285714285714,34
+hypernetwork,1,video6_person4,10,random,Engage,0.7083333333333334,0.4811320754716981,0.5730337078651685,106
+hypernetwork,1,video6_person4,10,random,Highly Engage,0.09302325581395349,0.6666666666666666,0.16326530612244897,6
+hypernetwork,1,video6_person4,10,early,Highly Disengage,0.03225806451612903,0.5,0.06060606060606061,2
+hypernetwork,1,video6_person4,10,early,Disengage,1.0,0.03333333333333333,0.06451612903225806,30
+hypernetwork,1,video6_person4,10,early,Engage,0.7534246575342466,0.4954954954954955,0.5978260869565217,111
+hypernetwork,1,video6_person4,10,early,Highly Engage,0.09090909090909091,0.6666666666666666,0.16,6
+hypernetwork,1,video6_person4,20,random,Highly Disengage,0.03333333333333333,0.5,0.0625,2
+hypernetwork,1,video6_person4,20,random,Disengage,1.0,0.03125,0.06060606060606061,32
+hypernetwork,1,video6_person4,20,random,Engage,0.7285714285714285,0.504950495049505,0.5964912280701754,101
+hypernetwork,1,video6_person4,20,random,Highly Engage,0.05263157894736842,0.5,0.09523809523809523,4
+hypernetwork,1,video6_person4,20,early,Highly Disengage,0.034482758620689655,0.5,0.06451612903225806,2
+hypernetwork,1,video6_person4,20,early,Disengage,0.0,0.0,0.0,27
+hypernetwork,1,video6_person4,20,early,Engage,0.7611940298507462,0.49038461538461536,0.5964912280701754,104
+hypernetwork,1,video6_person4,20,early,Highly Engage,0.09302325581395349,0.6666666666666666,0.16326530612244897,6
+hypernetwork,1,video6_person5,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video6_person5,5,random,Disengage,0.0,0.0,0.0,2
+hypernetwork,1,video6_person5,5,random,Engage,0.9345794392523364,0.8547008547008547,0.8928571428571429,117
+hypernetwork,1,video6_person5,5,random,Highly Engage,0.45454545454545453,0.5,0.47619047619047616,10
+hypernetwork,1,video6_person5,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video6_person5,5,early,Disengage,0.0,0.0,0.0,2
+hypernetwork,1,video6_person5,5,early,Engage,0.9369369369369369,0.8813559322033898,0.9082969432314411,118
+hypernetwork,1,video6_person5,5,early,Highly Engage,0.4444444444444444,0.4444444444444444,0.4444444444444444,9
+hypernetwork,1,video6_person5,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video6_person5,10,random,Disengage,0.0,0.0,0.0,2
+hypernetwork,1,video6_person5,10,random,Engage,0.9411764705882353,0.8495575221238938,0.8930232558139535,113
+hypernetwork,1,video6_person5,10,random,Highly Engage,0.45454545454545453,0.5555555555555556,0.5,9
+hypernetwork,1,video6_person5,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video6_person5,10,early,Disengage,0.0,0.0,0.0,2
+hypernetwork,1,video6_person5,10,early,Engage,0.9333333333333333,0.8596491228070176,0.8949771689497716,114
+hypernetwork,1,video6_person5,10,early,Highly Engage,0.375,0.375,0.375,8
+hypernetwork,1,video6_person5,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video6_person5,20,random,Disengage,0.0,0.0,0.0,2
+hypernetwork,1,video6_person5,20,random,Engage,0.925531914893617,0.8446601941747572,0.883248730964467,103
+hypernetwork,1,video6_person5,20,random,Highly Engage,0.4,0.4444444444444444,0.42105263157894735,9
+hypernetwork,1,video6_person5,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,1,video6_person5,20,early,Disengage,0.0,0.0,0.0,2
+hypernetwork,1,video6_person5,20,early,Engage,0.9278350515463918,0.8653846153846154,0.8955223880597015,104
+hypernetwork,1,video6_person5,20,early,Highly Engage,0.42857142857142855,0.375,0.4,8
+hypernetwork,1,video6_person8,5,random,Highly Disengage,0.0,0.0,0.0,3
+hypernetwork,1,video6_person8,5,random,Disengage,0.65,0.11818181818181818,0.2,110
+hypernetwork,1,video6_person8,5,random,Engage,0.22105263157894736,0.42,0.2896551724137931,50
+hypernetwork,1,video6_person8,5,random,Highly Engage,0.13157894736842105,0.8333333333333334,0.22727272727272727,6
+hypernetwork,1,video6_person8,5,early,Highly Disengage,0.0,0.0,0.0,3
+hypernetwork,1,video6_person8,5,early,Disengage,0.6111111111111112,0.1,0.171875,110
+hypernetwork,1,video6_person8,5,early,Engage,0.21,0.4117647058823529,0.2781456953642384,51
+hypernetwork,1,video6_person8,5,early,Highly Engage,0.1111111111111111,0.8,0.1951219512195122,5
+hypernetwork,1,video6_person8,10,random,Highly Disengage,0.0,0.0,0.0,3
+hypernetwork,1,video6_person8,10,random,Disengage,0.6111111111111112,0.10576923076923077,0.18032786885245902,104
+hypernetwork,1,video6_person8,10,random,Engage,0.21505376344086022,0.39215686274509803,0.2777777777777778,51
+hypernetwork,1,video6_person8,10,random,Highly Engage,0.125,0.8333333333333334,0.21739130434782608,6
+hypernetwork,1,video6_person8,10,early,Highly Disengage,0.0,0.0,0.0,3
+hypernetwork,1,video6_person8,10,early,Disengage,0.631578947368421,0.11320754716981132,0.192,106
+hypernetwork,1,video6_person8,10,early,Engage,0.21,0.42,0.28,50
+hypernetwork,1,video6_person8,10,early,Highly Engage,0.1111111111111111,0.8,0.1951219512195122,5
+hypernetwork,1,video6_person8,20,random,Highly Disengage,0.0,0.0,0.0,3
+hypernetwork,1,video6_person8,20,random,Disengage,0.65,0.12871287128712872,0.21487603305785125,101
+hypernetwork,1,video6_person8,20,random,Engage,0.20238095238095238,0.37777777777777777,0.26356589147286824,45
+hypernetwork,1,video6_person8,20,random,Highly Engage,0.11764705882352941,0.8,0.20512820512820512,5
+hypernetwork,1,video6_person8,20,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,1,video6_person8,20,early,Disengage,0.6111111111111112,0.11224489795918367,0.1896551724137931,98
+hypernetwork,1,video6_person8,20,early,Engage,0.22105263157894736,0.42857142857142855,0.2916666666666667,49
+hypernetwork,1,video6_person8,20,early,Highly Engage,0.11764705882352941,0.8,0.20512820512820512,5
+hypernetwork,1,video7_person1,5,random,Highly Disengage,0.125,0.25,0.16666666666666666,8
+hypernetwork,1,video7_person1,5,random,Disengage,0.2112676056338028,0.2830188679245283,0.24193548387096775,53
+hypernetwork,1,video7_person1,5,random,Engage,0.7253521126760564,0.6094674556213018,0.662379421221865,169
+hypernetwork,1,video7_person1,5,random,Highly Engage,0.5714285714285714,0.5925925925925926,0.5818181818181818,27
+hypernetwork,1,video7_person1,5,early,Highly Disengage,0.14285714285714285,0.25,0.18181818181818182,8
+hypernetwork,1,video7_person1,5,early,Disengage,0.2191780821917808,0.2962962962962963,0.25196850393700787,54
+hypernetwork,1,video7_person1,5,early,Engage,0.7112676056338029,0.6011904761904762,0.6516129032258065,168
+hypernetwork,1,video7_person1,5,early,Highly Engage,0.5714285714285714,0.5925925925925926,0.5818181818181818,27
+hypernetwork,1,video7_person1,10,random,Highly Disengage,0.125,0.375,0.1875,8
+hypernetwork,1,video7_person1,10,random,Disengage,0.3076923076923077,0.2962962962962963,0.3018867924528302,54
+hypernetwork,1,video7_person1,10,random,Engage,0.7278911564625851,0.6604938271604939,0.6925566343042071,162
+hypernetwork,1,video7_person1,10,random,Highly Engage,0.5517241379310345,0.5714285714285714,0.5614035087719298,28
+hypernetwork,1,video7_person1,10,early,Highly Disengage,0.125,0.25,0.16666666666666666,8
+hypernetwork,1,video7_person1,10,early,Disengage,0.20833333333333334,0.2777777777777778,0.23809523809523808,54
+hypernetwork,1,video7_person1,10,early,Engage,0.7028985507246377,0.5950920245398773,0.6445182724252492,163
+hypernetwork,1,video7_person1,10,early,Highly Engage,0.6153846153846154,0.5925925925925926,0.6037735849056604,27
+hypernetwork,1,video7_person1,20,random,Highly Disengage,0.13333333333333333,0.2857142857142857,0.18181818181818182,7
+hypernetwork,1,video7_person1,20,random,Disengage,0.2727272727272727,0.3125,0.2912621359223301,48
+hypernetwork,1,video7_person1,20,random,Engage,0.7448275862068966,0.6708074534161491,0.7058823529411765,161
+hypernetwork,1,video7_person1,20,random,Highly Engage,0.5555555555555556,0.5769230769230769,0.5660377358490566,26
+hypernetwork,1,video7_person1,20,early,Highly Disengage,0.125,0.25,0.16666666666666666,8
+hypernetwork,1,video7_person1,20,early,Disengage,0.21428571428571427,0.28846153846153844,0.2459016393442623,52
+hypernetwork,1,video7_person1,20,early,Engage,0.7022900763358778,0.5897435897435898,0.6411149825783972,156
+hypernetwork,1,video7_person1,20,early,Highly Engage,0.64,0.6153846153846154,0.6274509803921569,26
+hypernetwork,1,video7_person7,5,random,Highly Disengage,0.3333333333333333,1.0,0.5,2
+hypernetwork,1,video7_person7,5,random,Disengage,0.2,0.15384615384615385,0.17391304347826086,26
+hypernetwork,1,video7_person7,5,random,Engage,0.835820895522388,0.8704663212435233,0.8527918781725888,193
+hypernetwork,1,video7_person7,5,random,Highly Engage,0.6521739130434783,0.5172413793103449,0.5769230769230769,29
+hypernetwork,1,video7_person7,5,early,Highly Disengage,0.4,1.0,0.5714285714285714,2
+hypernetwork,1,video7_person7,5,early,Disengage,0.2,0.19230769230769232,0.19607843137254902,26
+hypernetwork,1,video7_person7,5,early,Engage,0.8316326530612245,0.844559585492228,0.8380462724935732,193
+hypernetwork,1,video7_person7,5,early,Highly Engage,0.625,0.5172413793103449,0.5660377358490566,29
+hypernetwork,1,video7_person7,10,random,Highly Disengage,0.2857142857142857,1.0,0.4444444444444444,2
+hypernetwork,1,video7_person7,10,random,Disengage,0.26666666666666666,0.14285714285714285,0.18604651162790697,28
+hypernetwork,1,video7_person7,10,random,Engage,0.8267326732673267,0.893048128342246,0.8586118251928021,187
+hypernetwork,1,video7_person7,10,random,Highly Engage,0.6666666666666666,0.5,0.5714285714285714,28
+hypernetwork,1,video7_person7,10,early,Highly Disengage,0.3333333333333333,1.0,0.5,2
+hypernetwork,1,video7_person7,10,early,Disengage,0.19047619047619047,0.16666666666666666,0.17777777777777778,24
+hypernetwork,1,video7_person7,10,early,Engage,0.8402061855670103,0.8578947368421053,0.8489583333333334,190
+hypernetwork,1,video7_person7,10,early,Highly Engage,0.625,0.5172413793103449,0.5660377358490566,29
+hypernetwork,1,video7_person7,20,random,Highly Disengage,0.3333333333333333,1.0,0.5,2
+hypernetwork,1,video7_person7,20,random,Disengage,0.19047619047619047,0.15384615384615385,0.1702127659574468,26
+hypernetwork,1,video7_person7,20,random,Engage,0.8297872340425532,0.8571428571428571,0.8432432432432433,182
+hypernetwork,1,video7_person7,20,random,Highly Engage,0.6,0.48,0.5333333333333333,25
+hypernetwork,1,video7_person7,20,early,Highly Disengage,0.3333333333333333,1.0,0.5,2
+hypernetwork,1,video7_person7,20,early,Disengage,0.19047619047619047,0.16666666666666666,0.17777777777777778,24
+hypernetwork,1,video7_person7,20,early,Engage,0.8333333333333334,0.856353591160221,0.8446866485013624,181
+hypernetwork,1,video7_person7,20,early,Highly Engage,0.6363636363636364,0.5,0.56,28
+hypernetwork,2,video10_person11,5,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,2,video10_person11,5,random,Disengage,0.26666666666666666,0.4444444444444444,0.3333333333333333,18
+hypernetwork,2,video10_person11,5,random,Engage,0.6595744680851063,0.5740740740740741,0.6138613861386139,54
+hypernetwork,2,video10_person11,5,random,Highly Engage,0.8181818181818182,0.6,0.6923076923076923,15
+hypernetwork,2,video10_person11,5,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,2,video10_person11,5,early,Disengage,0.25806451612903225,0.42105263157894735,0.32,19
+hypernetwork,2,video10_person11,5,early,Engage,0.6666666666666666,0.5555555555555556,0.6060606060606061,54
+hypernetwork,2,video10_person11,5,early,Highly Engage,0.8333333333333334,0.7142857142857143,0.7692307692307693,14
+hypernetwork,2,video10_person11,10,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,2,video10_person11,10,random,Disengage,0.23333333333333334,0.4666666666666667,0.3111111111111111,15
+hypernetwork,2,video10_person11,10,random,Engage,0.6744186046511628,0.5471698113207547,0.6041666666666666,53
+hypernetwork,2,video10_person11,10,random,Highly Engage,0.8,0.5714285714285714,0.6666666666666666,14
+hypernetwork,2,video10_person11,10,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,2,video10_person11,10,early,Disengage,0.26666666666666666,0.42105263157894735,0.32653061224489793,19
+hypernetwork,2,video10_person11,10,early,Engage,0.6428571428571429,0.54,0.5869565217391305,50
+hypernetwork,2,video10_person11,10,early,Highly Engage,0.8181818181818182,0.6923076923076923,0.75,13
+hypernetwork,2,video10_person11,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video10_person11,20,random,Disengage,0.25,0.46153846153846156,0.32432432432432434,13
+hypernetwork,2,video10_person11,20,random,Engage,0.717948717948718,0.5833333333333334,0.6436781609195402,48
+hypernetwork,2,video10_person11,20,random,Highly Engage,0.8,0.6666666666666666,0.7272727272727273,12
+hypernetwork,2,video10_person11,20,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,2,video10_person11,20,early,Disengage,0.25925925925925924,0.4117647058823529,0.3181818181818182,17
+hypernetwork,2,video10_person11,20,early,Engage,0.6388888888888888,0.5348837209302325,0.5822784810126582,43
+hypernetwork,2,video10_person11,20,early,Highly Engage,0.9,0.75,0.8181818181818182,12
+hypernetwork,2,video10_person17,5,random,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,2,video10_person17,5,random,Disengage,0.5833333333333334,0.2916666666666667,0.3888888888888889,24
+hypernetwork,2,video10_person17,5,random,Engage,0.631578947368421,0.8275862068965517,0.7164179104477612,29
+hypernetwork,2,video10_person17,5,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video10_person17,5,early,Highly Disengage,1.0,0.16666666666666666,0.2857142857142857,6
+hypernetwork,2,video10_person17,5,early,Disengage,0.6666666666666666,0.32,0.43243243243243246,25
+hypernetwork,2,video10_person17,5,early,Engage,0.6153846153846154,0.8571428571428571,0.7164179104477612,28
+hypernetwork,2,video10_person17,5,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video10_person17,10,random,Highly Disengage,1.0,0.2,0.3333333333333333,5
+hypernetwork,2,video10_person17,10,random,Disengage,0.7,0.3333333333333333,0.45161290322580644,21
+hypernetwork,2,video10_person17,10,random,Engage,0.6666666666666666,0.8571428571428571,0.75,28
+hypernetwork,2,video10_person17,10,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video10_person17,10,early,Highly Disengage,1.0,0.2,0.3333333333333333,5
+hypernetwork,2,video10_person17,10,early,Disengage,0.6363636363636364,0.30434782608695654,0.4117647058823529,23
+hypernetwork,2,video10_person17,10,early,Engage,0.6388888888888888,0.8846153846153846,0.7419354838709677,26
+hypernetwork,2,video10_person17,10,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video10_person17,20,random,Highly Disengage,1.0,0.2,0.3333333333333333,5
+hypernetwork,2,video10_person17,20,random,Disengage,0.6666666666666666,0.35294117647058826,0.46153846153846156,17
+hypernetwork,2,video10_person17,20,random,Engage,0.6428571428571429,0.8181818181818182,0.72,22
+hypernetwork,2,video10_person17,20,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video10_person17,20,early,Highly Disengage,1.0,0.3333333333333333,0.5,3
+hypernetwork,2,video10_person17,20,early,Disengage,0.7142857142857143,0.3125,0.43478260869565216,16
+hypernetwork,2,video10_person17,20,early,Engage,0.7096774193548387,0.88,0.7857142857142857,25
+hypernetwork,2,video10_person17,20,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video10_person3,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video10_person3,5,random,Disengage,0.02564102564102564,0.5,0.04878048780487805,2
+hypernetwork,2,video10_person3,5,random,Engage,0.9473684210526315,0.5142857142857142,0.6666666666666666,70
+hypernetwork,2,video10_person3,5,random,Highly Engage,0.0,0.0,0.0,5
+hypernetwork,2,video10_person3,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video10_person3,5,early,Disengage,0.025,0.5,0.047619047619047616,2
+hypernetwork,2,video10_person3,5,early,Engage,0.9459459459459459,0.5,0.6542056074766355,70
+hypernetwork,2,video10_person3,5,early,Highly Engage,0.0,0.0,0.0,5
+hypernetwork,2,video10_person3,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video10_person3,10,random,Disengage,0.02564102564102564,0.5,0.04878048780487805,2
+hypernetwork,2,video10_person3,10,random,Engage,0.9393939393939394,0.47692307692307695,0.6326530612244898,65
+hypernetwork,2,video10_person3,10,random,Highly Engage,0.0,0.0,0.0,5
+hypernetwork,2,video10_person3,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video10_person3,10,early,Disengage,0.02564102564102564,0.5,0.04878048780487805,2
+hypernetwork,2,video10_person3,10,early,Engage,0.9393939393939394,0.47692307692307695,0.6326530612244898,65
+hypernetwork,2,video10_person3,10,early,Highly Engage,0.0,0.0,0.0,5
+hypernetwork,2,video10_person3,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video10_person3,20,random,Disengage,0.0,0.0,0.0,1
+hypernetwork,2,video10_person3,20,random,Engage,0.9642857142857143,0.4576271186440678,0.6206896551724138,59
+hypernetwork,2,video10_person3,20,random,Highly Engage,0.0,0.0,0.0,2
+hypernetwork,2,video10_person3,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video10_person3,20,early,Disengage,0.02857142857142857,0.5,0.05405405405405406,2
+hypernetwork,2,video10_person3,20,early,Engage,0.9259259259259259,0.45454545454545453,0.6097560975609756,55
+hypernetwork,2,video10_person3,20,early,Highly Engage,0.0,0.0,0.0,5
+hypernetwork,2,video10_person9,5,random,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,2,video10_person9,5,random,Disengage,0.4074074074074074,0.2619047619047619,0.3188405797101449,42
+hypernetwork,2,video10_person9,5,random,Engage,0.4927536231884058,0.7391304347826086,0.591304347826087,46
+hypernetwork,2,video10_person9,5,random,Highly Engage,0.0,0.0,0.0,2
+hypernetwork,2,video10_person9,5,early,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,2,video10_person9,5,early,Disengage,0.3793103448275862,0.2619047619047619,0.30985915492957744,42
+hypernetwork,2,video10_person9,5,early,Engage,0.47761194029850745,0.6956521739130435,0.5663716814159292,46
+hypernetwork,2,video10_person9,5,early,Highly Engage,0.0,0.0,0.0,2
+hypernetwork,2,video10_person9,10,random,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,2,video10_person9,10,random,Disengage,0.37037037037037035,0.2702702702702703,0.3125,37
+hypernetwork,2,video10_person9,10,random,Engage,0.515625,0.717391304347826,0.6,46
+hypernetwork,2,video10_person9,10,random,Highly Engage,0.0,0.0,0.0,2
+hypernetwork,2,video10_person9,10,early,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,2,video10_person9,10,early,Disengage,0.35714285714285715,0.2631578947368421,0.30303030303030304,38
+hypernetwork,2,video10_person9,10,early,Engage,0.49206349206349204,0.6888888888888889,0.5740740740740741,45
+hypernetwork,2,video10_person9,10,early,Highly Engage,0.0,0.0,0.0,2
+hypernetwork,2,video10_person9,20,random,Highly Disengage,0.0,0.0,0.0,5
+hypernetwork,2,video10_person9,20,random,Disengage,0.3333333333333333,0.25806451612903225,0.2909090909090909,31
+hypernetwork,2,video10_person9,20,random,Engage,0.543859649122807,0.7045454545454546,0.6138613861386139,44
+hypernetwork,2,video10_person9,20,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,2,video10_person9,20,early,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,2,video10_person9,20,early,Disengage,0.35714285714285715,0.30303030303030304,0.32786885245901637,33
+hypernetwork,2,video10_person9,20,early,Engage,0.49056603773584906,0.65,0.5591397849462365,40
+hypernetwork,2,video10_person9,20,early,Highly Engage,0.0,0.0,0.0,2
+hypernetwork,2,video14_person1,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person1,5,random,Disengage,0.21428571428571427,0.6,0.3157894736842105,5
+hypernetwork,2,video14_person1,5,random,Engage,0.8947368421052632,0.7391304347826086,0.8095238095238095,46
+hypernetwork,2,video14_person1,5,random,Highly Engage,0.0,0.0,0.0,2
+hypernetwork,2,video14_person1,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person1,5,early,Disengage,0.21428571428571427,0.6,0.3157894736842105,5
+hypernetwork,2,video14_person1,5,early,Engage,0.9487179487179487,0.7708333333333334,0.8505747126436781,48
+hypernetwork,2,video14_person1,5,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person1,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person1,10,random,Disengage,0.23076923076923078,0.6,0.3333333333333333,5
+hypernetwork,2,video14_person1,10,random,Engage,0.8823529411764706,0.7317073170731707,0.8,41
+hypernetwork,2,video14_person1,10,random,Highly Engage,0.0,0.0,0.0,2
+hypernetwork,2,video14_person1,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person1,10,early,Disengage,0.25,0.6,0.35294117647058826,5
+hypernetwork,2,video14_person1,10,early,Engage,0.9444444444444444,0.7906976744186046,0.8607594936708861,43
+hypernetwork,2,video14_person1,10,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person1,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person1,20,random,Disengage,0.25,0.75,0.375,4
+hypernetwork,2,video14_person1,20,random,Engage,0.92,0.696969696969697,0.7931034482758621,33
+hypernetwork,2,video14_person1,20,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,2,video14_person1,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person1,20,early,Disengage,0.6,0.6,0.6,5
+hypernetwork,2,video14_person1,20,early,Engage,0.9393939393939394,0.9393939393939394,0.9393939393939394,33
+hypernetwork,2,video14_person1,20,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person14,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person14,5,random,Disengage,0.14285714285714285,0.5,0.2222222222222222,2
+hypernetwork,2,video14_person14,5,random,Engage,0.9803921568627451,0.8771929824561403,0.9259259259259259,57
+hypernetwork,2,video14_person14,5,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person14,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person14,5,early,Disengage,0.125,0.5,0.2,2
+hypernetwork,2,video14_person14,5,early,Engage,0.9795918367346939,0.8421052631578947,0.9056603773584906,57
+hypernetwork,2,video14_person14,5,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person14,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person14,10,random,Disengage,0.16666666666666666,0.5,0.25,2
+hypernetwork,2,video14_person14,10,random,Engage,0.9782608695652174,0.8653846153846154,0.9183673469387755,52
+hypernetwork,2,video14_person14,10,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person14,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person14,10,early,Disengage,0.125,0.5,0.2,2
+hypernetwork,2,video14_person14,10,early,Engage,0.9772727272727273,0.8269230769230769,0.8958333333333334,52
+hypernetwork,2,video14_person14,10,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person14,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person14,20,random,Disengage,0.16666666666666666,1.0,0.2857142857142857,1
+hypernetwork,2,video14_person14,20,random,Engage,1.0,0.8604651162790697,0.925,43
+hypernetwork,2,video14_person14,20,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person14,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person14,20,early,Disengage,0.0,0.0,0.0,1
+hypernetwork,2,video14_person14,20,early,Engage,0.972972972972973,0.8372093023255814,0.9,43
+hypernetwork,2,video14_person14,20,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person8,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person8,5,random,Disengage,0.25,1.0,0.4,2
+hypernetwork,2,video14_person8,5,random,Engage,1.0,0.8793103448275862,0.9357798165137615,58
+hypernetwork,2,video14_person8,5,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person8,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person8,5,early,Disengage,0.25,1.0,0.4,2
+hypernetwork,2,video14_person8,5,early,Engage,1.0,0.8793103448275862,0.9357798165137615,58
+hypernetwork,2,video14_person8,5,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person8,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person8,10,random,Disengage,0.16666666666666666,1.0,0.2857142857142857,1
+hypernetwork,2,video14_person8,10,random,Engage,1.0,0.8888888888888888,0.9411764705882353,54
+hypernetwork,2,video14_person8,10,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person8,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person8,10,early,Disengage,0.3333333333333333,1.0,0.5,2
+hypernetwork,2,video14_person8,10,early,Engage,1.0,0.9056603773584906,0.9504950495049505,53
+hypernetwork,2,video14_person8,10,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person8,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person8,20,random,Disengage,0.3333333333333333,1.0,0.5,2
+hypernetwork,2,video14_person8,20,random,Engage,1.0,0.9069767441860465,0.9512195121951219,43
+hypernetwork,2,video14_person8,20,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person8,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person8,20,early,Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video14_person8,20,early,Engage,1.0,0.9111111111111111,0.9534883720930233,45
+hypernetwork,2,video14_person8,20,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,2,video15_person3,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video15_person3,5,random,Disengage,0.6,0.3,0.4,40
+hypernetwork,2,video15_person3,5,random,Engage,0.7,0.865979381443299,0.7741935483870968,97
+hypernetwork,2,video15_person3,5,random,Highly Engage,0.8333333333333334,0.7575757575757576,0.7936507936507936,33
+hypernetwork,2,video15_person3,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video15_person3,5,early,Disengage,0.6666666666666666,0.25,0.36363636363636365,40
+hypernetwork,2,video15_person3,5,early,Engage,0.7007874015748031,0.9081632653061225,0.7911111111111111,98
+hypernetwork,2,video15_person3,5,early,Highly Engage,0.8571428571428571,0.75,0.8,32
+hypernetwork,2,video15_person3,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video15_person3,10,random,Disengage,0.6875,0.2894736842105263,0.4074074074074074,38
+hypernetwork,2,video15_person3,10,random,Engage,0.71900826446281,0.90625,0.8018433179723502,96
+hypernetwork,2,video15_person3,10,random,Highly Engage,0.8571428571428571,0.7741935483870968,0.8135593220338984,31
+hypernetwork,2,video15_person3,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video15_person3,10,early,Disengage,0.6666666666666666,0.2564102564102564,0.37037037037037035,39
+hypernetwork,2,video15_person3,10,early,Engage,0.704,0.9166666666666666,0.7963800904977375,96
+hypernetwork,2,video15_person3,10,early,Highly Engage,0.88,0.7333333333333333,0.8,30
+hypernetwork,2,video15_person3,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video15_person3,20,random,Disengage,0.6428571428571429,0.2571428571428571,0.3673469387755102,35
+hypernetwork,2,video15_person3,20,random,Engage,0.7043478260869566,0.9,0.7902439024390244,90
+hypernetwork,2,video15_person3,20,random,Highly Engage,0.8461538461538461,0.7333333333333333,0.7857142857142857,30
+hypernetwork,2,video15_person3,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video15_person3,20,early,Disengage,0.6428571428571429,0.28125,0.391304347826087,32
+hypernetwork,2,video15_person3,20,early,Engage,0.7413793103448276,0.9148936170212766,0.819047619047619,94
+hypernetwork,2,video15_person3,20,early,Highly Engage,0.88,0.7586206896551724,0.8148148148148148,29
+hypernetwork,2,video16_person2,5,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,2,video16_person2,5,random,Disengage,0.05,0.4,0.08888888888888889,5
+hypernetwork,2,video16_person2,5,random,Engage,0.8148148148148148,0.3283582089552239,0.46808510638297873,67
+hypernetwork,2,video16_person2,5,random,Highly Engage,0.0,0.0,0.0,19
+hypernetwork,2,video16_person2,5,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,2,video16_person2,5,early,Disengage,0.03125,0.25,0.05555555555555555,4
+hypernetwork,2,video16_person2,5,early,Engage,0.7647058823529411,0.3880597014925373,0.5148514851485149,67
+hypernetwork,2,video16_person2,5,early,Highly Engage,0.0,0.0,0.0,20
+hypernetwork,2,video16_person2,10,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,2,video16_person2,10,random,Disengage,0.05555555555555555,0.5,0.1,4
+hypernetwork,2,video16_person2,10,random,Engage,0.7857142857142857,0.34375,0.4782608695652174,64
+hypernetwork,2,video16_person2,10,random,Highly Engage,0.0,0.0,0.0,18
+hypernetwork,2,video16_person2,10,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,2,video16_person2,10,early,Disengage,0.02857142857142857,0.3333333333333333,0.05263157894736842,3
+hypernetwork,2,video16_person2,10,early,Engage,0.7777777777777778,0.3333333333333333,0.4666666666666667,63
+hypernetwork,2,video16_person2,10,early,Highly Engage,0.0,0.0,0.0,20
+hypernetwork,2,video16_person2,20,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,2,video16_person2,20,random,Disengage,0.0,0.0,0.0,3
+hypernetwork,2,video16_person2,20,random,Engage,0.8095238095238095,0.30357142857142855,0.44155844155844154,56
+hypernetwork,2,video16_person2,20,random,Highly Engage,0.0,0.0,0.0,17
+hypernetwork,2,video16_person2,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video16_person2,20,early,Disengage,0.0,0.0,0.0,1
+hypernetwork,2,video16_person2,20,early,Engage,0.75,0.3157894736842105,0.4444444444444444,57
+hypernetwork,2,video16_person2,20,early,Highly Engage,0.0,0.0,0.0,19
+hypernetwork,2,video16_person4,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video16_person4,5,random,Disengage,0.19607843137254902,0.5263157894736842,0.2857142857142857,19
+hypernetwork,2,video16_person4,5,random,Engage,0.8,0.5161290322580645,0.6274509803921569,93
+hypernetwork,2,video16_person4,5,random,Highly Engage,0.16666666666666666,0.14285714285714285,0.15384615384615385,7
+hypernetwork,2,video16_person4,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video16_person4,5,early,Disengage,0.22916666666666666,0.55,0.3235294117647059,20
+hypernetwork,2,video16_person4,5,early,Engage,0.8064516129032258,0.5434782608695652,0.6493506493506493,92
+hypernetwork,2,video16_person4,5,early,Highly Engage,0.14285714285714285,0.14285714285714285,0.14285714285714285,7
+hypernetwork,2,video16_person4,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video16_person4,10,random,Disengage,0.18,0.6,0.27692307692307694,15
+hypernetwork,2,video16_person4,10,random,Engage,0.8392857142857143,0.5108695652173914,0.6351351351351351,92
+hypernetwork,2,video16_person4,10,random,Highly Engage,0.16666666666666666,0.14285714285714285,0.15384615384615385,7
+hypernetwork,2,video16_person4,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video16_person4,10,early,Disengage,0.2391304347826087,0.55,0.3333333333333333,20
+hypernetwork,2,video16_person4,10,early,Engage,0.8032786885245902,0.5632183908045977,0.6621621621621622,87
+hypernetwork,2,video16_person4,10,early,Highly Engage,0.14285714285714285,0.14285714285714285,0.14285714285714285,7
+hypernetwork,2,video16_person4,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video16_person4,20,random,Disengage,0.1794871794871795,0.4666666666666667,0.25925925925925924,15
+hypernetwork,2,video16_person4,20,random,Engage,0.8214285714285714,0.5542168674698795,0.6618705035971223,83
+hypernetwork,2,video16_person4,20,random,Highly Engage,0.14285714285714285,0.16666666666666666,0.15384615384615385,6
+hypernetwork,2,video16_person4,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video16_person4,20,early,Disengage,0.23255813953488372,0.5555555555555556,0.32786885245901637,18
+hypernetwork,2,video16_person4,20,early,Engage,0.8181818181818182,0.5625,0.6666666666666666,80
+hypernetwork,2,video16_person4,20,early,Highly Engage,0.16666666666666666,0.16666666666666666,0.16666666666666666,6
+hypernetwork,2,video18_person8,5,random,Highly Disengage,0.07894736842105263,0.3,0.125,10
+hypernetwork,2,video18_person8,5,random,Disengage,0.0,0.0,0.0,12
+hypernetwork,2,video18_person8,5,random,Engage,0.8389830508474576,0.7021276595744681,0.7644787644787645,141
+hypernetwork,2,video18_person8,5,random,Highly Engage,0.6875,0.7333333333333333,0.7096774193548387,30
+hypernetwork,2,video18_person8,5,early,Highly Disengage,0.07894736842105263,0.3,0.125,10
+hypernetwork,2,video18_person8,5,early,Disengage,0.0,0.0,0.0,14
+hypernetwork,2,video18_person8,5,early,Engage,0.8099173553719008,0.7,0.7509578544061303,140
+hypernetwork,2,video18_person8,5,early,Highly Engage,0.7,0.7241379310344828,0.711864406779661,29
+hypernetwork,2,video18_person8,10,random,Highly Disengage,0.08108108108108109,0.3,0.1276595744680851,10
+hypernetwork,2,video18_person8,10,random,Disengage,0.0,0.0,0.0,13
+hypernetwork,2,video18_person8,10,random,Engage,0.808695652173913,0.6888888888888889,0.744,135
+hypernetwork,2,video18_person8,10,random,Highly Engage,0.6875,0.7333333333333333,0.7096774193548387,30
+hypernetwork,2,video18_person8,10,early,Highly Disengage,0.07894736842105263,0.3,0.125,10
+hypernetwork,2,video18_person8,10,early,Disengage,0.0,0.0,0.0,14
+hypernetwork,2,video18_person8,10,early,Engage,0.8050847457627118,0.6985294117647058,0.7480314960629921,136
+hypernetwork,2,video18_person8,10,early,Highly Engage,0.7142857142857143,0.7142857142857143,0.7142857142857143,28
+hypernetwork,2,video18_person8,20,random,Highly Disengage,0.08823529411764706,0.375,0.14285714285714285,8
+hypernetwork,2,video18_person8,20,random,Disengage,0.0,0.0,0.0,14
+hypernetwork,2,video18_person8,20,random,Engage,0.8214285714285714,0.7076923076923077,0.7603305785123967,130
+hypernetwork,2,video18_person8,20,random,Highly Engage,0.6551724137931034,0.7307692307692307,0.6909090909090909,26
+hypernetwork,2,video18_person8,20,early,Highly Disengage,0.07894736842105263,0.3,0.125,10
+hypernetwork,2,video18_person8,20,early,Disengage,0.0,0.0,0.0,13
+hypernetwork,2,video18_person8,20,early,Engage,0.7981651376146789,0.6850393700787402,0.7372881355932204,127
+hypernetwork,2,video18_person8,20,early,Highly Engage,0.7407407407407407,0.7142857142857143,0.7272727272727273,28
+hypernetwork,2,video5_person0,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video5_person0,5,random,Disengage,0.5,0.23076923076923078,0.3157894736842105,13
+hypernetwork,2,video5_person0,5,random,Engage,0.7111111111111111,0.6956521739130435,0.7032967032967034,46
+hypernetwork,2,video5_person0,5,random,Highly Engage,0.3333333333333333,0.625,0.43478260869565216,8
+hypernetwork,2,video5_person0,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video5_person0,5,early,Disengage,0.6,0.25,0.35294117647058826,12
+hypernetwork,2,video5_person0,5,early,Engage,0.75,0.7021276595744681,0.7252747252747253,47
+hypernetwork,2,video5_person0,5,early,Highly Engage,0.35294117647058826,0.75,0.48,8
+hypernetwork,2,video5_person0,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video5_person0,10,random,Disengage,0.4,0.18181818181818182,0.25,11
+hypernetwork,2,video5_person0,10,random,Engage,0.7380952380952381,0.7045454545454546,0.7209302325581395,44
+hypernetwork,2,video5_person0,10,random,Highly Engage,0.35714285714285715,0.7142857142857143,0.47619047619047616,7
+hypernetwork,2,video5_person0,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video5_person0,10,early,Disengage,0.5,0.2,0.2857142857142857,10
+hypernetwork,2,video5_person0,10,early,Engage,0.7619047619047619,0.7272727272727273,0.7441860465116279,44
+hypernetwork,2,video5_person0,10,early,Highly Engage,0.4,0.75,0.5217391304347826,8
+hypernetwork,2,video5_person0,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video5_person0,20,random,Disengage,0.5,0.3,0.375,10
+hypernetwork,2,video5_person0,20,random,Engage,0.7058823529411765,0.6666666666666666,0.6857142857142857,36
+hypernetwork,2,video5_person0,20,random,Highly Engage,0.2727272727272727,0.5,0.35294117647058826,6
+hypernetwork,2,video5_person0,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video5_person0,20,early,Disengage,0.3333333333333333,0.14285714285714285,0.2,7
+hypernetwork,2,video5_person0,20,early,Engage,0.7894736842105263,0.7894736842105263,0.7894736842105263,38
+hypernetwork,2,video5_person0,20,early,Highly Engage,0.5,0.7142857142857143,0.5882352941176471,7
+hypernetwork,2,video6_person11,5,random,Highly Disengage,0.057692307692307696,0.42857142857142855,0.1016949152542373,7
+hypernetwork,2,video6_person11,5,random,Disengage,0.13157894736842105,0.6,0.2158273381294964,25
+hypernetwork,2,video6_person11,5,random,Engage,0.8,0.0851063829787234,0.15384615384615385,141
+hypernetwork,2,video6_person11,5,random,Highly Engage,0.3333333333333333,0.09090909090909091,0.14285714285714285,11
+hypernetwork,2,video6_person11,5,early,Highly Disengage,0.03773584905660377,0.2857142857142857,0.06666666666666667,7
+hypernetwork,2,video6_person11,5,early,Disengage,0.12844036697247707,0.5833333333333334,0.21052631578947367,24
+hypernetwork,2,video6_person11,5,early,Engage,0.8333333333333334,0.1056338028169014,0.1875,142
+hypernetwork,2,video6_person11,5,early,Highly Engage,0.25,0.09090909090909091,0.13333333333333333,11
+hypernetwork,2,video6_person11,10,random,Highly Disengage,0.057692307692307696,0.375,0.1,8
+hypernetwork,2,video6_person11,10,random,Disengage,0.12844036697247707,0.5833333333333334,0.21052631578947367,24
+hypernetwork,2,video6_person11,10,random,Engage,0.8,0.08759124087591241,0.15789473684210525,137
+hypernetwork,2,video6_person11,10,random,Highly Engage,0.0,0.0,0.0,10
+hypernetwork,2,video6_person11,10,early,Highly Disengage,0.038461538461538464,0.4,0.07017543859649122,5
+hypernetwork,2,video6_person11,10,early,Disengage,0.11428571428571428,0.5454545454545454,0.1889763779527559,22
+hypernetwork,2,video6_person11,10,early,Engage,0.8333333333333334,0.10638297872340426,0.18867924528301888,141
+hypernetwork,2,video6_person11,10,early,Highly Engage,0.25,0.09090909090909091,0.13333333333333333,11
+hypernetwork,2,video6_person11,20,random,Highly Disengage,0.0625,0.375,0.10714285714285714,8
+hypernetwork,2,video6_person11,20,random,Disengage,0.1320754716981132,0.6666666666666666,0.2204724409448819,21
+hypernetwork,2,video6_person11,20,random,Engage,0.9090909090909091,0.07692307692307693,0.14184397163120568,130
+hypernetwork,2,video6_person11,20,random,Highly Engage,0.25,0.1,0.14285714285714285,10
+hypernetwork,2,video6_person11,20,early,Highly Disengage,0.038461538461538464,0.6666666666666666,0.07272727272727272,3
+hypernetwork,2,video6_person11,20,early,Disengage,0.1134020618556701,0.5238095238095238,0.1864406779661017,21
+hypernetwork,2,video6_person11,20,early,Engage,0.8125,0.09701492537313433,0.17333333333333334,134
+hypernetwork,2,video6_person11,20,early,Highly Engage,0.25,0.09090909090909091,0.13333333333333333,11
+hypernetwork,2,video6_person13,5,random,Highly Disengage,1.0,1.0,1.0,1
+hypernetwork,2,video6_person13,5,random,Disengage,0.5740740740740741,0.7654320987654321,0.656084656084656,81
+hypernetwork,2,video6_person13,5,random,Engage,0.5471698113207547,0.3625,0.43609022556390975,80
+hypernetwork,2,video6_person13,5,random,Highly Engage,0.2857142857142857,0.2857142857142857,0.2857142857142857,7
+hypernetwork,2,video6_person13,5,early,Highly Disengage,1.0,1.0,1.0,1
+hypernetwork,2,video6_person13,5,early,Disengage,0.5660377358490566,0.75,0.6451612903225806,80
+hypernetwork,2,video6_person13,5,early,Engage,0.5454545454545454,0.375,0.4444444444444444,80
+hypernetwork,2,video6_person13,5,early,Highly Engage,0.2857142857142857,0.25,0.26666666666666666,8
+hypernetwork,2,video6_person13,10,random,Highly Disengage,1.0,1.0,1.0,1
+hypernetwork,2,video6_person13,10,random,Disengage,0.5769230769230769,0.7317073170731707,0.6451612903225806,82
+hypernetwork,2,video6_person13,10,random,Engage,0.49056603773584906,0.35135135135135137,0.4094488188976378,74
+hypernetwork,2,video6_person13,10,random,Highly Engage,0.16666666666666666,0.14285714285714285,0.15384615384615385,7
+hypernetwork,2,video6_person13,10,early,Highly Disengage,1.0,1.0,1.0,1
+hypernetwork,2,video6_person13,10,early,Disengage,0.5686274509803921,0.7532467532467533,0.6480446927374302,77
+hypernetwork,2,video6_person13,10,early,Engage,0.5555555555555556,0.379746835443038,0.45112781954887216,79
+hypernetwork,2,video6_person13,10,early,Highly Engage,0.2857142857142857,0.2857142857142857,0.2857142857142857,7
+hypernetwork,2,video6_person13,20,random,Highly Disengage,1.0,1.0,1.0,1
+hypernetwork,2,video6_person13,20,random,Disengage,0.5612244897959183,0.7432432432432432,0.6395348837209303,74
+hypernetwork,2,video6_person13,20,random,Engage,0.5306122448979592,0.3611111111111111,0.4297520661157025,72
+hypernetwork,2,video6_person13,20,random,Highly Engage,0.3333333333333333,0.2857142857142857,0.3076923076923077,7
+hypernetwork,2,video6_person13,20,early,Highly Disengage,1.0,1.0,1.0,1
+hypernetwork,2,video6_person13,20,early,Disengage,0.5425531914893617,0.7285714285714285,0.6219512195121951,70
+hypernetwork,2,video6_person13,20,early,Engage,0.5384615384615384,0.3684210526315789,0.4375,76
+hypernetwork,2,video6_person13,20,early,Highly Engage,0.2857142857142857,0.2857142857142857,0.2857142857142857,7
+hypernetwork,2,video6_person3,5,random,Highly Disengage,0.0,0.0,0.0,4
+hypernetwork,2,video6_person3,5,random,Disengage,0.5,0.15384615384615385,0.23529411764705882,52
+hypernetwork,2,video6_person3,5,random,Engage,0.6805555555555556,0.6805555555555556,0.6805555555555556,144
+hypernetwork,2,video6_person3,5,random,Highly Engage,0.28846153846153844,0.7894736842105263,0.4225352112676056,19
+hypernetwork,2,video6_person3,5,early,Highly Disengage,0.0,0.0,0.0,4
+hypernetwork,2,video6_person3,5,early,Disengage,0.5294117647058824,0.16981132075471697,0.2571428571428571,53
+hypernetwork,2,video6_person3,5,early,Engage,0.6827586206896552,0.6923076923076923,0.6875,143
+hypernetwork,2,video6_person3,5,early,Highly Engage,0.3,0.7894736842105263,0.43478260869565216,19
+hypernetwork,2,video6_person3,10,random,Highly Disengage,0.0,0.0,0.0,4
+hypernetwork,2,video6_person3,10,random,Disengage,0.5294117647058824,0.16666666666666666,0.2535211267605634,54
+hypernetwork,2,video6_person3,10,random,Engage,0.6666666666666666,0.6861313868613139,0.6762589928057554,137
+hypernetwork,2,video6_person3,10,random,Highly Engage,0.30612244897959184,0.7894736842105263,0.4411764705882353,19
+hypernetwork,2,video6_person3,10,early,Highly Disengage,0.0,0.0,0.0,4
+hypernetwork,2,video6_person3,10,early,Disengage,0.5294117647058824,0.18,0.26865671641791045,50
+hypernetwork,2,video6_person3,10,early,Engage,0.6971830985915493,0.6971830985915493,0.6971830985915493,142
+hypernetwork,2,video6_person3,10,early,Highly Engage,0.3125,0.8333333333333334,0.45454545454545453,18
+hypernetwork,2,video6_person3,20,random,Highly Disengage,0.0,0.0,0.0,4
+hypernetwork,2,video6_person3,20,random,Disengage,0.5625,0.17307692307692307,0.2647058823529412,52
+hypernetwork,2,video6_person3,20,random,Engage,0.6592592592592592,0.6846153846153846,0.6716981132075471,130
+hypernetwork,2,video6_person3,20,random,Highly Engage,0.30434782608695654,0.7777777777777778,0.4375,18
+hypernetwork,2,video6_person3,20,early,Highly Disengage,0.0,0.0,0.0,4
+hypernetwork,2,video6_person3,20,early,Disengage,0.5882352941176471,0.2222222222222222,0.3225806451612903,45
+hypernetwork,2,video6_person3,20,early,Engage,0.7153284671532847,0.7153284671532847,0.7153284671532847,137
+hypernetwork,2,video6_person3,20,early,Highly Engage,0.3409090909090909,0.8333333333333334,0.4838709677419355,18
+hypernetwork,2,video6_person7,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video6_person7,5,random,Disengage,0.2,0.4375,0.27450980392156865,16
+hypernetwork,2,video6_person7,5,random,Engage,0.9291338582677166,0.6982248520710059,0.7972972972972973,169
+hypernetwork,2,video6_person7,5,random,Highly Engage,0.21212121212121213,0.7,0.32558139534883723,10
+hypernetwork,2,video6_person7,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video6_person7,5,early,Disengage,0.2,0.4117647058823529,0.2692307692307692,17
+hypernetwork,2,video6_person7,5,early,Engage,0.921875,0.7023809523809523,0.7972972972972973,168
+hypernetwork,2,video6_person7,5,early,Highly Engage,0.21875,0.7,0.3333333333333333,10
+hypernetwork,2,video6_person7,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video6_person7,10,random,Disengage,0.21875,0.4375,0.2916666666666667,16
+hypernetwork,2,video6_person7,10,random,Engage,0.9285714285714286,0.7090909090909091,0.8041237113402062,165
+hypernetwork,2,video6_person7,10,random,Highly Engage,0.1875,0.6666666666666666,0.2926829268292683,9
+hypernetwork,2,video6_person7,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video6_person7,10,early,Disengage,0.20588235294117646,0.4375,0.28,16
+hypernetwork,2,video6_person7,10,early,Engage,0.928,0.7073170731707317,0.8027681660899654,164
+hypernetwork,2,video6_person7,10,early,Highly Engage,0.22580645161290322,0.7,0.34146341463414637,10
+hypernetwork,2,video6_person7,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video6_person7,20,random,Disengage,0.21212121212121213,0.5384615384615384,0.30434782608695654,13
+hypernetwork,2,video6_person7,20,random,Engage,0.9401709401709402,0.7006369426751592,0.8029197080291971,157
+hypernetwork,2,video6_person7,20,random,Highly Engage,0.23333333333333334,0.7,0.35,10
+hypernetwork,2,video6_person7,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,2,video6_person7,20,early,Disengage,0.21875,0.5384615384615384,0.3111111111111111,13
+hypernetwork,2,video6_person7,20,early,Engage,0.9256198347107438,0.7088607594936709,0.8028673835125448,158
+hypernetwork,2,video6_person7,20,early,Highly Engage,0.2222222222222222,0.6666666666666666,0.3333333333333333,9
+hypernetwork,2,video7_person0,5,random,Highly Disengage,0.5,0.043478260869565216,0.08,23
+hypernetwork,2,video7_person0,5,random,Disengage,0.3188405797101449,0.6567164179104478,0.4292682926829268,67
+hypernetwork,2,video7_person0,5,random,Engage,0.5803571428571429,0.4482758620689655,0.5058365758754864,145
+hypernetwork,2,video7_person0,5,random,Highly Engage,0.7058823529411765,0.35294117647058826,0.47058823529411764,34
+hypernetwork,2,video7_person0,5,early,Highly Disengage,0.5,0.043478260869565216,0.08,23
+hypernetwork,2,video7_person0,5,early,Disengage,0.3161764705882353,0.6323529411764706,0.4215686274509804,68
+hypernetwork,2,video7_person0,5,early,Engage,0.5652173913043478,0.4452054794520548,0.49808429118773945,146
+hypernetwork,2,video7_person0,5,early,Highly Engage,0.6875,0.34375,0.4583333333333333,32
+hypernetwork,2,video7_person0,10,random,Highly Disengage,0.0,0.0,0.0,22
+hypernetwork,2,video7_person0,10,random,Disengage,0.3181818181818182,0.6461538461538462,0.4263959390862944,65
+hypernetwork,2,video7_person0,10,random,Engage,0.5877192982456141,0.4652777777777778,0.5193798449612403,144
+hypernetwork,2,video7_person0,10,random,Highly Engage,0.7058823529411765,0.36363636363636365,0.48,33
+hypernetwork,2,video7_person0,10,early,Highly Disengage,0.5,0.043478260869565216,0.08,23
+hypernetwork,2,video7_person0,10,early,Disengage,0.3157894736842105,0.6363636363636364,0.4221105527638191,66
+hypernetwork,2,video7_person0,10,early,Engage,0.5752212389380531,0.45454545454545453,0.5078125,143
+hypernetwork,2,video7_person0,10,early,Highly Engage,0.6875,0.34375,0.4583333333333333,32
+hypernetwork,2,video7_person0,20,random,Highly Disengage,0.5,0.047619047619047616,0.08695652173913043,21
+hypernetwork,2,video7_person0,20,random,Disengage,0.3333333333333333,0.6307692307692307,0.43617021276595747,65
+hypernetwork,2,video7_person0,20,random,Engage,0.5701754385964912,0.47794117647058826,0.52,136
+hypernetwork,2,video7_person0,20,random,Highly Engage,0.7333333333333333,0.34375,0.46808510638297873,32
+hypernetwork,2,video7_person0,20,early,Highly Disengage,0.5,0.043478260869565216,0.08,23
+hypernetwork,2,video7_person0,20,early,Disengage,0.29770992366412213,0.6190476190476191,0.4020618556701031,63
+hypernetwork,2,video7_person0,20,early,Engage,0.5523809523809524,0.4264705882352941,0.48132780082987553,136
+hypernetwork,2,video7_person0,20,early,Highly Engage,0.6875,0.34375,0.4583333333333333,32
+hypernetwork,3,video10_person1,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video10_person1,5,random,Disengage,0.6,0.0967741935483871,0.16666666666666666,31
+hypernetwork,3,video10_person1,5,random,Engage,0.43137254901960786,0.8461538461538461,0.5714285714285714,26
+hypernetwork,3,video10_person1,5,random,Highly Engage,0.6,0.6666666666666666,0.631578947368421,9
+hypernetwork,3,video10_person1,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video10_person1,5,early,Disengage,0.75,0.18181818181818182,0.2926829268292683,33
+hypernetwork,3,video10_person1,5,early,Engage,0.44,0.8461538461538461,0.5789473684210527,26
+hypernetwork,3,video10_person1,5,early,Highly Engage,0.5,0.5714285714285714,0.5333333333333333,7
+hypernetwork,3,video10_person1,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video10_person1,10,random,Disengage,0.8,0.14285714285714285,0.24242424242424243,28
+hypernetwork,3,video10_person1,10,random,Engage,0.46808510638297873,0.88,0.6111111111111112,25
+hypernetwork,3,video10_person1,10,random,Highly Engage,0.5555555555555556,0.625,0.5882352941176471,8
+hypernetwork,3,video10_person1,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video10_person1,10,early,Disengage,0.75,0.18181818181818182,0.2926829268292683,33
+hypernetwork,3,video10_person1,10,early,Engage,0.4489795918367347,0.8461538461538461,0.5866666666666667,26
+hypernetwork,3,video10_person1,10,early,Highly Engage,0.0,0.0,0.0,2
+hypernetwork,3,video10_person1,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video10_person1,20,random,Disengage,0.6666666666666666,0.09090909090909091,0.16,22
+hypernetwork,3,video10_person1,20,random,Engage,0.46153846153846156,0.8571428571428571,0.6,21
+hypernetwork,3,video10_person1,20,random,Highly Engage,0.5555555555555556,0.625,0.5882352941176471,8
+hypernetwork,3,video10_person1,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video10_person1,20,early,Disengage,0.8,0.16,0.26666666666666666,25
+hypernetwork,3,video10_person1,20,early,Engage,0.5,0.9166666666666666,0.6470588235294118,24
+hypernetwork,3,video10_person1,20,early,Highly Engage,0.0,0.0,0.0,2
+hypernetwork,3,video10_person2,5,random,Highly Disengage,1.0,0.5,0.6666666666666666,2
+hypernetwork,3,video10_person2,5,random,Disengage,0.5652173913043478,0.52,0.5416666666666666,25
+hypernetwork,3,video10_person2,5,random,Engage,0.7111111111111111,0.7111111111111111,0.7111111111111111,45
+hypernetwork,3,video10_person2,5,random,Highly Engage,0.5555555555555556,0.8333333333333334,0.6666666666666666,6
+hypernetwork,3,video10_person2,5,early,Highly Disengage,0.5,0.5,0.5,2
+hypernetwork,3,video10_person2,5,early,Disengage,0.5789473684210527,0.4583333333333333,0.5116279069767442,24
+hypernetwork,3,video10_person2,5,early,Engage,0.6875,0.7333333333333333,0.7096774193548387,45
+hypernetwork,3,video10_person2,5,early,Highly Engage,0.5555555555555556,0.7142857142857143,0.625,7
+hypernetwork,3,video10_person2,10,random,Highly Disengage,1.0,0.5,0.6666666666666666,2
+hypernetwork,3,video10_person2,10,random,Disengage,0.6,0.5217391304347826,0.5581395348837209,23
+hypernetwork,3,video10_person2,10,random,Engage,0.717391304347826,0.7857142857142857,0.75,42
+hypernetwork,3,video10_person2,10,random,Highly Engage,0.6666666666666666,0.6666666666666666,0.6666666666666666,6
+hypernetwork,3,video10_person2,10,early,Highly Disengage,0.5,0.5,0.5,2
+hypernetwork,3,video10_person2,10,early,Disengage,0.6111111111111112,0.4583333333333333,0.5238095238095238,24
+hypernetwork,3,video10_person2,10,early,Engage,0.6590909090909091,0.725,0.6904761904761905,40
+hypernetwork,3,video10_person2,10,early,Highly Engage,0.5555555555555556,0.7142857142857143,0.625,7
+hypernetwork,3,video10_person2,20,random,Highly Disengage,0.5,0.5,0.5,2
+hypernetwork,3,video10_person2,20,random,Disengage,0.6,0.5714285714285714,0.5853658536585366,21
+hypernetwork,3,video10_person2,20,random,Engage,0.6857142857142857,0.6857142857142857,0.6857142857142857,35
+hypernetwork,3,video10_person2,20,random,Highly Engage,0.5,0.6,0.5454545454545454,5
+hypernetwork,3,video10_person2,20,early,Highly Disengage,0.5,0.5,0.5,2
+hypernetwork,3,video10_person2,20,early,Disengage,0.6428571428571429,0.45,0.5294117647058824,20
+hypernetwork,3,video10_person2,20,early,Engage,0.6578947368421053,0.7352941176470589,0.6944444444444444,34
+hypernetwork,3,video10_person2,20,early,Highly Engage,0.5555555555555556,0.7142857142857143,0.625,7
+hypernetwork,3,video10_person6,5,random,Highly Disengage,0.0,0.0,0.0,8
+hypernetwork,3,video10_person6,5,random,Disengage,0.19047619047619047,0.25,0.21621621621621623,32
+hypernetwork,3,video10_person6,5,random,Engage,0.5306122448979592,0.4406779661016949,0.48148148148148145,59
+hypernetwork,3,video10_person6,5,random,Highly Engage,0.09090909090909091,0.25,0.13333333333333333,4
+hypernetwork,3,video10_person6,5,early,Highly Disengage,0.0,0.0,0.0,7
+hypernetwork,3,video10_person6,5,early,Disengage,0.1702127659574468,0.26666666666666666,0.2077922077922078,30
+hypernetwork,3,video10_person6,5,early,Engage,0.5,0.3709677419354839,0.42592592592592593,62
+hypernetwork,3,video10_person6,5,early,Highly Engage,0.1111111111111111,0.25,0.15384615384615385,4
+hypernetwork,3,video10_person6,10,random,Highly Disengage,0.0,0.0,0.0,8
+hypernetwork,3,video10_person6,10,random,Disengage,0.17391304347826086,0.2962962962962963,0.2191780821917808,27
+hypernetwork,3,video10_person6,10,random,Engage,0.5238095238095238,0.3728813559322034,0.43564356435643564,59
+hypernetwork,3,video10_person6,10,random,Highly Engage,0.1111111111111111,0.25,0.15384615384615385,4
+hypernetwork,3,video10_person6,10,early,Highly Disengage,0.0,0.0,0.0,7
+hypernetwork,3,video10_person6,10,early,Disengage,0.18604651162790697,0.26666666666666666,0.2191780821917808,30
+hypernetwork,3,video10_person6,10,early,Engage,0.4888888888888889,0.38596491228070173,0.43137254901960786,57
+hypernetwork,3,video10_person6,10,early,Highly Engage,0.1111111111111111,0.25,0.15384615384615385,4
+hypernetwork,3,video10_person6,20,random,Highly Disengage,0.0,0.0,0.0,5
+hypernetwork,3,video10_person6,20,random,Disengage,0.14705882352941177,0.18518518518518517,0.16393442622950818,27
+hypernetwork,3,video10_person6,20,random,Engage,0.5,0.4230769230769231,0.4583333333333333,52
+hypernetwork,3,video10_person6,20,random,Highly Engage,0.1111111111111111,0.25,0.15384615384615385,4
+hypernetwork,3,video10_person6,20,early,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,3,video10_person6,20,early,Disengage,0.21621621621621623,0.2857142857142857,0.24615384615384617,28
+hypernetwork,3,video10_person6,20,early,Engage,0.5121951219512195,0.42,0.46153846153846156,50
+hypernetwork,3,video10_person6,20,early,Highly Engage,0.1111111111111111,0.25,0.15384615384615385,4
+hypernetwork,3,video14_person15,5,random,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,3,video14_person15,5,random,Disengage,0.0,0.0,0.0,28
+hypernetwork,3,video14_person15,5,random,Engage,0.3333333333333333,1.0,0.5,15
+hypernetwork,3,video14_person15,5,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person15,5,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,3,video14_person15,5,early,Disengage,0.0,0.0,0.0,27
+hypernetwork,3,video14_person15,5,early,Engage,0.36363636363636365,0.9411764705882353,0.5245901639344263,17
+hypernetwork,3,video14_person15,5,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person15,10,random,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,3,video14_person15,10,random,Disengage,0.0,0.0,0.0,22
+hypernetwork,3,video14_person15,10,random,Engage,0.375,1.0,0.5454545454545454,15
+hypernetwork,3,video14_person15,10,random,Highly Engage,0.0,0.0,0.0,2
+hypernetwork,3,video14_person15,10,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,3,video14_person15,10,early,Disengage,0.0,0.0,0.0,24
+hypernetwork,3,video14_person15,10,early,Engage,0.358974358974359,0.9333333333333333,0.5185185185185185,15
+hypernetwork,3,video14_person15,10,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person15,20,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person15,20,random,Disengage,0.0,0.0,0.0,19
+hypernetwork,3,video14_person15,20,random,Engage,0.3,1.0,0.46153846153846156,9
+hypernetwork,3,video14_person15,20,random,Highly Engage,0.0,0.0,0.0,2
+hypernetwork,3,video14_person15,20,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,3,video14_person15,20,early,Disengage,0.0,0.0,0.0,20
+hypernetwork,3,video14_person15,20,early,Engage,0.27586206896551724,0.8888888888888888,0.42105263157894735,9
+hypernetwork,3,video14_person15,20,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person16,5,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person16,5,random,Disengage,0.3333333333333333,0.06666666666666667,0.1111111111111111,15
+hypernetwork,3,video14_person16,5,random,Engage,0.7,0.7,0.7,40
+hypernetwork,3,video14_person16,5,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person16,5,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person16,5,early,Disengage,0.5,0.0625,0.1111111111111111,16
+hypernetwork,3,video14_person16,5,early,Engage,0.6923076923076923,0.675,0.6835443037974683,40
+hypernetwork,3,video14_person16,5,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person16,10,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person16,10,random,Disengage,0.5,0.07692307692307693,0.13333333333333333,13
+hypernetwork,3,video14_person16,10,random,Engage,0.7142857142857143,0.6756756756756757,0.6944444444444444,37
+hypernetwork,3,video14_person16,10,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person16,10,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person16,10,early,Disengage,0.3333333333333333,0.0625,0.10526315789473684,16
+hypernetwork,3,video14_person16,10,early,Engage,0.6842105263157895,0.7428571428571429,0.7123287671232876,35
+hypernetwork,3,video14_person16,10,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person16,20,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person16,20,random,Disengage,0.5,0.09090909090909091,0.15384615384615385,11
+hypernetwork,3,video14_person16,20,random,Engage,0.6451612903225806,0.6896551724137931,0.6666666666666666,29
+hypernetwork,3,video14_person16,20,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person16,20,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person16,20,early,Disengage,0.0,0.0,0.0,11
+hypernetwork,3,video14_person16,20,early,Engage,0.7027027027027027,0.8666666666666667,0.7761194029850746,30
+hypernetwork,3,video14_person16,20,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person2,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person2,5,random,Disengage,0.07317073170731707,1.0,0.13636363636363635,3
+hypernetwork,3,video14_person2,5,random,Engage,0.9,0.3333333333333333,0.4864864864864865,54
+hypernetwork,3,video14_person2,5,random,Highly Engage,0.0,0.0,0.0,4
+hypernetwork,3,video14_person2,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person2,5,early,Disengage,0.05405405405405406,1.0,0.10256410256410256,2
+hypernetwork,3,video14_person2,5,early,Engage,0.9166666666666666,0.4,0.5569620253164557,55
+hypernetwork,3,video14_person2,5,early,Highly Engage,0.0,0.0,0.0,4
+hypernetwork,3,video14_person2,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person2,10,random,Disengage,0.07894736842105263,1.0,0.14634146341463414,3
+hypernetwork,3,video14_person2,10,random,Engage,0.9444444444444444,0.3333333333333333,0.4927536231884058,51
+hypernetwork,3,video14_person2,10,random,Highly Engage,0.0,0.0,0.0,2
+hypernetwork,3,video14_person2,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person2,10,early,Disengage,0.02702702702702703,1.0,0.05263157894736842,1
+hypernetwork,3,video14_person2,10,early,Engage,0.8947368421052632,0.3333333333333333,0.4857142857142857,51
+hypernetwork,3,video14_person2,10,early,Highly Engage,0.0,0.0,0.0,4
+hypernetwork,3,video14_person2,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person2,20,random,Disengage,0.08333333333333333,1.0,0.15384615384615385,2
+hypernetwork,3,video14_person2,20,random,Engage,0.9090909090909091,0.4878048780487805,0.6349206349206349,41
+hypernetwork,3,video14_person2,20,random,Highly Engage,0.0,0.0,0.0,3
+hypernetwork,3,video14_person2,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person2,20,early,Disengage,0.03225806451612903,1.0,0.0625,1
+hypernetwork,3,video14_person2,20,early,Engage,0.9333333333333333,0.3333333333333333,0.49122807017543857,42
+hypernetwork,3,video14_person2,20,early,Highly Engage,0.0,0.0,0.0,3
+hypernetwork,3,video14_person9,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person9,5,random,Disengage,0.5,0.6666666666666666,0.5714285714285714,15
+hypernetwork,3,video14_person9,5,random,Engage,0.7692307692307693,0.6451612903225806,0.7017543859649122,31
+hypernetwork,3,video14_person9,5,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person9,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person9,5,early,Disengage,0.5454545454545454,0.7058823529411765,0.6153846153846154,17
+hypernetwork,3,video14_person9,5,early,Engage,0.7391304347826086,0.5862068965517241,0.6538461538461539,29
+hypernetwork,3,video14_person9,5,early,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person9,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person9,10,random,Disengage,0.47058823529411764,0.6153846153846154,0.5333333333333333,13
+hypernetwork,3,video14_person9,10,random,Engage,0.76,0.6785714285714286,0.7169811320754716,28
+hypernetwork,3,video14_person9,10,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person9,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person9,10,early,Disengage,0.6,0.7058823529411765,0.6486486486486487,17
+hypernetwork,3,video14_person9,10,early,Engage,0.7619047619047619,0.64,0.6956521739130435,25
+hypernetwork,3,video14_person9,10,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person9,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person9,20,random,Disengage,0.6666666666666666,0.7692307692307693,0.7142857142857143,13
+hypernetwork,3,video14_person9,20,random,Engage,0.7647058823529411,0.7222222222222222,0.7428571428571429,18
+hypernetwork,3,video14_person9,20,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,3,video14_person9,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video14_person9,20,early,Disengage,0.6666666666666666,0.6666666666666666,0.6666666666666666,12
+hypernetwork,3,video14_person9,20,early,Engage,0.7894736842105263,0.75,0.7692307692307693,20
+hypernetwork,3,video14_person9,20,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,3,video15_person2,5,random,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,3,video15_person2,5,random,Disengage,0.125,0.125,0.125,16
+hypernetwork,3,video15_person2,5,random,Engage,0.8269230769230769,0.7610619469026548,0.7926267281105991,113
+hypernetwork,3,video15_person2,5,random,Highly Engage,0.5416666666666666,0.7878787878787878,0.6419753086419753,33
+hypernetwork,3,video15_person2,5,early,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,3,video15_person2,5,early,Disengage,0.11764705882352941,0.125,0.12121212121212122,16
+hypernetwork,3,video15_person2,5,early,Engage,0.8349514563106796,0.7543859649122807,0.7926267281105991,114
+hypernetwork,3,video15_person2,5,early,Highly Engage,0.5416666666666666,0.8125,0.65,32
+hypernetwork,3,video15_person2,10,random,Highly Disengage,0.0,0.0,0.0,5
+hypernetwork,3,video15_person2,10,random,Disengage,0.11764705882352941,0.13333333333333333,0.125,15
+hypernetwork,3,video15_person2,10,random,Engage,0.8383838383838383,0.7545454545454545,0.7942583732057417,110
+hypernetwork,3,video15_person2,10,random,Highly Engage,0.5531914893617021,0.7878787878787878,0.65,33
+hypernetwork,3,video15_person2,10,early,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,3,video15_person2,10,early,Disengage,0.13333333333333333,0.125,0.12903225806451613,16
+hypernetwork,3,video15_person2,10,early,Engage,0.83,0.7614678899082569,0.7942583732057417,109
+hypernetwork,3,video15_person2,10,early,Highly Engage,0.5416666666666666,0.8125,0.65,32
+hypernetwork,3,video15_person2,20,random,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,3,video15_person2,20,random,Disengage,0.14285714285714285,0.14285714285714285,0.14285714285714285,14
+hypernetwork,3,video15_person2,20,random,Engage,0.84375,0.7788461538461539,0.81,104
+hypernetwork,3,video15_person2,20,random,Highly Engage,0.5348837209302325,0.7931034482758621,0.6388888888888888,29
+hypernetwork,3,video15_person2,20,early,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,3,video15_person2,20,early,Disengage,0.2,0.125,0.15384615384615385,16
+hypernetwork,3,video15_person2,20,early,Engage,0.8421052631578947,0.7843137254901961,0.8121827411167513,102
+hypernetwork,3,video15_person2,20,early,Highly Engage,0.5416666666666666,0.896551724137931,0.6753246753246753,29
+hypernetwork,3,video15_person5,5,random,Highly Disengage,0.16666666666666666,1.0,0.2857142857142857,1
+hypernetwork,3,video15_person5,5,random,Disengage,0.6470588235294118,0.7586206896551724,0.6984126984126984,29
+hypernetwork,3,video15_person5,5,random,Engage,0.9047619047619048,0.8796296296296297,0.892018779342723,108
+hypernetwork,3,video15_person5,5,random,Highly Engage,0.7142857142857143,0.35714285714285715,0.47619047619047616,14
+hypernetwork,3,video15_person5,5,early,Highly Disengage,0.16666666666666666,1.0,0.2857142857142857,1
+hypernetwork,3,video15_person5,5,early,Disengage,0.6756756756756757,0.78125,0.7246376811594203,32
+hypernetwork,3,video15_person5,5,early,Engage,0.912621359223301,0.8785046728971962,0.8952380952380953,107
+hypernetwork,3,video15_person5,5,early,Highly Engage,0.6666666666666666,0.3333333333333333,0.4444444444444444,12
+hypernetwork,3,video15_person5,10,random,Highly Disengage,0.16666666666666666,1.0,0.2857142857142857,1
+hypernetwork,3,video15_person5,10,random,Disengage,0.7142857142857143,0.78125,0.746268656716418,32
+hypernetwork,3,video15_person5,10,random,Engage,0.9090909090909091,0.8910891089108911,0.9,101
+hypernetwork,3,video15_person5,10,random,Highly Engage,0.7142857142857143,0.38461538461538464,0.5,13
+hypernetwork,3,video15_person5,10,early,Highly Disengage,0.16666666666666666,1.0,0.2857142857142857,1
+hypernetwork,3,video15_person5,10,early,Disengage,0.6944444444444444,0.8064516129032258,0.746268656716418,31
+hypernetwork,3,video15_person5,10,early,Engage,0.9191919191919192,0.883495145631068,0.900990099009901,103
+hypernetwork,3,video15_person5,10,early,Highly Engage,0.6666666666666666,0.3333333333333333,0.4444444444444444,12
+hypernetwork,3,video15_person5,20,random,Highly Disengage,0.25,1.0,0.4,1
+hypernetwork,3,video15_person5,20,random,Disengage,0.6875,0.8461538461538461,0.7586206896551724,26
+hypernetwork,3,video15_person5,20,random,Engage,0.9157894736842105,0.8877551020408163,0.9015544041450777,98
+hypernetwork,3,video15_person5,20,random,Highly Engage,0.6666666666666666,0.3333333333333333,0.4444444444444444,12
+hypernetwork,3,video15_person5,20,early,Highly Disengage,0.16666666666666666,1.0,0.2857142857142857,1
+hypernetwork,3,video15_person5,20,early,Disengage,0.696969696969697,0.7931034482758621,0.7419354838709677,29
+hypernetwork,3,video15_person5,20,early,Engage,0.9347826086956522,0.8775510204081632,0.9052631578947369,98
+hypernetwork,3,video15_person5,20,early,Highly Engage,0.6666666666666666,0.4444444444444444,0.5333333333333333,9
+hypernetwork,3,video16_person3,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video16_person3,5,random,Disengage,0.75,0.6666666666666666,0.7058823529411765,9
+hypernetwork,3,video16_person3,5,random,Engage,0.9411764705882353,0.6956521739130435,0.8,46
+hypernetwork,3,video16_person3,5,random,Highly Engage,0.23529411764705882,1.0,0.38095238095238093,4
+hypernetwork,3,video16_person3,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video16_person3,5,early,Disengage,0.7777777777777778,0.7,0.7368421052631579,10
+hypernetwork,3,video16_person3,5,early,Engage,0.9411764705882353,0.7111111111111111,0.810126582278481,45
+hypernetwork,3,video16_person3,5,early,Highly Engage,0.25,1.0,0.4,4
+hypernetwork,3,video16_person3,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video16_person3,10,random,Disengage,0.7777777777777778,0.875,0.8235294117647058,8
+hypernetwork,3,video16_person3,10,random,Engage,1.0,0.7209302325581395,0.8378378378378378,43
+hypernetwork,3,video16_person3,10,random,Highly Engage,0.21428571428571427,1.0,0.35294117647058826,3
+hypernetwork,3,video16_person3,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video16_person3,10,early,Disengage,0.75,0.75,0.75,8
+hypernetwork,3,video16_person3,10,early,Engage,0.9666666666666667,0.6904761904761905,0.8055555555555556,42
+hypernetwork,3,video16_person3,10,early,Highly Engage,0.25,1.0,0.4,4
+hypernetwork,3,video16_person3,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video16_person3,20,random,Disengage,1.0,0.7142857142857143,0.8333333333333334,7
+hypernetwork,3,video16_person3,20,random,Engage,0.9259259259259259,0.7142857142857143,0.8064516129032258,35
+hypernetwork,3,video16_person3,20,random,Highly Engage,0.16666666666666666,1.0,0.2857142857142857,2
+hypernetwork,3,video16_person3,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video16_person3,20,early,Disengage,0.8,0.6666666666666666,0.7272727272727273,6
+hypernetwork,3,video16_person3,20,early,Engage,0.96,0.7058823529411765,0.8135593220338984,34
+hypernetwork,3,video16_person3,20,early,Highly Engage,0.2857142857142857,1.0,0.4444444444444444,4
+hypernetwork,3,video18_person1,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video18_person1,5,random,Disengage,0.5,0.7846153846153846,0.6107784431137725,65
+hypernetwork,3,video18_person1,5,random,Engage,0.8842105263157894,0.5915492957746479,0.7088607594936709,142
+hypernetwork,3,video18_person1,5,random,Highly Engage,0.15384615384615385,0.25,0.19047619047619047,8
+hypernetwork,3,video18_person1,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video18_person1,5,early,Disengage,0.5104166666666666,0.765625,0.6125,64
+hypernetwork,3,video18_person1,5,early,Engage,0.8811881188118812,0.6223776223776224,0.7295081967213115,143
+hypernetwork,3,video18_person1,5,early,Highly Engage,0.14285714285714285,0.25,0.18181818181818182,8
+hypernetwork,3,video18_person1,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video18_person1,10,random,Disengage,0.5,0.765625,0.6049382716049383,64
+hypernetwork,3,video18_person1,10,random,Engage,0.8817204301075269,0.5942028985507246,0.70995670995671,138
+hypernetwork,3,video18_person1,10,random,Highly Engage,0.14285714285714285,0.25,0.18181818181818182,8
+hypernetwork,3,video18_person1,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video18_person1,10,early,Disengage,0.46875,0.7627118644067796,0.5806451612903226,59
+hypernetwork,3,video18_person1,10,early,Engage,0.8854166666666666,0.5944055944055944,0.7112970711297071,143
+hypernetwork,3,video18_person1,10,early,Highly Engage,0.15384615384615385,0.25,0.19047619047619047,8
+hypernetwork,3,video18_person1,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video18_person1,20,random,Disengage,0.5,0.8,0.6153846153846154,60
+hypernetwork,3,video18_person1,20,random,Engage,0.8977272727272727,0.5939849624060151,0.7149321266968326,133
+hypernetwork,3,video18_person1,20,random,Highly Engage,0.15384615384615385,0.2857142857142857,0.2,7
+hypernetwork,3,video18_person1,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video18_person1,20,early,Disengage,0.4777777777777778,0.7962962962962963,0.5972222222222222,54
+hypernetwork,3,video18_person1,20,early,Engage,0.8842105263157894,0.6086956521739131,0.721030042918455,138
+hypernetwork,3,video18_person1,20,early,Highly Engage,0.15384615384615385,0.25,0.19047619047619047,8
+hypernetwork,3,video18_person6,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video18_person6,5,random,Disengage,0.0,0.0,0.0,2
+hypernetwork,3,video18_person6,5,random,Engage,0.912751677852349,0.7431693989071039,0.8192771084337349,183
+hypernetwork,3,video18_person6,5,random,Highly Engage,0.6875,0.4782608695652174,0.5641025641025641,23
+hypernetwork,3,video18_person6,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video18_person6,5,early,Disengage,0.022727272727272728,0.3333333333333333,0.0425531914893617,3
+hypernetwork,3,video18_person6,5,early,Engage,0.918918918918919,0.7431693989071039,0.8217522658610272,183
+hypernetwork,3,video18_person6,5,early,Highly Engage,0.6875,0.5,0.5789473684210527,22
+hypernetwork,3,video18_person6,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video18_person6,10,random,Disengage,0.024390243902439025,0.3333333333333333,0.045454545454545456,3
+hypernetwork,3,video18_person6,10,random,Engage,0.9256756756756757,0.7569060773480663,0.8328267477203647,181
+hypernetwork,3,video18_person6,10,random,Highly Engage,0.6428571428571429,0.47368421052631576,0.5454545454545454,19
+hypernetwork,3,video18_person6,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video18_person6,10,early,Disengage,0.022727272727272728,0.3333333333333333,0.0425531914893617,3
+hypernetwork,3,video18_person6,10,early,Engage,0.916083916083916,0.7359550561797753,0.8161993769470405,178
+hypernetwork,3,video18_person6,10,early,Highly Engage,0.6875,0.5,0.5789473684210527,22
+hypernetwork,3,video18_person6,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video18_person6,20,random,Disengage,0.02631578947368421,0.3333333333333333,0.04878048780487805,3
+hypernetwork,3,video18_person6,20,random,Engage,0.9071428571428571,0.7559523809523809,0.8246753246753247,168
+hypernetwork,3,video18_person6,20,random,Highly Engage,0.6666666666666666,0.45454545454545453,0.5405405405405406,22
+hypernetwork,3,video18_person6,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video18_person6,20,early,Disengage,0.023255813953488372,0.3333333333333333,0.043478260869565216,3
+hypernetwork,3,video18_person6,20,early,Engage,0.9111111111111111,0.7321428571428571,0.8118811881188119,168
+hypernetwork,3,video18_person6,20,early,Highly Engage,0.7333333333333333,0.5,0.5945945945945946,22
+hypernetwork,3,video5_person5,5,random,Highly Disengage,0.0,0.0,0.0,40
+hypernetwork,3,video5_person5,5,random,Disengage,0.08333333333333333,0.038461538461538464,0.05263157894736842,26
+hypernetwork,3,video5_person5,5,random,Engage,0.4835164835164835,0.6470588235294118,0.5534591194968553,68
+hypernetwork,3,video5_person5,5,random,Highly Engage,0.15,0.6666666666666666,0.24489795918367346,9
+hypernetwork,3,video5_person5,5,early,Highly Disengage,0.0,0.0,0.0,40
+hypernetwork,3,video5_person5,5,early,Disengage,0.0,0.0,0.0,26
+hypernetwork,3,video5_person5,5,early,Engage,0.4782608695652174,0.6470588235294118,0.55,68
+hypernetwork,3,video5_person5,5,early,Highly Engage,0.15384615384615385,0.6666666666666666,0.25,9
+hypernetwork,3,video5_person5,10,random,Highly Disengage,0.0,0.0,0.0,40
+hypernetwork,3,video5_person5,10,random,Disengage,0.125,0.07692307692307693,0.09523809523809523,26
+hypernetwork,3,video5_person5,10,random,Engage,0.47058823529411764,0.6349206349206349,0.5405405405405406,63
+hypernetwork,3,video5_person5,10,random,Highly Engage,0.1891891891891892,0.7777777777777778,0.30434782608695654,9
+hypernetwork,3,video5_person5,10,early,Highly Disengage,0.0,0.0,0.0,39
+hypernetwork,3,video5_person5,10,early,Disengage,0.0,0.0,0.0,23
+hypernetwork,3,video5_person5,10,early,Engage,0.4888888888888889,0.6567164179104478,0.5605095541401274,67
+hypernetwork,3,video5_person5,10,early,Highly Engage,0.16666666666666666,0.6666666666666666,0.26666666666666666,9
+hypernetwork,3,video5_person5,20,random,Highly Disengage,0.0,0.0,0.0,35
+hypernetwork,3,video5_person5,20,random,Disengage,0.07692307692307693,0.043478260869565216,0.05555555555555555,23
+hypernetwork,3,video5_person5,20,random,Engage,0.4810126582278481,0.6129032258064516,0.5390070921985816,62
+hypernetwork,3,video5_person5,20,random,Highly Engage,0.16666666666666666,0.75,0.2727272727272727,8
+hypernetwork,3,video5_person5,20,early,Highly Disengage,0.0,0.0,0.0,39
+hypernetwork,3,video5_person5,20,early,Disengage,0.0,0.0,0.0,22
+hypernetwork,3,video5_person5,20,early,Engage,0.4567901234567901,0.6271186440677966,0.5285714285714286,59
+hypernetwork,3,video5_person5,20,early,Highly Engage,0.17142857142857143,0.75,0.27906976744186046,8
+hypernetwork,3,video6_person9,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video6_person9,5,random,Disengage,0.23880597014925373,0.37209302325581395,0.2909090909090909,43
+hypernetwork,3,video6_person9,5,random,Engage,0.7786885245901639,0.572289156626506,0.6597222222222222,166
+hypernetwork,3,video6_person9,5,random,Highly Engage,0.29411764705882354,0.38461538461538464,0.3333333333333333,13
+hypernetwork,3,video6_person9,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video6_person9,5,early,Disengage,0.21428571428571427,0.3409090909090909,0.2631578947368421,44
+hypernetwork,3,video6_person9,5,early,Engage,0.7672413793103449,0.5393939393939394,0.6334519572953736,165
+hypernetwork,3,video6_person9,5,early,Highly Engage,0.29411764705882354,0.38461538461538464,0.3333333333333333,13
+hypernetwork,3,video6_person9,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video6_person9,10,random,Disengage,0.19444444444444445,0.3333333333333333,0.24561403508771928,42
+hypernetwork,3,video6_person9,10,random,Engage,0.76,0.4691358024691358,0.5801526717557252,162
+hypernetwork,3,video6_person9,10,random,Highly Engage,0.3125,0.38461538461538464,0.3448275862068966,13
+hypernetwork,3,video6_person9,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video6_person9,10,early,Disengage,0.21739130434782608,0.3488372093023256,0.26785714285714285,43
+hypernetwork,3,video6_person9,10,early,Engage,0.7678571428571429,0.5341614906832298,0.63003663003663,161
+hypernetwork,3,video6_person9,10,early,Highly Engage,0.2777777777777778,0.38461538461538464,0.3225806451612903,13
+hypernetwork,3,video6_person9,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video6_person9,20,random,Disengage,0.21875,0.3333333333333333,0.2641509433962264,42
+hypernetwork,3,video6_person9,20,random,Engage,0.7614678899082569,0.5460526315789473,0.6360153256704981,152
+hypernetwork,3,video6_person9,20,random,Highly Engage,0.3333333333333333,0.38461538461538464,0.35714285714285715,13
+hypernetwork,3,video6_person9,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,3,video6_person9,20,early,Disengage,0.2153846153846154,0.34146341463414637,0.2641509433962264,41
+hypernetwork,3,video6_person9,20,early,Engage,0.7641509433962265,0.5294117647058824,0.6254826254826255,153
+hypernetwork,3,video6_person9,20,early,Highly Engage,0.2777777777777778,0.38461538461538464,0.3225806451612903,13
+hypernetwork,3,video7_person4,5,random,Highly Disengage,0.05263157894736842,0.25,0.08695652173913043,4
+hypernetwork,3,video7_person4,5,random,Disengage,0.20408163265306123,0.2777777777777778,0.23529411764705882,36
+hypernetwork,3,video7_person4,5,random,Engage,0.8235294117647058,0.08383233532934131,0.15217391304347827,167
+hypernetwork,3,video7_person4,5,random,Highly Engage,0.23529411764705882,0.8333333333333334,0.3669724770642202,48
+hypernetwork,3,video7_person4,5,early,Highly Disengage,0.05263157894736842,0.25,0.08695652173913043,4
+hypernetwork,3,video7_person4,5,early,Disengage,0.1836734693877551,0.2571428571428571,0.21428571428571427,35
+hypernetwork,3,video7_person4,5,early,Engage,0.8333333333333334,0.08928571428571429,0.16129032258064516,168
+hypernetwork,3,video7_person4,5,early,Highly Engage,0.23076923076923078,0.8125,0.35944700460829493,48
+hypernetwork,3,video7_person4,10,random,Highly Disengage,0.05555555555555555,0.25,0.09090909090909091,4
+hypernetwork,3,video7_person4,10,random,Disengage,0.18,0.2571428571428571,0.21176470588235294,35
+hypernetwork,3,video7_person4,10,random,Engage,0.875,0.08383233532934131,0.15300546448087432,167
+hypernetwork,3,video7_person4,10,random,Highly Engage,0.21686746987951808,0.8181818181818182,0.34285714285714286,44
+hypernetwork,3,video7_person4,10,early,Highly Disengage,0.05263157894736842,0.25,0.08695652173913043,4
+hypernetwork,3,video7_person4,10,early,Disengage,0.1836734693877551,0.2727272727272727,0.21951219512195122,33
+hypernetwork,3,video7_person4,10,early,Engage,0.8333333333333334,0.09090909090909091,0.16393442622950818,165
+hypernetwork,3,video7_person4,10,early,Highly Engage,0.23780487804878048,0.8125,0.36792452830188677,48
+hypernetwork,3,video7_person4,20,random,Highly Disengage,0.05263157894736842,0.25,0.08695652173913043,4
+hypernetwork,3,video7_person4,20,random,Disengage,0.20408163265306123,0.29411764705882354,0.24096385542168675,34
+hypernetwork,3,video7_person4,20,random,Engage,0.8235294117647058,0.08974358974358974,0.16184971098265896,156
+hypernetwork,3,video7_person4,20,random,Highly Engage,0.24516129032258063,0.8260869565217391,0.3781094527363184,46
+hypernetwork,3,video7_person4,20,early,Highly Disengage,0.05555555555555555,0.25,0.09090909090909091,4
+hypernetwork,3,video7_person4,20,early,Disengage,0.1875,0.2727272727272727,0.2222222222222222,33
+hypernetwork,3,video7_person4,20,early,Engage,0.8333333333333334,0.0967741935483871,0.17341040462427745,155
+hypernetwork,3,video7_person4,20,early,Highly Engage,0.25,0.8125,0.38235294117647056,48
+hypernetwork,3,video7_person5,5,random,Highly Disengage,0.06451612903225806,1.0,0.12121212121212122,2
+hypernetwork,3,video7_person5,5,random,Disengage,0.05,0.07407407407407407,0.05970149253731343,27
+hypernetwork,3,video7_person5,5,random,Engage,0.8152866242038217,0.6956521739130435,0.750733137829912,184
+hypernetwork,3,video7_person5,5,random,Highly Engage,0.6785714285714286,0.4418604651162791,0.5352112676056338,43
+hypernetwork,3,video7_person5,5,early,Highly Disengage,0.06060606060606061,1.0,0.11428571428571428,2
+hypernetwork,3,video7_person5,5,early,Disengage,0.05128205128205128,0.07407407407407407,0.06060606060606061,27
+hypernetwork,3,video7_person5,5,early,Engage,0.8141025641025641,0.6902173913043478,0.7470588235294118,184
+hypernetwork,3,video7_person5,5,early,Highly Engage,0.6785714285714286,0.4418604651162791,0.5352112676056338,43
+hypernetwork,3,video7_person5,10,random,Highly Disengage,0.06060606060606061,1.0,0.11428571428571428,2
+hypernetwork,3,video7_person5,10,random,Disengage,0.05405405405405406,0.08333333333333333,0.06557377049180328,24
+hypernetwork,3,video7_person5,10,random,Engage,0.8141025641025641,0.6902173913043478,0.7470588235294118,184
+hypernetwork,3,video7_person5,10,random,Highly Engage,0.68,0.4146341463414634,0.5151515151515151,41
+hypernetwork,3,video7_person5,10,early,Highly Disengage,0.05555555555555555,1.0,0.10526315789473684,2
+hypernetwork,3,video7_person5,10,early,Disengage,0.05,0.07407407407407407,0.05970149253731343,27
+hypernetwork,3,video7_person5,10,early,Engage,0.8040540540540541,0.6611111111111111,0.725609756097561,180
+hypernetwork,3,video7_person5,10,early,Highly Engage,0.6666666666666666,0.42857142857142855,0.5217391304347826,42
+hypernetwork,3,video7_person5,20,random,Highly Disengage,0.06666666666666667,1.0,0.125,2
+hypernetwork,3,video7_person5,20,random,Disengage,0.05263157894736842,0.08333333333333333,0.06451612903225806,24
+hypernetwork,3,video7_person5,20,random,Engage,0.8275862068965517,0.6857142857142857,0.75,175
+hypernetwork,3,video7_person5,20,random,Highly Engage,0.6785714285714286,0.475,0.5588235294117647,40
+hypernetwork,3,video7_person5,20,early,Highly Disengage,0.05555555555555555,1.0,0.10526315789473684,2
+hypernetwork,3,video7_person5,20,early,Disengage,0.05128205128205128,0.08,0.0625,25
+hypernetwork,3,video7_person5,20,early,Engage,0.8188405797101449,0.653179190751445,0.7266881028938906,173
+hypernetwork,3,video7_person5,20,early,Highly Engage,0.6785714285714286,0.4634146341463415,0.5507246376811594,41
+hypernetwork,4,video10_person10,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video10_person10,5,random,Disengage,0.24,0.5,0.32432432432432434,12
+hypernetwork,4,video10_person10,5,random,Engage,0.7941176470588235,0.5294117647058824,0.6352941176470588,51
+hypernetwork,4,video10_person10,5,random,Highly Engage,0.4166666666666667,0.625,0.5,8
+hypernetwork,4,video10_person10,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video10_person10,5,early,Disengage,0.23076923076923078,0.5,0.3157894736842105,12
+hypernetwork,4,video10_person10,5,early,Engage,0.7941176470588235,0.5192307692307693,0.627906976744186,52
+hypernetwork,4,video10_person10,5,early,Highly Engage,0.36363636363636365,0.5714285714285714,0.4444444444444444,7
+hypernetwork,4,video10_person10,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video10_person10,10,random,Disengage,0.25,0.5,0.3333333333333333,12
+hypernetwork,4,video10_person10,10,random,Engage,0.7878787878787878,0.5531914893617021,0.65,47
+hypernetwork,4,video10_person10,10,random,Highly Engage,0.3333333333333333,0.42857142857142855,0.375,7
+hypernetwork,4,video10_person10,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video10_person10,10,early,Disengage,0.2608695652173913,0.5,0.34285714285714286,12
+hypernetwork,4,video10_person10,10,early,Engage,0.78125,0.5319148936170213,0.6329113924050633,47
+hypernetwork,4,video10_person10,10,early,Highly Engage,0.36363636363636365,0.5714285714285714,0.4444444444444444,7
+hypernetwork,4,video10_person10,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video10_person10,20,random,Disengage,0.23529411764705882,0.5,0.32,8
+hypernetwork,4,video10_person10,20,random,Engage,0.8620689655172413,0.6097560975609756,0.7142857142857143,41
+hypernetwork,4,video10_person10,20,random,Highly Engage,0.5,0.7142857142857143,0.5882352941176471,7
+hypernetwork,4,video10_person10,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video10_person10,20,early,Disengage,0.125,0.25,0.16666666666666666,8
+hypernetwork,4,video10_person10,20,early,Engage,0.7666666666666667,0.5609756097560976,0.647887323943662,41
+hypernetwork,4,video10_person10,20,early,Highly Engage,0.4,0.5714285714285714,0.47058823529411764,7
+hypernetwork,4,video10_person12,5,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video10_person12,5,random,Disengage,0.17647058823529413,0.23076923076923078,0.2,13
+hypernetwork,4,video10_person12,5,random,Engage,0.746268656716418,0.8064516129032258,0.7751937984496124,62
+hypernetwork,4,video10_person12,5,random,Highly Engage,1.0,0.2,0.3333333333333333,10
+hypernetwork,4,video10_person12,5,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,4,video10_person12,5,early,Disengage,0.17647058823529413,0.23076923076923078,0.2,13
+hypernetwork,4,video10_person12,5,early,Engage,0.746268656716418,0.819672131147541,0.78125,61
+hypernetwork,4,video10_person12,5,early,Highly Engage,1.0,0.2,0.3333333333333333,10
+hypernetwork,4,video10_person12,10,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video10_person12,10,random,Disengage,0.125,0.18181818181818182,0.14814814814814814,11
+hypernetwork,4,video10_person12,10,random,Engage,0.75,0.8,0.7741935483870968,60
+hypernetwork,4,video10_person12,10,random,Highly Engage,1.0,0.1111111111111111,0.2,9
+hypernetwork,4,video10_person12,10,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,4,video10_person12,10,early,Disengage,0.2,0.25,0.2222222222222222,12
+hypernetwork,4,video10_person12,10,early,Engage,0.75,0.8421052631578947,0.7933884297520661,57
+hypernetwork,4,video10_person12,10,early,Highly Engage,1.0,0.2,0.3333333333333333,10
+hypernetwork,4,video10_person12,20,random,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,4,video10_person12,20,random,Disengage,0.15384615384615385,0.18181818181818182,0.16666666666666666,11
+hypernetwork,4,video10_person12,20,random,Engage,0.75,0.8235294117647058,0.7850467289719626,51
+hypernetwork,4,video10_person12,20,random,Highly Engage,1.0,0.2857142857142857,0.4444444444444444,7
+hypernetwork,4,video10_person12,20,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,4,video10_person12,20,early,Disengage,0.21428571428571427,0.2727272727272727,0.24,11
+hypernetwork,4,video10_person12,20,early,Engage,0.7090909090909091,0.8125,0.7572815533980582,48
+hypernetwork,4,video10_person12,20,early,Highly Engage,1.0,0.2,0.3333333333333333,10
+hypernetwork,4,video10_person27,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video10_person27,5,random,Disengage,0.3333333333333333,0.038461538461538464,0.06896551724137931,26
+hypernetwork,4,video10_person27,5,random,Engage,0.6338028169014085,0.9183673469387755,0.75,49
+hypernetwork,4,video10_person27,5,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,4,video10_person27,5,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video10_person27,5,early,Disengage,0.5,0.045454545454545456,0.08333333333333333,22
+hypernetwork,4,video10_person27,5,early,Engage,0.6901408450704225,0.9423076923076923,0.7967479674796748,52
+hypernetwork,4,video10_person27,5,early,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,4,video10_person27,10,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video10_person27,10,random,Disengage,0.0,0.0,0.0,24
+hypernetwork,4,video10_person27,10,random,Engage,0.6060606060606061,0.8888888888888888,0.7207207207207207,45
+hypernetwork,4,video10_person27,10,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,4,video10_person27,10,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video10_person27,10,early,Disengage,0.0,0.0,0.0,17
+hypernetwork,4,video10_person27,10,early,Engage,0.7313432835820896,0.9423076923076923,0.8235294117647058,52
+hypernetwork,4,video10_person27,10,early,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,4,video10_person27,20,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video10_person27,20,random,Disengage,0.0,0.0,0.0,19
+hypernetwork,4,video10_person27,20,random,Engage,0.6551724137931034,0.95,0.7755102040816326,40
+hypernetwork,4,video10_person27,20,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,4,video10_person27,20,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video10_person27,20,early,Disengage,0.0,0.0,0.0,14
+hypernetwork,4,video10_person27,20,early,Engage,0.7192982456140351,0.9111111111111111,0.803921568627451,45
+hypernetwork,4,video10_person27,20,early,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,4,video14_person11,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video14_person11,5,random,Disengage,0.13157894736842105,0.625,0.21739130434782608,8
+hypernetwork,4,video14_person11,5,random,Engage,0.7777777777777778,0.14,0.23728813559322035,50
+hypernetwork,4,video14_person11,5,random,Highly Engage,1.0,1.0,1.0,1
+hypernetwork,4,video14_person11,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video14_person11,5,early,Disengage,0.1282051282051282,0.625,0.2127659574468085,8
+hypernetwork,4,video14_person11,5,early,Engage,0.8,0.16,0.26666666666666666,50
+hypernetwork,4,video14_person11,5,early,Highly Engage,1.0,1.0,1.0,1
+hypernetwork,4,video14_person11,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video14_person11,10,random,Disengage,0.11428571428571428,0.5714285714285714,0.19047619047619047,7
+hypernetwork,4,video14_person11,10,random,Engage,0.75,0.13043478260869565,0.2222222222222222,46
+hypernetwork,4,video14_person11,10,random,Highly Engage,1.0,1.0,1.0,1
+hypernetwork,4,video14_person11,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video14_person11,10,early,Disengage,0.08108108108108109,1.0,0.15,3
+hypernetwork,4,video14_person11,10,early,Engage,1.0,0.16,0.27586206896551724,50
+hypernetwork,4,video14_person11,10,early,Highly Engage,1.0,1.0,1.0,1
+hypernetwork,4,video14_person11,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video14_person11,20,random,Disengage,0.04,0.5,0.07407407407407407,2
+hypernetwork,4,video14_person11,20,random,Engage,0.875,0.17073170731707318,0.2857142857142857,41
+hypernetwork,4,video14_person11,20,random,Highly Engage,1.0,1.0,1.0,1
+hypernetwork,4,video14_person11,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video14_person11,20,early,Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video14_person11,20,early,Engage,1.0,0.16279069767441862,0.28,43
+hypernetwork,4,video14_person11,20,early,Highly Engage,1.0,1.0,1.0,1
+hypernetwork,4,video15_person4,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video15_person4,5,random,Disengage,0.3263157894736842,0.6888888888888889,0.44285714285714284,45
+hypernetwork,4,video15_person4,5,random,Engage,0.7878787878787878,0.2549019607843137,0.3851851851851852,102
+hypernetwork,4,video15_person4,5,random,Highly Engage,0.5227272727272727,0.8846153846153846,0.6571428571428571,26
+hypernetwork,4,video15_person4,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video15_person4,5,early,Disengage,0.3191489361702128,0.6976744186046512,0.43795620437956206,43
+hypernetwork,4,video15_person4,5,early,Engage,0.8157894736842105,0.30097087378640774,0.4397163120567376,103
+hypernetwork,4,video15_person4,5,early,Highly Engage,0.575,0.8518518518518519,0.6865671641791045,27
+hypernetwork,4,video15_person4,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video15_person4,10,random,Disengage,0.31868131868131866,0.6904761904761905,0.43609022556390975,42
+hypernetwork,4,video15_person4,10,random,Engage,0.8055555555555556,0.29292929292929293,0.42962962962962964,99
+hypernetwork,4,video15_person4,10,random,Highly Engage,0.575,0.8518518518518519,0.6865671641791045,27
+hypernetwork,4,video15_person4,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video15_person4,10,early,Disengage,0.3191489361702128,0.7142857142857143,0.4411764705882353,42
+hypernetwork,4,video15_person4,10,early,Engage,0.8181818181818182,0.27,0.40601503759398494,100
+hypernetwork,4,video15_person4,10,early,Highly Engage,0.575,0.8846153846153846,0.696969696969697,26
+hypernetwork,4,video15_person4,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video15_person4,20,random,Disengage,0.3068181818181818,0.7105263157894737,0.42857142857142855,38
+hypernetwork,4,video15_person4,20,random,Engage,0.8333333333333334,0.2631578947368421,0.4,95
+hypernetwork,4,video15_person4,20,random,Highly Engage,0.5641025641025641,0.88,0.6875,25
+hypernetwork,4,video15_person4,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video15_person4,20,early,Disengage,0.27906976744186046,0.6666666666666666,0.39344262295081966,36
+hypernetwork,4,video15_person4,20,early,Engage,0.7857142857142857,0.22916666666666666,0.3548387096774194,96
+hypernetwork,4,video15_person4,20,early,Highly Engage,0.5581395348837209,0.9230769230769231,0.6956521739130435,26
+hypernetwork,4,video16_person8,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video16_person8,5,random,Disengage,0.297029702970297,0.75,0.425531914893617,40
+hypernetwork,4,video16_person8,5,random,Engage,0.9230769230769231,0.32727272727272727,0.48322147651006714,110
+hypernetwork,4,video16_person8,5,random,Highly Engage,1.0,0.16666666666666666,0.2857142857142857,12
+hypernetwork,4,video16_person8,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video16_person8,5,early,Disengage,0.21951219512195122,0.5,0.3050847457627119,36
+hypernetwork,4,video16_person8,5,early,Engage,0.8888888888888888,0.2807017543859649,0.4266666666666667,114
+hypernetwork,4,video16_person8,5,early,Highly Engage,1.0,0.08333333333333333,0.15384615384615385,12
+hypernetwork,4,video16_person8,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video16_person8,10,random,Disengage,0.28,0.7368421052631579,0.4057971014492754,38
+hypernetwork,4,video16_person8,10,random,Engage,0.9142857142857143,0.2962962962962963,0.44755244755244755,108
+hypernetwork,4,video16_person8,10,random,Highly Engage,1.0,0.18181818181818182,0.3076923076923077,11
+hypernetwork,4,video16_person8,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video16_person8,10,early,Disengage,0.24719101123595505,0.6285714285714286,0.3548387096774194,35
+hypernetwork,4,video16_person8,10,early,Engage,0.9142857142857143,0.2909090909090909,0.4413793103448276,110
+hypernetwork,4,video16_person8,10,early,Highly Engage,1.0,0.16666666666666666,0.2857142857142857,12
+hypernetwork,4,video16_person8,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video16_person8,20,random,Disengage,0.30097087378640774,0.8857142857142857,0.4492753623188406,35
+hypernetwork,4,video16_person8,20,random,Engage,0.96875,0.30392156862745096,0.4626865671641791,102
+hypernetwork,4,video16_person8,20,random,Highly Engage,0.6666666666666666,0.2,0.3076923076923077,10
+hypernetwork,4,video16_person8,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video16_person8,20,early,Disengage,0.25555555555555554,0.71875,0.3770491803278688,32
+hypernetwork,4,video16_person8,20,early,Engage,0.9166666666666666,0.32038834951456313,0.4748201438848921,103
+hypernetwork,4,video16_person8,20,early,Highly Engage,1.0,0.16666666666666666,0.2857142857142857,12
+hypernetwork,4,video18_person4,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video18_person4,5,random,Disengage,0.16,0.47058823529411764,0.23880597014925373,17
+hypernetwork,4,video18_person4,5,random,Engage,0.9192546583850931,0.7437185929648241,0.8222222222222222,199
+hypernetwork,4,video18_person4,5,random,Highly Engage,0.36363636363636365,0.4444444444444444,0.4,9
+hypernetwork,4,video18_person4,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video18_person4,5,early,Disengage,0.16981132075471697,0.5,0.2535211267605634,18
+hypernetwork,4,video18_person4,5,early,Engage,0.9182389937106918,0.7373737373737373,0.8179271708683473,198
+hypernetwork,4,video18_person4,5,early,Highly Engage,0.36363636363636365,0.4444444444444444,0.4,9
+hypernetwork,4,video18_person4,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video18_person4,10,random,Disengage,0.17647058823529413,0.5294117647058824,0.2647058823529412,17
+hypernetwork,4,video18_person4,10,random,Engage,0.9299363057324841,0.7487179487179487,0.8295454545454546,195
+hypernetwork,4,video18_person4,10,random,Highly Engage,0.36363636363636365,0.5,0.42105263157894735,8
+hypernetwork,4,video18_person4,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video18_person4,10,early,Disengage,0.16666666666666666,0.5,0.25,18
+hypernetwork,4,video18_person4,10,early,Engage,0.9161290322580645,0.7357512953367875,0.8160919540229885,193
+hypernetwork,4,video18_person4,10,early,Highly Engage,0.4,0.4444444444444444,0.42105263157894735,9
+hypernetwork,4,video18_person4,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video18_person4,20,random,Disengage,0.19230769230769232,0.5555555555555556,0.2857142857142857,18
+hypernetwork,4,video18_person4,20,random,Engage,0.9172413793103448,0.726775956284153,0.8109756097560976,183
+hypernetwork,4,video18_person4,20,random,Highly Engage,0.4,0.4444444444444444,0.42105263157894735,9
+hypernetwork,4,video18_person4,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video18_person4,20,early,Disengage,0.16981132075471697,0.5,0.2535211267605634,18
+hypernetwork,4,video18_person4,20,early,Engage,0.912751677852349,0.7391304347826086,0.8168168168168168,184
+hypernetwork,4,video18_person4,20,early,Highly Engage,0.42857142857142855,0.375,0.4,8
+hypernetwork,4,video1_person3,5,random,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,4,video1_person3,5,random,Disengage,0.13513513513513514,0.35714285714285715,0.19607843137254902,14
+hypernetwork,4,video1_person3,5,random,Engage,0.4576271186440678,0.4426229508196721,0.45,61
+hypernetwork,4,video1_person3,5,random,Highly Engage,0.4666666666666667,0.2641509433962264,0.3373493975903614,53
+hypernetwork,4,video1_person3,5,early,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,4,video1_person3,5,early,Disengage,0.14285714285714285,0.3125,0.19607843137254902,16
+hypernetwork,4,video1_person3,5,early,Engage,0.46875,0.4918032786885246,0.48,61
+hypernetwork,4,video1_person3,5,early,Highly Engage,0.5,0.27450980392156865,0.35443037974683544,51
+hypernetwork,4,video1_person3,10,random,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,4,video1_person3,10,random,Disengage,0.11764705882352941,0.2857142857142857,0.16666666666666666,14
+hypernetwork,4,video1_person3,10,random,Engage,0.4642857142857143,0.45614035087719296,0.46017699115044247,57
+hypernetwork,4,video1_person3,10,random,Highly Engage,0.4838709677419355,0.28846153846153844,0.3614457831325301,52
+hypernetwork,4,video1_person3,10,early,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,4,video1_person3,10,early,Disengage,0.14705882352941177,0.3125,0.2,16
+hypernetwork,4,video1_person3,10,early,Engage,0.46774193548387094,0.5,0.48333333333333334,58
+hypernetwork,4,video1_person3,10,early,Highly Engage,0.5,0.2653061224489796,0.3466666666666667,49
+hypernetwork,4,video1_person3,20,random,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,4,video1_person3,20,random,Disengage,0.12121212121212122,0.3076923076923077,0.17391304347826086,13
+hypernetwork,4,video1_person3,20,random,Engage,0.42857142857142855,0.40384615384615385,0.4158415841584158,52
+hypernetwork,4,video1_person3,20,random,Highly Engage,0.5,0.3125,0.38461538461538464,48
+hypernetwork,4,video1_person3,20,early,Highly Disengage,0.0,0.0,0.0,6
+hypernetwork,4,video1_person3,20,early,Disengage,0.14705882352941177,0.3125,0.2,16
+hypernetwork,4,video1_person3,20,early,Engage,0.5,0.509090909090909,0.5045045045045045,55
+hypernetwork,4,video1_person3,20,early,Highly Engage,0.4782608695652174,0.2619047619047619,0.3384615384615385,42
+hypernetwork,4,video5_person3,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video5_person3,5,random,Disengage,0.5652173913043478,0.30952380952380953,0.4,42
+hypernetwork,4,video5_person3,5,random,Engage,0.8333333333333334,0.4069767441860465,0.546875,86
+hypernetwork,4,video5_person3,5,random,Highly Engage,0.2558139534883721,0.9565217391304348,0.4036697247706422,23
+hypernetwork,4,video5_person3,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video5_person3,5,early,Disengage,0.6,0.36585365853658536,0.45454545454545453,41
+hypernetwork,4,video5_person3,5,early,Engage,0.8888888888888888,0.3764705882352941,0.5289256198347108,85
+hypernetwork,4,video5_person3,5,early,Highly Engage,0.2727272727272727,0.96,0.4247787610619469,25
+hypernetwork,4,video5_person3,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video5_person3,10,random,Disengage,0.5,0.32432432432432434,0.39344262295081966,37
+hypernetwork,4,video5_person3,10,random,Engage,0.8378378378378378,0.36046511627906974,0.5040650406504065,86
+hypernetwork,4,video5_person3,10,random,Highly Engage,0.25882352941176473,0.9565217391304348,0.4074074074074074,23
+hypernetwork,4,video5_person3,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video5_person3,10,early,Disengage,0.5714285714285714,0.3076923076923077,0.4,39
+hypernetwork,4,video5_person3,10,early,Engage,0.8157894736842105,0.3780487804878049,0.5166666666666667,82
+hypernetwork,4,video5_person3,10,early,Highly Engage,0.27906976744186046,0.96,0.43243243243243246,25
+hypernetwork,4,video5_person3,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video5_person3,20,random,Disengage,0.5454545454545454,0.32432432432432434,0.4067796610169492,37
+hypernetwork,4,video5_person3,20,random,Engage,0.7941176470588235,0.35526315789473684,0.4909090909090909,76
+hypernetwork,4,video5_person3,20,random,Highly Engage,0.27848101265822783,0.9565217391304348,0.43137254901960786,23
+hypernetwork,4,video5_person3,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video5_person3,20,early,Disengage,0.5789473684210527,0.34375,0.43137254901960786,32
+hypernetwork,4,video5_person3,20,early,Engage,0.8378378378378378,0.3924050632911392,0.5344827586206896,79
+hypernetwork,4,video5_person3,20,early,Highly Engage,0.3037974683544304,0.96,0.46153846153846156,25
+hypernetwork,4,video5_person6,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video5_person6,5,random,Disengage,0.08333333333333333,0.05263157894736842,0.06451612903225806,19
+hypernetwork,4,video5_person6,5,random,Engage,0.8283582089552238,0.9024390243902439,0.8638132295719845,123
+hypernetwork,4,video5_person6,5,random,Highly Engage,1.0,0.2857142857142857,0.4444444444444444,7
+hypernetwork,4,video5_person6,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video5_person6,5,early,Disengage,0.1,0.05263157894736842,0.06896551724137931,19
+hypernetwork,4,video5_person6,5,early,Engage,0.8382352941176471,0.9193548387096774,0.8769230769230769,124
+hypernetwork,4,video5_person6,5,early,Highly Engage,1.0,0.3333333333333333,0.5,6
+hypernetwork,4,video5_person6,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video5_person6,10,random,Disengage,0.08333333333333333,0.05555555555555555,0.06666666666666667,18
+hypernetwork,4,video5_person6,10,random,Engage,0.8294573643410853,0.8991596638655462,0.8629032258064516,119
+hypernetwork,4,video5_person6,10,random,Highly Engage,1.0,0.2857142857142857,0.4444444444444444,7
+hypernetwork,4,video5_person6,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video5_person6,10,early,Disengage,0.1111111111111111,0.05555555555555555,0.07407407407407407,18
+hypernetwork,4,video5_person6,10,early,Engage,0.8409090909090909,0.925,0.8809523809523809,120
+hypernetwork,4,video5_person6,10,early,Highly Engage,1.0,0.3333333333333333,0.5,6
+hypernetwork,4,video5_person6,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video5_person6,20,random,Disengage,0.08333333333333333,0.058823529411764705,0.06896551724137931,17
+hypernetwork,4,video5_person6,20,random,Engage,0.8305084745762712,0.8909090909090909,0.8596491228070176,110
+hypernetwork,4,video5_person6,20,random,Highly Engage,0.75,0.42857142857142855,0.5454545454545454,7
+hypernetwork,4,video5_person6,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video5_person6,20,early,Disengage,0.1,0.05555555555555555,0.07142857142857142,18
+hypernetwork,4,video5_person6,20,early,Engage,0.8264462809917356,0.9090909090909091,0.8658008658008658,110
+hypernetwork,4,video5_person6,20,early,Highly Engage,1.0,0.3333333333333333,0.5,6
+hypernetwork,4,video5_person8,5,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video5_person8,5,random,Disengage,0.5,0.05,0.09090909090909091,20
+hypernetwork,4,video5_person8,5,random,Engage,0.7627118644067796,0.46875,0.5806451612903226,96
+hypernetwork,4,video5_person8,5,random,Highly Engage,0.22972972972972974,0.9444444444444444,0.3695652173913043,18
+hypernetwork,4,video5_person8,5,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,4,video5_person8,5,early,Disengage,0.5,0.09523809523809523,0.16,21
+hypernetwork,4,video5_person8,5,early,Engage,0.7875,0.6631578947368421,0.72,95
+hypernetwork,4,video5_person8,5,early,Highly Engage,0.29411764705882354,0.8823529411764706,0.4411764705882353,17
+hypernetwork,4,video5_person8,10,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video5_person8,10,random,Disengage,0.3333333333333333,0.05,0.08695652173913043,20
+hypernetwork,4,video5_person8,10,random,Engage,0.7555555555555555,0.37777777777777777,0.5037037037037037,90
+hypernetwork,4,video5_person8,10,random,Highly Engage,0.2073170731707317,0.8947368421052632,0.33663366336633666,19
+hypernetwork,4,video5_person8,10,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,4,video5_person8,10,early,Disengage,0.5,0.09523809523809523,0.16,21
+hypernetwork,4,video5_person8,10,early,Engage,0.782051282051282,0.6777777777777778,0.7261904761904762,90
+hypernetwork,4,video5_person8,10,early,Highly Engage,0.3125,0.8823529411764706,0.46153846153846156,17
+hypernetwork,4,video5_person8,20,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video5_person8,20,random,Disengage,0.3333333333333333,0.058823529411764705,0.1,17
+hypernetwork,4,video5_person8,20,random,Engage,0.8048780487804879,0.3793103448275862,0.515625,87
+hypernetwork,4,video5_person8,20,random,Highly Engage,0.17105263157894737,0.8666666666666667,0.2857142857142857,15
+hypernetwork,4,video5_person8,20,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,4,video5_person8,20,early,Disengage,0.5,0.09523809523809523,0.16,21
+hypernetwork,4,video5_person8,20,early,Engage,0.7384615384615385,0.6,0.6620689655172414,80
+hypernetwork,4,video5_person8,20,early,Highly Engage,0.29411764705882354,0.8823529411764706,0.4411764705882353,17
+hypernetwork,4,video6_person1,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video6_person1,5,random,Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video6_person1,5,random,Engage,0.9210526315789473,0.18421052631578946,0.30701754385964913,190
+hypernetwork,4,video6_person1,5,random,Highly Engage,0.1524390243902439,0.9259259259259259,0.2617801047120419,27
+hypernetwork,4,video6_person1,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video6_person1,5,early,Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video6_person1,5,early,Engage,0.925,0.19576719576719576,0.3231441048034934,189
+hypernetwork,4,video6_person1,5,early,Highly Engage,0.15853658536585366,0.9285714285714286,0.2708333333333333,28
+hypernetwork,4,video6_person1,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video6_person1,10,random,Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video6_person1,10,random,Engage,0.9210526315789473,0.1912568306010929,0.3167420814479638,183
+hypernetwork,4,video6_person1,10,random,Highly Engage,0.16875,0.9310344827586207,0.2857142857142857,29
+hypernetwork,4,video6_person1,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video6_person1,10,early,Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video6_person1,10,early,Engage,0.9210526315789473,0.19021739130434784,0.3153153153153153,184
+hypernetwork,4,video6_person1,10,early,Highly Engage,0.16149068322981366,0.9285714285714286,0.2751322751322751,28
+hypernetwork,4,video6_person1,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video6_person1,20,random,Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video6_person1,20,random,Engage,0.9166666666666666,0.1896551724137931,0.3142857142857143,174
+hypernetwork,4,video6_person1,20,random,Highly Engage,0.16993464052287582,0.9285714285714286,0.287292817679558,28
+hypernetwork,4,video6_person1,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video6_person1,20,early,Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video6_person1,20,early,Engage,0.9142857142857143,0.18285714285714286,0.3047619047619048,175
+hypernetwork,4,video6_person1,20,early,Highly Engage,0.16129032258064516,0.9259259259259259,0.27472527472527475,27
+hypernetwork,4,video6_person10,5,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video6_person10,5,random,Disengage,0.26,0.48148148148148145,0.33766233766233766,27
+hypernetwork,4,video6_person10,5,random,Engage,0.9310344827586207,0.32926829268292684,0.4864864864864865,164
+hypernetwork,4,video6_person10,5,random,Highly Engage,0.1625,0.8666666666666667,0.2736842105263158,15
+hypernetwork,4,video6_person10,5,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video6_person10,5,early,Disengage,0.2641509433962264,0.5185185185185185,0.35,27
+hypernetwork,4,video6_person10,5,early,Engage,0.9285714285714286,0.3170731707317073,0.4727272727272727,164
+hypernetwork,4,video6_person10,5,early,Highly Engage,0.15853658536585366,0.8666666666666667,0.26804123711340205,15
+hypernetwork,4,video6_person10,10,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video6_person10,10,random,Disengage,0.2653061224489796,0.52,0.35135135135135137,25
+hypernetwork,4,video6_person10,10,random,Engage,0.9122807017543859,0.32298136645962733,0.47706422018348627,161
+hypernetwork,4,video6_person10,10,random,Highly Engage,0.16049382716049382,0.8666666666666667,0.2708333333333333,15
+hypernetwork,4,video6_person10,10,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video6_person10,10,early,Disengage,0.25,0.5,0.3333333333333333,26
+hypernetwork,4,video6_person10,10,early,Engage,0.9285714285714286,0.325,0.48148148148148145,160
+hypernetwork,4,video6_person10,10,early,Highly Engage,0.16666666666666666,0.8666666666666667,0.27956989247311825,15
+hypernetwork,4,video6_person10,20,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video6_person10,20,random,Disengage,0.24489795918367346,0.48,0.32432432432432434,25
+hypernetwork,4,video6_person10,20,random,Engage,0.9230769230769231,0.31788079470198677,0.4729064039408867,151
+hypernetwork,4,video6_person10,20,random,Highly Engage,0.18055555555555555,0.8666666666666667,0.2988505747126437,15
+hypernetwork,4,video6_person10,20,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,4,video6_person10,20,early,Disengage,0.25,0.5,0.3333333333333333,26
+hypernetwork,4,video6_person10,20,early,Engage,0.9259259259259259,0.33112582781456956,0.4878048780487805,151
+hypernetwork,4,video6_person10,20,early,Highly Engage,0.16901408450704225,0.8571428571428571,0.2823529411764706,14
+hypernetwork,4,video6_person2,5,random,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,4,video6_person2,5,random,Disengage,0.45454545454545453,0.21739130434782608,0.29411764705882354,23
+hypernetwork,4,video6_person2,5,random,Engage,0.875,0.7865168539325843,0.8284023668639053,178
+hypernetwork,4,video6_person2,5,random,Highly Engage,0.23809523809523808,0.625,0.3448275862068966,16
+hypernetwork,4,video6_person2,5,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,4,video6_person2,5,early,Disengage,0.5,0.23809523809523808,0.3225806451612903,21
+hypernetwork,4,video6_person2,5,early,Engage,0.8773006134969326,0.7900552486187845,0.8313953488372093,181
+hypernetwork,4,video6_person2,5,early,Highly Engage,0.21052631578947367,0.5333333333333333,0.3018867924528302,15
+hypernetwork,4,video6_person2,10,random,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,4,video6_person2,10,random,Disengage,0.5,0.25,0.3333333333333333,20
+hypernetwork,4,video6_person2,10,random,Engage,0.8838709677419355,0.7740112994350282,0.8253012048192772,177
+hypernetwork,4,video6_person2,10,random,Highly Engage,0.21951219512195122,0.6,0.32142857142857145,15
+hypernetwork,4,video6_person2,10,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,4,video6_person2,10,early,Disengage,0.4444444444444444,0.25,0.32,16
+hypernetwork,4,video6_person2,10,early,Engage,0.89937106918239,0.7900552486187845,0.8411764705882353,181
+hypernetwork,4,video6_person2,10,early,Highly Engage,0.21052631578947367,0.5333333333333333,0.3018867924528302,15
+hypernetwork,4,video6_person2,20,random,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,4,video6_person2,20,random,Disengage,0.5,0.22727272727272727,0.3125,22
+hypernetwork,4,video6_person2,20,random,Engage,0.8707482993197279,0.7757575757575758,0.8205128205128205,165
+hypernetwork,4,video6_person2,20,random,Highly Engage,0.23076923076923078,0.6,0.3333333333333333,15
+hypernetwork,4,video6_person2,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,4,video6_person2,20,early,Disengage,0.4444444444444444,0.25,0.32,16
+hypernetwork,4,video6_person2,20,early,Engage,0.9139072847682119,0.7885714285714286,0.8466257668711656,175
+hypernetwork,4,video6_person2,20,early,Highly Engage,0.19444444444444445,0.5384615384615384,0.2857142857142857,13
+hypernetwork,4,video7_person10,5,random,Highly Disengage,0.43283582089552236,0.4393939393939394,0.43609022556390975,66
+hypernetwork,4,video7_person10,5,random,Disengage,0.17699115044247787,0.45454545454545453,0.25477707006369427,44
+hypernetwork,4,video7_person10,5,random,Engage,0.5,0.17307692307692307,0.2571428571428571,104
+hypernetwork,4,video7_person10,5,random,Highly Engage,0.6842105263157895,0.6190476190476191,0.65,21
+hypernetwork,4,video7_person10,5,early,Highly Disengage,0.4044943820224719,0.5625,0.47058823529411764,64
+hypernetwork,4,video7_person10,5,early,Disengage,0.15789473684210525,0.3409090909090909,0.2158273381294964,44
+hypernetwork,4,video7_person10,5,early,Engage,0.5588235294117647,0.1792452830188679,0.2714285714285714,106
+hypernetwork,4,video7_person10,5,early,Highly Engage,0.7058823529411765,0.5714285714285714,0.631578947368421,21
+hypernetwork,4,video7_person10,10,random,Highly Disengage,0.4155844155844156,0.48484848484848486,0.44755244755244755,66
+hypernetwork,4,video7_person10,10,random,Disengage,0.15,0.35714285714285715,0.2112676056338028,42
+hypernetwork,4,video7_person10,10,random,Engage,0.4857142857142857,0.16831683168316833,0.25,101
+hypernetwork,4,video7_person10,10,random,Highly Engage,0.6666666666666666,0.5714285714285714,0.6153846153846154,21
+hypernetwork,4,video7_person10,10,early,Highly Disengage,0.4111111111111111,0.578125,0.4805194805194805,64
+hypernetwork,4,video7_person10,10,early,Disengage,0.15384615384615385,0.3333333333333333,0.21052631578947367,42
+hypernetwork,4,video7_person10,10,early,Engage,0.5757575757575758,0.18269230769230768,0.2773722627737226,104
+hypernetwork,4,video7_person10,10,early,Highly Engage,0.6875,0.55,0.6111111111111112,20
+hypernetwork,4,video7_person10,20,random,Highly Disengage,0.453125,0.453125,0.453125,64
+hypernetwork,4,video7_person10,20,random,Disengage,0.1650485436893204,0.425,0.23776223776223776,40
+hypernetwork,4,video7_person10,20,random,Engage,0.5,0.18181818181818182,0.26666666666666666,99
+hypernetwork,4,video7_person10,20,random,Highly Engage,0.6470588235294118,0.6470588235294118,0.6470588235294118,17
+hypernetwork,4,video7_person10,20,early,Highly Disengage,0.4111111111111111,0.5873015873015873,0.48366013071895425,63
+hypernetwork,4,video7_person10,20,early,Disengage,0.15555555555555556,0.3783783783783784,0.2204724409448819,37
+hypernetwork,4,video7_person10,20,early,Engage,0.6666666666666666,0.16,0.25806451612903225,100
+hypernetwork,4,video7_person10,20,early,Highly Engage,0.6875,0.55,0.6111111111111112,20
+hypernetwork,4,video7_person6,5,random,Highly Disengage,0.008,1.0,0.015873015873015872,1
+hypernetwork,4,video7_person6,5,random,Disengage,0.21875,0.1076923076923077,0.14432989690721648,65
+hypernetwork,4,video7_person6,5,random,Engage,0.6888888888888889,0.36904761904761907,0.4806201550387597,168
+hypernetwork,4,video7_person6,5,random,Highly Engage,0.7692307692307693,0.38461538461538464,0.5128205128205128,26
+hypernetwork,4,video7_person6,5,early,Highly Disengage,0.008264462809917356,1.0,0.01639344262295082,1
+hypernetwork,4,video7_person6,5,early,Disengage,0.23684210526315788,0.140625,0.17647058823529413,64
+hypernetwork,4,video7_person6,5,early,Engage,0.6818181818181818,0.35502958579881655,0.4669260700389105,169
+hypernetwork,4,video7_person6,5,early,Highly Engage,0.7692307692307693,0.38461538461538464,0.5128205128205128,26
+hypernetwork,4,video7_person6,10,random,Highly Disengage,0.008403361344537815,1.0,0.016666666666666666,1
+hypernetwork,4,video7_person6,10,random,Disengage,0.2222222222222222,0.12903225806451613,0.16326530612244897,62
+hypernetwork,4,video7_person6,10,random,Engage,0.6896551724137931,0.3592814371257485,0.47244094488188976,167
+hypernetwork,4,video7_person6,10,random,Highly Engage,0.7692307692307693,0.4,0.5263157894736842,25
+hypernetwork,4,video7_person6,10,early,Highly Disengage,0.008695652173913044,1.0,0.017241379310344827,1
+hypernetwork,4,video7_person6,10,early,Disengage,0.24390243902439024,0.15873015873015872,0.19230769230769232,63
+hypernetwork,4,video7_person6,10,early,Engage,0.6781609195402298,0.3575757575757576,0.46825396825396826,165
+hypernetwork,4,video7_person6,10,early,Highly Engage,0.8333333333333334,0.38461538461538464,0.5263157894736842,26
+hypernetwork,4,video7_person6,20,random,Highly Disengage,0.008695652173913044,1.0,0.017241379310344827,1
+hypernetwork,4,video7_person6,20,random,Disengage,0.22580645161290322,0.1111111111111111,0.14893617021276595,63
+hypernetwork,4,video7_person6,20,random,Engage,0.686046511627907,0.37579617834394907,0.48559670781893005,157
+hypernetwork,4,video7_person6,20,random,Highly Engage,0.7692307692307693,0.4166666666666667,0.5405405405405406,24
+hypernetwork,4,video7_person6,20,early,Highly Disengage,0.009345794392523364,1.0,0.018518518518518517,1
+hypernetwork,4,video7_person6,20,early,Disengage,0.24390243902439024,0.1724137931034483,0.20202020202020202,58
+hypernetwork,4,video7_person6,20,early,Engage,0.686046511627907,0.36419753086419754,0.47580645161290325,162
+hypernetwork,4,video7_person6,20,early,Highly Engage,0.8181818181818182,0.375,0.5142857142857142,24
+hypernetwork,5,video10_person13,5,random,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,5,video10_person13,5,random,Disengage,0.09090909090909091,0.2,0.125,5
+hypernetwork,5,video10_person13,5,random,Engage,0.9344262295081968,0.8636363636363636,0.8976377952755905,66
+hypernetwork,5,video10_person13,5,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person13,5,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,5,video10_person13,5,early,Disengage,0.09090909090909091,0.16666666666666666,0.11764705882352941,6
+hypernetwork,5,video10_person13,5,early,Engage,0.9016393442622951,0.859375,0.88,64
+hypernetwork,5,video10_person13,5,early,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,5,video10_person13,10,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video10_person13,10,random,Disengage,0.125,0.2,0.15384615384615385,5
+hypernetwork,5,video10_person13,10,random,Engage,0.9152542372881356,0.8852459016393442,0.9,61
+hypernetwork,5,video10_person13,10,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,5,video10_person13,10,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,5,video10_person13,10,early,Disengage,0.1,0.16666666666666666,0.125,6
+hypernetwork,5,video10_person13,10,early,Engage,0.8947368421052632,0.864406779661017,0.8793103448275862,59
+hypernetwork,5,video10_person13,10,early,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,5,video10_person13,20,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video10_person13,20,random,Disengage,0.125,0.25,0.16666666666666666,4
+hypernetwork,5,video10_person13,20,random,Engage,0.9183673469387755,0.8653846153846154,0.8910891089108911,52
+hypernetwork,5,video10_person13,20,random,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,5,video10_person13,20,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,5,video10_person13,20,early,Disengage,0.08333333333333333,0.2,0.11764705882352941,5
+hypernetwork,5,video10_person13,20,early,Engage,0.8888888888888888,0.8,0.8421052631578947,50
+hypernetwork,5,video10_person13,20,early,Highly Engage,0.0,0.0,0.0,1
+hypernetwork,5,video10_person15,5,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video10_person15,5,random,Disengage,0.4838709677419355,0.75,0.5882352941176471,20
+hypernetwork,5,video10_person15,5,random,Engage,0.7380952380952381,0.6595744680851063,0.6966292134831461,47
+hypernetwork,5,video10_person15,5,random,Highly Engage,0.8333333333333334,0.45454545454545453,0.5882352941176471,11
+hypernetwork,5,video10_person15,5,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video10_person15,5,early,Disengage,0.41379310344827586,0.6666666666666666,0.5106382978723404,18
+hypernetwork,5,video10_person15,5,early,Engage,0.7619047619047619,0.64,0.6956521739130435,50
+hypernetwork,5,video10_person15,5,early,Highly Engage,0.75,0.6,0.6666666666666666,10
+hypernetwork,5,video10_person15,10,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video10_person15,10,random,Disengage,0.3870967741935484,0.75,0.5106382978723404,16
+hypernetwork,5,video10_person15,10,random,Engage,0.7894736842105263,0.625,0.6976744186046512,48
+hypernetwork,5,video10_person15,10,random,Highly Engage,0.8,0.4444444444444444,0.5714285714285714,9
+hypernetwork,5,video10_person15,10,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video10_person15,10,early,Disengage,0.5,0.6666666666666666,0.5714285714285714,18
+hypernetwork,5,video10_person15,10,early,Engage,0.7674418604651163,0.7333333333333333,0.75,45
+hypernetwork,5,video10_person15,10,early,Highly Engage,0.8571428571428571,0.6,0.7058823529411765,10
+hypernetwork,5,video10_person15,20,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video10_person15,20,random,Disengage,0.45454545454545453,0.7142857142857143,0.5555555555555556,14
+hypernetwork,5,video10_person15,20,random,Engage,0.7297297297297297,0.6923076923076923,0.7105263157894737,39
+hypernetwork,5,video10_person15,20,random,Highly Engage,0.8,0.4,0.5333333333333333,10
+hypernetwork,5,video10_person15,20,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video10_person15,20,early,Disengage,0.4444444444444444,0.5714285714285714,0.5,14
+hypernetwork,5,video10_person15,20,early,Engage,0.725,0.7435897435897436,0.7341772151898734,39
+hypernetwork,5,video10_person15,20,early,Highly Engage,0.8333333333333334,0.5,0.625,10
+hypernetwork,5,video10_person18,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person18,5,random,Disengage,0.0,0.0,0.0,15
+hypernetwork,5,video10_person18,5,random,Engage,0.765625,0.9074074074074074,0.8305084745762712,54
+hypernetwork,5,video10_person18,5,random,Highly Engage,0.5714285714285714,0.8888888888888888,0.6956521739130435,9
+hypernetwork,5,video10_person18,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person18,5,early,Disengage,0.0,0.0,0.0,17
+hypernetwork,5,video10_person18,5,early,Engage,0.7384615384615385,0.9056603773584906,0.8135593220338984,53
+hypernetwork,5,video10_person18,5,early,Highly Engage,0.5384615384615384,0.875,0.6666666666666666,8
+hypernetwork,5,video10_person18,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person18,10,random,Disengage,0.0,0.0,0.0,14
+hypernetwork,5,video10_person18,10,random,Engage,0.7666666666666667,0.9019607843137255,0.8288288288288288,51
+hypernetwork,5,video10_person18,10,random,Highly Engage,0.5384615384615384,0.875,0.6666666666666666,8
+hypernetwork,5,video10_person18,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person18,10,early,Disengage,0.0,0.0,0.0,15
+hypernetwork,5,video10_person18,10,early,Engage,0.75,0.9,0.8181818181818182,50
+hypernetwork,5,video10_person18,10,early,Highly Engage,0.5384615384615384,0.875,0.6666666666666666,8
+hypernetwork,5,video10_person18,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person18,20,random,Disengage,0.0,0.0,0.0,13
+hypernetwork,5,video10_person18,20,random,Engage,0.7450980392156863,0.8837209302325582,0.8085106382978723,43
+hypernetwork,5,video10_person18,20,random,Highly Engage,0.5,0.8571428571428571,0.631578947368421,7
+hypernetwork,5,video10_person18,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person18,20,early,Disengage,0.0,0.0,0.0,14
+hypernetwork,5,video10_person18,20,early,Engage,0.72,0.8780487804878049,0.7912087912087912,41
+hypernetwork,5,video10_person18,20,early,Highly Engage,0.5384615384615384,0.875,0.6666666666666666,8
+hypernetwork,5,video10_person30,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person30,5,random,Disengage,0.25,0.14285714285714285,0.18181818181818182,14
+hypernetwork,5,video10_person30,5,random,Engage,1.0,0.027777777777777776,0.05405405405405406,36
+hypernetwork,5,video10_person30,5,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person30,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person30,5,early,Disengage,0.2,0.09090909090909091,0.125,11
+hypernetwork,5,video10_person30,5,early,Engage,1.0,0.02564102564102564,0.05,39
+hypernetwork,5,video10_person30,5,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person30,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person30,10,random,Disengage,0.2,0.07142857142857142,0.10526315789473684,14
+hypernetwork,5,video10_person30,10,random,Engage,1.0,0.03225806451612903,0.0625,31
+hypernetwork,5,video10_person30,10,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person30,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person30,10,early,Disengage,0.2857142857142857,0.2222222222222222,0.25,9
+hypernetwork,5,video10_person30,10,early,Engage,1.0,0.027777777777777776,0.05405405405405406,36
+hypernetwork,5,video10_person30,10,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person30,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person30,20,random,Disengage,0.2,0.1111111111111111,0.14285714285714285,9
+hypernetwork,5,video10_person30,20,random,Engage,0.0,0.0,0.0,26
+hypernetwork,5,video10_person30,20,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person30,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video10_person30,20,early,Disengage,0.3333333333333333,0.2,0.25,5
+hypernetwork,5,video10_person30,20,early,Engage,1.0,0.03333333333333333,0.06451612903225806,30
+hypernetwork,5,video10_person30,20,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person10,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person10,5,random,Disengage,0.15384615384615385,0.5,0.23529411764705882,8
+hypernetwork,5,video14_person10,5,random,Engage,0.7777777777777778,0.19444444444444445,0.3111111111111111,36
+hypernetwork,5,video14_person10,5,random,Highly Engage,0.23076923076923078,0.75,0.35294117647058826,4
+hypernetwork,5,video14_person10,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person10,5,early,Disengage,0.2222222222222222,0.6,0.32432432432432434,10
+hypernetwork,5,video14_person10,5,early,Engage,0.7,0.2,0.3111111111111111,35
+hypernetwork,5,video14_person10,5,early,Highly Engage,0.18181818181818182,0.6666666666666666,0.2857142857142857,3
+hypernetwork,5,video14_person10,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person10,10,random,Disengage,0.2857142857142857,0.6,0.3870967741935484,10
+hypernetwork,5,video14_person10,10,random,Engage,0.8,0.26666666666666666,0.4,30
+hypernetwork,5,video14_person10,10,random,Highly Engage,0.16666666666666666,0.6666666666666666,0.26666666666666666,3
+hypernetwork,5,video14_person10,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person10,10,early,Disengage,0.23076923076923078,0.6,0.3333333333333333,10
+hypernetwork,5,video14_person10,10,early,Engage,0.6666666666666666,0.2,0.3076923076923077,30
+hypernetwork,5,video14_person10,10,early,Highly Engage,0.25,0.6666666666666666,0.36363636363636365,3
+hypernetwork,5,video14_person10,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person10,20,random,Disengage,0.26666666666666666,0.6666666666666666,0.38095238095238093,6
+hypernetwork,5,video14_person10,20,random,Engage,1.0,0.21739130434782608,0.35714285714285715,23
+hypernetwork,5,video14_person10,20,random,Highly Engage,0.23076923076923078,0.75,0.35294117647058826,4
+hypernetwork,5,video14_person10,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person10,20,early,Disengage,0.2222222222222222,0.5,0.3076923076923077,8
+hypernetwork,5,video14_person10,20,early,Engage,0.5714285714285714,0.18181818181818182,0.27586206896551724,22
+hypernetwork,5,video14_person10,20,early,Highly Engage,0.25,0.6666666666666666,0.36363636363636365,3
+hypernetwork,5,video14_person3,5,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video14_person3,5,random,Disengage,0.2222222222222222,0.5714285714285714,0.32,7
+hypernetwork,5,video14_person3,5,random,Engage,0.8275862068965517,0.5106382978723404,0.631578947368421,47
+hypernetwork,5,video14_person3,5,random,Highly Engage,0.1,0.5,0.16666666666666666,2
+hypernetwork,5,video14_person3,5,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video14_person3,5,early,Disengage,0.21052631578947367,0.5,0.2962962962962963,8
+hypernetwork,5,video14_person3,5,early,Engage,0.8064516129032258,0.5434782608695652,0.6493506493506493,46
+hypernetwork,5,video14_person3,5,early,Highly Engage,0.14285714285714285,0.5,0.2222222222222222,2
+hypernetwork,5,video14_person3,10,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video14_person3,10,random,Disengage,0.3125,0.625,0.4166666666666667,8
+hypernetwork,5,video14_person3,10,random,Engage,0.8148148148148148,0.5365853658536586,0.6470588235294118,41
+hypernetwork,5,video14_person3,10,random,Highly Engage,0.1111111111111111,0.5,0.18181818181818182,2
+hypernetwork,5,video14_person3,10,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video14_person3,10,early,Disengage,0.25,0.625,0.35714285714285715,8
+hypernetwork,5,video14_person3,10,early,Engage,0.8,0.4878048780487805,0.6060606060606061,41
+hypernetwork,5,video14_person3,10,early,Highly Engage,0.14285714285714285,0.5,0.2222222222222222,2
+hypernetwork,5,video14_person3,20,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video14_person3,20,random,Disengage,0.14285714285714285,0.6666666666666666,0.23529411764705882,3
+hypernetwork,5,video14_person3,20,random,Engage,0.9,0.4864864864864865,0.631578947368421,37
+hypernetwork,5,video14_person3,20,random,Highly Engage,0.125,1.0,0.2222222222222222,1
+hypernetwork,5,video14_person3,20,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video14_person3,20,early,Disengage,0.2777777777777778,0.625,0.38461538461538464,8
+hypernetwork,5,video14_person3,20,early,Engage,0.7894736842105263,0.46875,0.5882352941176471,32
+hypernetwork,5,video14_person3,20,early,Highly Engage,0.2,1.0,0.3333333333333333,1
+hypernetwork,5,video14_person5,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person5,5,random,Disengage,0.2,0.5,0.2857142857142857,6
+hypernetwork,5,video14_person5,5,random,Engage,0.9142857142857143,0.7272727272727273,0.810126582278481,44
+hypernetwork,5,video14_person5,5,random,Highly Engage,1.0,1.0,1.0,1
+hypernetwork,5,video14_person5,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person5,5,early,Disengage,0.2,0.5,0.2857142857142857,6
+hypernetwork,5,video14_person5,5,early,Engage,0.9166666666666666,0.7333333333333333,0.8148148148148148,45
+hypernetwork,5,video14_person5,5,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person5,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person5,10,random,Disengage,0.3,0.5,0.375,6
+hypernetwork,5,video14_person5,10,random,Engage,0.9142857142857143,0.8205128205128205,0.8648648648648649,39
+hypernetwork,5,video14_person5,10,random,Highly Engage,1.0,1.0,1.0,1
+hypernetwork,5,video14_person5,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person5,10,early,Disengage,0.09090909090909091,0.25,0.13333333333333333,4
+hypernetwork,5,video14_person5,10,early,Engage,0.9142857142857143,0.7619047619047619,0.8311688311688312,42
+hypernetwork,5,video14_person5,10,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person5,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person5,20,random,Disengage,0.2222222222222222,1.0,0.36363636363636365,2
+hypernetwork,5,video14_person5,20,random,Engage,1.0,0.7941176470588235,0.8852459016393442,34
+hypernetwork,5,video14_person5,20,random,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person5,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video14_person5,20,early,Disengage,0.0,0.0,0.0,3
+hypernetwork,5,video14_person5,20,early,Engage,0.9,0.8181818181818182,0.8571428571428571,33
+hypernetwork,5,video14_person5,20,early,Highly Engage,0.0,0.0,0.0,0
+hypernetwork,5,video16_person1,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video16_person1,5,random,Disengage,0.43902439024390244,0.5625,0.4931506849315068,32
+hypernetwork,5,video16_person1,5,random,Engage,0.859375,0.5670103092783505,0.6832298136645962,97
+hypernetwork,5,video16_person1,5,random,Highly Engage,0.20689655172413793,0.8571428571428571,0.3333333333333333,7
+hypernetwork,5,video16_person1,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video16_person1,5,early,Disengage,0.40476190476190477,0.5483870967741935,0.4657534246575342,31
+hypernetwork,5,video16_person1,5,early,Engage,0.859375,0.5612244897959183,0.6790123456790124,98
+hypernetwork,5,video16_person1,5,early,Highly Engage,0.17857142857142858,0.7142857142857143,0.2857142857142857,7
+hypernetwork,5,video16_person1,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video16_person1,10,random,Disengage,0.4146341463414634,0.6071428571428571,0.4927536231884058,28
+hypernetwork,5,video16_person1,10,random,Engage,0.8833333333333333,0.5520833333333334,0.6794871794871795,96
+hypernetwork,5,video16_person1,10,random,Highly Engage,0.21428571428571427,0.8571428571428571,0.34285714285714286,7
+hypernetwork,5,video16_person1,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video16_person1,10,early,Disengage,0.38461538461538464,0.5172413793103449,0.4411764705882353,29
+hypernetwork,5,video16_person1,10,early,Engage,0.8548387096774194,0.5578947368421052,0.6751592356687898,95
+hypernetwork,5,video16_person1,10,early,Highly Engage,0.17857142857142858,0.7142857142857143,0.2857142857142857,7
+hypernetwork,5,video16_person1,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video16_person1,20,random,Disengage,0.39473684210526316,0.5769230769230769,0.46875,26
+hypernetwork,5,video16_person1,20,random,Engage,0.8888888888888888,0.5517241379310345,0.6808510638297872,87
+hypernetwork,5,video16_person1,20,random,Highly Engage,0.2222222222222222,0.75,0.34285714285714286,8
+hypernetwork,5,video16_person1,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video16_person1,20,early,Disengage,0.39473684210526316,0.5172413793103449,0.44776119402985076,29
+hypernetwork,5,video16_person1,20,early,Engage,0.8301886792452831,0.5176470588235295,0.6376811594202898,85
+hypernetwork,5,video16_person1,20,early,Highly Engage,0.17857142857142858,0.7142857142857143,0.2857142857142857,7
+hypernetwork,5,video16_person5,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video16_person5,5,random,Disengage,0.3333333333333333,0.5555555555555556,0.4166666666666667,9
+hypernetwork,5,video16_person5,5,random,Engage,0.9294117647058824,0.8061224489795918,0.8633879781420765,98
+hypernetwork,5,video16_person5,5,random,Highly Engage,0.7272727272727273,0.8275862068965517,0.7741935483870968,29
+hypernetwork,5,video16_person5,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video16_person5,5,early,Disengage,0.26666666666666666,0.6666666666666666,0.38095238095238093,6
+hypernetwork,5,video16_person5,5,early,Engage,0.9302325581395349,0.8,0.8602150537634409,100
+hypernetwork,5,video16_person5,5,early,Highly Engage,0.7352941176470589,0.8333333333333334,0.78125,30
+hypernetwork,5,video16_person5,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video16_person5,10,random,Disengage,0.3125,0.5555555555555556,0.4,9
+hypernetwork,5,video16_person5,10,random,Engage,0.9506172839506173,0.7938144329896907,0.8651685393258427,97
+hypernetwork,5,video16_person5,10,random,Highly Engage,0.7096774193548387,0.88,0.7857142857142857,25
+hypernetwork,5,video16_person5,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video16_person5,10,early,Disengage,0.26666666666666666,0.8,0.4,5
+hypernetwork,5,video16_person5,10,early,Engage,0.926829268292683,0.7916666666666666,0.8539325842696629,96
+hypernetwork,5,video16_person5,10,early,Highly Engage,0.7352941176470589,0.8333333333333334,0.78125,30
+hypernetwork,5,video16_person5,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video16_person5,20,random,Disengage,0.2857142857142857,0.5,0.36363636363636365,8
+hypernetwork,5,video16_person5,20,random,Engage,0.9342105263157895,0.7888888888888889,0.8554216867469879,90
+hypernetwork,5,video16_person5,20,random,Highly Engage,0.6785714285714286,0.8260869565217391,0.7450980392156863,23
+hypernetwork,5,video16_person5,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video16_person5,20,early,Disengage,0.21428571428571427,0.75,0.3333333333333333,4
+hypernetwork,5,video16_person5,20,early,Engage,0.9324324324324325,0.7840909090909091,0.8518518518518519,88
+hypernetwork,5,video16_person5,20,early,Highly Engage,0.7575757575757576,0.8620689655172413,0.8064516129032258,29
+hypernetwork,5,video18_person2,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video18_person2,5,random,Disengage,0.7142857142857143,0.5555555555555556,0.625,9
+hypernetwork,5,video18_person2,5,random,Engage,0.9307692307692308,0.8642857142857143,0.8962962962962963,140
+hypernetwork,5,video18_person2,5,random,Highly Engage,0.5405405405405406,0.8,0.6451612903225806,25
+hypernetwork,5,video18_person2,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video18_person2,5,early,Disengage,0.7142857142857143,0.5555555555555556,0.625,9
+hypernetwork,5,video18_person2,5,early,Engage,0.9296875,0.8561151079136691,0.8913857677902621,139
+hypernetwork,5,video18_person2,5,early,Highly Engage,0.5384615384615384,0.8076923076923077,0.6461538461538462,26
+hypernetwork,5,video18_person2,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video18_person2,10,random,Disengage,0.7142857142857143,0.5555555555555556,0.625,9
+hypernetwork,5,video18_person2,10,random,Engage,0.9365079365079365,0.8676470588235294,0.9007633587786259,136
+hypernetwork,5,video18_person2,10,random,Highly Engage,0.5555555555555556,0.8333333333333334,0.6666666666666666,24
+hypernetwork,5,video18_person2,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video18_person2,10,early,Disengage,0.6666666666666666,0.5,0.5714285714285714,8
+hypernetwork,5,video18_person2,10,early,Engage,0.928,0.8592592592592593,0.8923076923076924,135
+hypernetwork,5,video18_person2,10,early,Highly Engage,0.5526315789473685,0.8076923076923077,0.65625,26
+hypernetwork,5,video18_person2,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video18_person2,20,random,Disengage,0.7142857142857143,0.625,0.6666666666666666,8
+hypernetwork,5,video18_person2,20,random,Engage,0.9333333333333333,0.8682170542635659,0.8995983935742972,129
+hypernetwork,5,video18_person2,20,random,Highly Engage,0.53125,0.7727272727272727,0.6296296296296297,22
+hypernetwork,5,video18_person2,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video18_person2,20,early,Disengage,0.6,0.42857142857142855,0.5,7
+hypernetwork,5,video18_person2,20,early,Engage,0.9224137931034483,0.8492063492063492,0.8842975206611571,126
+hypernetwork,5,video18_person2,20,early,Highly Engage,0.5526315789473685,0.8076923076923077,0.65625,26
+hypernetwork,5,video18_person3,5,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video18_person3,5,random,Disengage,0.34782608695652173,0.2962962962962963,0.32,27
+hypernetwork,5,video18_person3,5,random,Engage,0.8818897637795275,0.64,0.7417218543046358,175
+hypernetwork,5,video18_person3,5,random,Highly Engage,0.25675675675675674,0.8636363636363636,0.3958333333333333,22
+hypernetwork,5,video18_person3,5,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video18_person3,5,early,Disengage,0.3333333333333333,0.3076923076923077,0.32,26
+hypernetwork,5,video18_person3,5,early,Engage,0.8828125,0.6420454545454546,0.743421052631579,176
+hypernetwork,5,video18_person3,5,early,Highly Engage,0.2638888888888889,0.8636363636363636,0.40425531914893614,22
+hypernetwork,5,video18_person3,10,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video18_person3,10,random,Disengage,0.3181818181818182,0.2692307692307692,0.2916666666666667,26
+hypernetwork,5,video18_person3,10,random,Engage,0.88,0.6358381502890174,0.738255033557047,173
+hypernetwork,5,video18_person3,10,random,Highly Engage,0.25,0.9,0.391304347826087,20
+hypernetwork,5,video18_person3,10,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video18_person3,10,early,Disengage,0.32,0.3076923076923077,0.3137254901960784,26
+hypernetwork,5,video18_person3,10,early,Engage,0.88,0.6432748538011696,0.7432432432432432,171
+hypernetwork,5,video18_person3,10,early,Highly Engage,0.2753623188405797,0.8636363636363636,0.4175824175824176,22
+hypernetwork,5,video18_person3,20,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video18_person3,20,random,Disengage,0.30434782608695654,0.30434782608695654,0.30434782608695654,23
+hypernetwork,5,video18_person3,20,random,Engage,0.8813559322033898,0.6265060240963856,0.7323943661971831,166
+hypernetwork,5,video18_person3,20,random,Highly Engage,0.25,0.85,0.38636363636363635,20
+hypernetwork,5,video18_person3,20,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video18_person3,20,early,Disengage,0.34782608695652173,0.32,0.3333333333333333,25
+hypernetwork,5,video18_person3,20,early,Engage,0.8739495798319328,0.6380368098159509,0.7375886524822695,163
+hypernetwork,5,video18_person3,20,early,Highly Engage,0.26865671641791045,0.8571428571428571,0.4090909090909091,21
+hypernetwork,5,video1_person2,5,random,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,5,video1_person2,5,random,Disengage,0.34328358208955223,0.7666666666666667,0.4742268041237113,30
+hypernetwork,5,video1_person2,5,random,Engage,0.6046511627906976,0.36619718309859156,0.45614035087719296,71
+hypernetwork,5,video1_person2,5,random,Highly Engage,0.26666666666666666,0.18181818181818182,0.21621621621621623,22
+hypernetwork,5,video1_person2,5,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,5,video1_person2,5,early,Disengage,0.35384615384615387,0.7666666666666667,0.4842105263157895,30
+hypernetwork,5,video1_person2,5,early,Engage,0.6222222222222222,0.3888888888888889,0.47863247863247865,72
+hypernetwork,5,video1_person2,5,early,Highly Engage,0.26666666666666666,0.19047619047619047,0.2222222222222222,21
+hypernetwork,5,video1_person2,10,random,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,5,video1_person2,10,random,Disengage,0.3484848484848485,0.7666666666666667,0.4791666666666667,30
+hypernetwork,5,video1_person2,10,random,Engage,0.6,0.34782608695652173,0.44036697247706424,69
+hypernetwork,5,video1_person2,10,random,Highly Engage,0.2857142857142857,0.21052631578947367,0.24242424242424243,19
+hypernetwork,5,video1_person2,10,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,5,video1_person2,10,early,Disengage,0.3548387096774194,0.7586206896551724,0.4835164835164835,29
+hypernetwork,5,video1_person2,10,early,Engage,0.6046511627906976,0.38235294117647056,0.46846846846846846,68
+hypernetwork,5,video1_person2,10,early,Highly Engage,0.26666666666666666,0.19047619047619047,0.2222222222222222,21
+hypernetwork,5,video1_person2,20,random,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,5,video1_person2,20,random,Disengage,0.3225806451612903,0.8,0.45977011494252873,25
+hypernetwork,5,video1_person2,20,random,Engage,0.6052631578947368,0.35384615384615387,0.44660194174757284,65
+hypernetwork,5,video1_person2,20,random,Highly Engage,0.2,0.1111111111111111,0.14285714285714285,18
+hypernetwork,5,video1_person2,20,early,Highly Disengage,0.0,0.0,0.0,2
+hypernetwork,5,video1_person2,20,early,Disengage,0.3333333333333333,0.7307692307692307,0.4578313253012048,26
+hypernetwork,5,video1_person2,20,early,Engage,0.5897435897435898,0.36507936507936506,0.45098039215686275,63
+hypernetwork,5,video1_person2,20,early,Highly Engage,0.21428571428571427,0.15789473684210525,0.18181818181818182,19
+hypernetwork,5,video1_person5,5,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video1_person5,5,random,Disengage,0.038461538461538464,0.3333333333333333,0.06896551724137931,3
+hypernetwork,5,video1_person5,5,random,Engage,0.8,0.18181818181818182,0.2962962962962963,44
+hypernetwork,5,video1_person5,5,random,Highly Engage,0.40625,0.5909090909090909,0.48148148148148145,22
+hypernetwork,5,video1_person5,5,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video1_person5,5,early,Disengage,0.1111111111111111,0.6,0.1875,5
+hypernetwork,5,video1_person5,5,early,Engage,0.875,0.15555555555555556,0.2641509433962264,45
+hypernetwork,5,video1_person5,5,early,Highly Engage,0.3333333333333333,0.5263157894736842,0.40816326530612246,19
+hypernetwork,5,video1_person5,10,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video1_person5,10,random,Disengage,0.12,0.6,0.2,5
+hypernetwork,5,video1_person5,10,random,Engage,1.0,0.14634146341463414,0.2553191489361702,41
+hypernetwork,5,video1_person5,10,random,Highly Engage,0.4074074074074074,0.6111111111111112,0.4888888888888889,18
+hypernetwork,5,video1_person5,10,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video1_person5,10,early,Disengage,0.12,0.6,0.2,5
+hypernetwork,5,video1_person5,10,early,Engage,0.875,0.1590909090909091,0.2692307692307692,44
+hypernetwork,5,video1_person5,10,early,Highly Engage,0.3333333333333333,0.6666666666666666,0.4444444444444444,15
+hypernetwork,5,video1_person5,20,random,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video1_person5,20,random,Disengage,0.1,0.5,0.16666666666666666,4
+hypernetwork,5,video1_person5,20,random,Engage,0.8571428571428571,0.16666666666666666,0.27906976744186046,36
+hypernetwork,5,video1_person5,20,random,Highly Engage,0.34782608695652173,0.5714285714285714,0.43243243243243246,14
+hypernetwork,5,video1_person5,20,early,Highly Disengage,0.0,0.0,0.0,0
+hypernetwork,5,video1_person5,20,early,Disengage,0.16666666666666666,0.6,0.2608695652173913,5
+hypernetwork,5,video1_person5,20,early,Engage,1.0,0.16216216216216217,0.27906976744186046,37
+hypernetwork,5,video1_person5,20,early,Highly Engage,0.3448275862068966,0.8333333333333334,0.4878048780487805,12
+hypernetwork,5,video5_person4,5,random,Highly Disengage,0.25,0.14285714285714285,0.18181818181818182,14
+hypernetwork,5,video5_person4,5,random,Disengage,0.27586206896551724,0.27586206896551724,0.27586206896551724,29
+hypernetwork,5,video5_person4,5,random,Engage,0.4583333333333333,0.16666666666666666,0.24444444444444444,66
+hypernetwork,5,video5_person4,5,random,Highly Engage,0.12727272727272726,1.0,0.22580645161290322,7
+hypernetwork,5,video5_person4,5,early,Highly Disengage,0.25,0.14285714285714285,0.18181818181818182,14
+hypernetwork,5,video5_person4,5,early,Disengage,0.25925925925925924,0.2692307692307692,0.2641509433962264,26
+hypernetwork,5,video5_person4,5,early,Engage,0.5,0.17647058823529413,0.2608695652173913,68
+hypernetwork,5,video5_person4,5,early,Highly Engage,0.14035087719298245,1.0,0.24615384615384617,8
+hypernetwork,5,video5_person4,10,random,Highly Disengage,0.2222222222222222,0.15384615384615385,0.18181818181818182,13
+hypernetwork,5,video5_person4,10,random,Disengage,0.28,0.2413793103448276,0.25925925925925924,29
+hypernetwork,5,video5_person4,10,random,Engage,0.5416666666666666,0.20967741935483872,0.3023255813953488,62
+hypernetwork,5,video5_person4,10,random,Highly Engage,0.1320754716981132,1.0,0.23333333333333334,7
+hypernetwork,5,video5_person4,10,early,Highly Disengage,0.125,0.07142857142857142,0.09090909090909091,14
+hypernetwork,5,video5_person4,10,early,Disengage,0.22727272727272727,0.22727272727272727,0.22727272727272727,22
+hypernetwork,5,video5_person4,10,early,Engage,0.56,0.208955223880597,0.30434782608695654,67
+hypernetwork,5,video5_person4,10,early,Highly Engage,0.14285714285714285,1.0,0.25,8
+hypernetwork,5,video5_person4,20,random,Highly Disengage,0.25,0.16666666666666666,0.2,12
+hypernetwork,5,video5_person4,20,random,Disengage,0.30434782608695654,0.25925925925925924,0.28,27
+hypernetwork,5,video5_person4,20,random,Engage,0.5,0.2,0.2857142857142857,55
+hypernetwork,5,video5_person4,20,random,Highly Engage,0.14583333333333334,1.0,0.2545454545454545,7
+hypernetwork,5,video5_person4,20,early,Highly Disengage,0.125,0.07142857142857142,0.09090909090909091,14
+hypernetwork,5,video5_person4,20,early,Disengage,0.2,0.26666666666666666,0.22857142857142856,15
+hypernetwork,5,video5_person4,20,early,Engage,0.5652173913043478,0.203125,0.2988505747126437,64
+hypernetwork,5,video5_person4,20,early,Highly Engage,0.16,1.0,0.27586206896551724,8
+hypernetwork,5,video6_person6,5,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video6_person6,5,random,Disengage,0.17346938775510204,0.6296296296296297,0.272,27
+hypernetwork,5,video6_person6,5,random,Engage,0.8842105263157894,0.4772727272727273,0.6199261992619927,176
+hypernetwork,5,video6_person6,5,random,Highly Engage,0.14285714285714285,0.6666666666666666,0.23529411764705882,3
+hypernetwork,5,video6_person6,5,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video6_person6,5,early,Disengage,0.17894736842105263,0.6296296296296297,0.2786885245901639,27
+hypernetwork,5,video6_person6,5,early,Engage,0.8877551020408163,0.4943181818181818,0.635036496350365,176
+hypernetwork,5,video6_person6,5,early,Highly Engage,0.14285714285714285,0.6666666666666666,0.23529411764705882,3
+hypernetwork,5,video6_person6,10,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video6_person6,10,random,Disengage,0.1717171717171717,0.68,0.27419354838709675,25
+hypernetwork,5,video6_person6,10,random,Engage,0.898876404494382,0.4624277456647399,0.6106870229007634,173
+hypernetwork,5,video6_person6,10,random,Highly Engage,0.14285714285714285,0.6666666666666666,0.23529411764705882,3
+hypernetwork,5,video6_person6,10,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video6_person6,10,early,Disengage,0.17525773195876287,0.6296296296296297,0.27419354838709675,27
+hypernetwork,5,video6_person6,10,early,Engage,0.8804347826086957,0.47368421052631576,0.6159695817490495,171
+hypernetwork,5,video6_person6,10,early,Highly Engage,0.15384615384615385,0.6666666666666666,0.25,3
+hypernetwork,5,video6_person6,20,random,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video6_person6,20,random,Disengage,0.17582417582417584,0.64,0.27586206896551724,25
+hypernetwork,5,video6_person6,20,random,Engage,0.8888888888888888,0.49079754601226994,0.6324110671936759,163
+hypernetwork,5,video6_person6,20,random,Highly Engage,0.18181818181818182,0.6666666666666666,0.2857142857142857,3
+hypernetwork,5,video6_person6,20,early,Highly Disengage,0.0,0.0,0.0,1
+hypernetwork,5,video6_person6,20,early,Disengage,0.17391304347826086,0.64,0.27350427350427353,25
+hypernetwork,5,video6_person6,20,early,Engage,0.8863636363636364,0.4785276073619632,0.6215139442231076,163
+hypernetwork,5,video6_person6,20,early,Highly Engage,0.16666666666666666,0.6666666666666666,0.26666666666666666,3
+hypernetwork,5,video7_person2,5,random,Highly Disengage,0.0,0.0,0.0,28
+hypernetwork,5,video7_person2,5,random,Disengage,0.27848101265822783,1.0,0.43564356435643564,66
+hypernetwork,5,video7_person2,5,random,Engage,0.3333333333333333,0.007407407407407408,0.014492753623188406,135
+hypernetwork,5,video7_person2,5,random,Highly Engage,0.8,0.25,0.38095238095238093,16
+hypernetwork,5,video7_person2,5,early,Highly Disengage,0.0,0.0,0.0,28
+hypernetwork,5,video7_person2,5,early,Disengage,0.2754237288135593,1.0,0.4318936877076412,65
+hypernetwork,5,video7_person2,5,early,Engage,0.25,0.007352941176470588,0.014285714285714285,136
+hypernetwork,5,video7_person2,5,early,Highly Engage,0.8,0.25,0.38095238095238093,16
+hypernetwork,5,video7_person2,10,random,Highly Disengage,0.0,0.0,0.0,25
+hypernetwork,5,video7_person2,10,random,Disengage,0.27705627705627706,1.0,0.43389830508474575,64
+hypernetwork,5,video7_person2,10,random,Engage,0.4,0.014705882352941176,0.028368794326241134,136
+hypernetwork,5,video7_person2,10,random,Highly Engage,0.75,0.2,0.3157894736842105,15
+hypernetwork,5,video7_person2,10,early,Highly Disengage,0.0,0.0,0.0,28
+hypernetwork,5,video7_person2,10,early,Disengage,0.2813852813852814,1.0,0.4391891891891892,65
+hypernetwork,5,video7_person2,10,early,Engage,0.5,0.015267175572519083,0.02962962962962963,131
+hypernetwork,5,video7_person2,10,early,Highly Engage,0.8,0.25,0.38095238095238093,16
+hypernetwork,5,video7_person2,20,random,Highly Disengage,0.0,0.0,0.0,25
+hypernetwork,5,video7_person2,20,random,Disengage,0.2579185520361991,1.0,0.41007194244604317,57
+hypernetwork,5,video7_person2,20,random,Engage,0.2,0.007462686567164179,0.014388489208633094,134
+hypernetwork,5,video7_person2,20,random,Highly Engage,0.75,0.21428571428571427,0.3333333333333333,14
+hypernetwork,5,video7_person2,20,early,Highly Disengage,0.0,0.0,0.0,28
+hypernetwork,5,video7_person2,20,early,Disengage,0.29411764705882354,1.0,0.45454545454545453,65
+hypernetwork,5,video7_person2,20,early,Engage,0.25,0.008264462809917356,0.016,121
+hypernetwork,5,video7_person2,20,early,Highly Engage,0.8,0.25,0.38095238095238093,16
