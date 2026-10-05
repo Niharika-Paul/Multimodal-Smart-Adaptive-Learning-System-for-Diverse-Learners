@@ -1,0 +1,97 @@
+protocol,k_shot,W0_class_id,W0_class,W0P_class_id,W0P_class,count
+early,5,0,Highly Disengaged,0,Highly Disengaged,143
+early,5,0,Highly Disengaged,1,Disengaged,34
+early,5,0,Highly Disengaged,2,Engaged,76
+early,5,0,Highly Disengaged,3,Highly Engaged,5
+early,5,1,Disengaged,0,Highly Disengaged,17
+early,5,1,Disengaged,1,Disengaged,1121
+early,5,1,Disengaged,2,Engaged,745
+early,5,1,Disengaged,3,Highly Engaged,25
+early,5,2,Engaged,0,Highly Disengaged,20
+early,5,2,Engaged,1,Disengaged,520
+early,5,2,Engaged,2,Engaged,6995
+early,5,2,Engaged,3,Highly Engaged,151
+early,5,3,Highly Engaged,0,Highly Disengaged,4
+early,5,3,Highly Engaged,1,Disengaged,38
+early,5,3,Highly Engaged,2,Engaged,380
+early,5,3,Highly Engaged,3,Highly Engaged,742
+early,10,0,Highly Disengaged,0,Highly Disengaged,106
+early,10,0,Highly Disengaged,1,Disengaged,50
+early,10,0,Highly Disengaged,2,Engaged,84
+early,10,0,Highly Disengaged,3,Highly Engaged,3
+early,10,1,Disengaged,0,Highly Disengaged,28
+early,10,1,Disengaged,1,Disengaged,1038
+early,10,1,Disengaged,2,Engaged,744
+early,10,1,Disengaged,3,Highly Engaged,25
+early,10,2,Engaged,0,Highly Disengaged,24
+early,10,2,Engaged,1,Disengaged,596
+early,10,2,Engaged,2,Engaged,6671
+early,10,2,Engaged,3,Highly Engaged,111
+early,10,3,Highly Engaged,0,Highly Disengaged,2
+early,10,3,Highly Engaged,1,Disengaged,38
+early,10,3,Highly Engaged,2,Engaged,400
+early,10,3,Highly Engaged,3,Highly Engaged,686
+early,20,0,Highly Disengaged,0,Highly Disengaged,93
+early,20,0,Highly Disengaged,1,Disengaged,45
+early,20,0,Highly Disengaged,2,Engaged,88
+early,20,0,Highly Disengaged,3,Highly Engaged,1
+early,20,1,Disengaged,0,Highly Disengaged,16
+early,20,1,Disengaged,1,Disengaged,1004
+early,20,1,Disengaged,2,Engaged,620
+early,20,1,Disengaged,3,Highly Engaged,18
+early,20,2,Engaged,0,Highly Disengaged,21
+early,20,2,Engaged,1,Disengaged,669
+early,20,2,Engaged,2,Engaged,6008
+early,20,2,Engaged,3,Highly Engaged,129
+early,20,3,Highly Engaged,0,Highly Disengaged,1
+early,20,3,Highly Engaged,1,Disengaged,35
+early,20,3,Highly Engaged,2,Engaged,388
+early,20,3,Highly Engaged,3,Highly Engaged,650
+random,5,0,Highly Disengaged,0,Highly Disengaged,97
+random,5,0,Highly Disengaged,1,Disengaged,31
+random,5,0,Highly Disengaged,2,Engaged,116
+random,5,0,Highly Disengaged,3,Highly Engaged,15
+random,5,1,Disengaged,0,Highly Disengaged,30
+random,5,1,Disengaged,1,Disengaged,1023
+random,5,1,Disengaged,2,Engaged,843
+random,5,1,Disengaged,3,Highly Engaged,18
+random,5,2,Engaged,0,Highly Disengaged,9
+random,5,2,Engaged,1,Disengaged,439
+random,5,2,Engaged,2,Engaged,7108
+random,5,2,Engaged,3,Highly Engaged,122
+random,5,3,Highly Engaged,0,Highly Disengaged,2
+random,5,3,Highly Engaged,1,Disengaged,38
+random,5,3,Highly Engaged,2,Engaged,418
+random,5,3,Highly Engaged,3,Highly Engaged,707
+random,10,0,Highly Disengaged,0,Highly Disengaged,70
+random,10,0,Highly Disengaged,1,Disengaged,33
+random,10,0,Highly Disengaged,2,Engaged,129
+random,10,0,Highly Disengaged,3,Highly Engaged,16
+random,10,1,Disengaged,0,Highly Disengaged,41
+random,10,1,Disengaged,1,Disengaged,1094
+random,10,1,Disengaged,2,Engaged,671
+random,10,1,Disengaged,3,Highly Engaged,29
+random,10,2,Engaged,0,Highly Disengaged,25
+random,10,2,Engaged,1,Disengaged,569
+random,10,2,Engaged,2,Engaged,6628
+random,10,2,Engaged,3,Highly Engaged,171
+random,10,3,Highly Engaged,0,Highly Disengaged,1
+random,10,3,Highly Engaged,1,Disengaged,43
+random,10,3,Highly Engaged,2,Engaged,396
+random,10,3,Highly Engaged,3,Highly Engaged,690
+random,20,0,Highly Disengaged,0,Highly Disengaged,87
+random,20,0,Highly Disengaged,1,Disengaged,46
+random,20,0,Highly Disengaged,2,Engaged,104
+random,20,0,Highly Disengaged,3,Highly Engaged,3
+random,20,1,Disengaged,0,Highly Disengaged,46
+random,20,1,Disengaged,1,Disengaged,1180
+random,20,1,Disengaged,2,Engaged,454
+random,20,1,Disengaged,3,Highly Engaged,21
+random,20,2,Engaged,0,Highly Disengaged,27
+random,20,2,Engaged,1,Disengaged,400
+random,20,2,Engaged,2,Engaged,6207
+random,20,2,Engaged,3,Highly Engaged,169
+random,20,3,Highly Engaged,0,Highly Disengaged,1
+random,20,3,Highly Engaged,1,Disengaged,28
+random,20,3,Highly Engaged,2,Engaged,415
+random,20,3,Highly Engaged,3,Highly Engaged,598

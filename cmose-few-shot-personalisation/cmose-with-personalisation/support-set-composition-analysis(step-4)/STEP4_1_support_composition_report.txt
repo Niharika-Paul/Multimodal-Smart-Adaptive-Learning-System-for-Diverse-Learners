@@ -1,0 +1,137 @@
+STEP 4-1 — SUPPORT-SET COMPOSITION ANALYSIS
+================================================================================
+
+Purpose:
+Evaluate whether support-set composition is associated with personalization gain.
+
+Important:
+These analyses are associative/descriptive and do not establish causality.
+
+RANDOM K=20 CORRELATIONS
+--------------------------------------------------------------------------------
+p_hd -> accuracy_delta
+  Spearman rho = -0.2384
+  Spearman p = 0.031043
+  Pearson r = -0.1608
+  Pearson p = 0.148928
+
+p_hd -> balanced_accuracy_delta
+  Spearman rho = 0.0026
+  Spearman p = 0.981376
+  Pearson r = 0.0547
+  Pearson p = 0.625479
+
+p_hd -> macro_f1_delta
+  Spearman rho = -0.0169
+  Spearman p = 0.880455
+  Pearson r = 0.0011
+  Pearson p = 0.991871
+
+p_d -> accuracy_delta
+  Spearman rho = -0.0724
+  Spearman p = 0.518167
+  Pearson r = -0.0060
+  Pearson p = 0.957287
+
+p_d -> balanced_accuracy_delta
+  Spearman rho = 0.1388
+  Spearman p = 0.213508
+  Pearson r = 0.1595
+  Pearson p = 0.152410
+
+p_d -> macro_f1_delta
+  Spearman rho = 0.2520
+  Spearman p = 0.022398
+  Pearson r = 0.2098
+  Pearson p = 0.058520
+
+p_e -> accuracy_delta
+  Spearman rho = 0.1351
+  Spearman p = 0.226169
+  Pearson r = 0.0647
+  Pearson p = 0.563611
+
+p_e -> balanced_accuracy_delta
+  Spearman rho = -0.2907
+  Spearman p = 0.008063
+  Pearson r = -0.2702
+  Pearson p = 0.014080
+
+p_e -> macro_f1_delta
+  Spearman rho = -0.2148
+  Spearman p = 0.052685
+  Pearson r = -0.1875
+  Pearson p = 0.091571
+
+p_he -> accuracy_delta
+  Spearman rho = -0.0989
+  Spearman p = 0.376567
+  Pearson r = -0.0108
+  Pearson p = 0.923182
+
+p_he -> balanced_accuracy_delta
+  Spearman rho = 0.3336
+  Spearman p = 0.002192
+  Pearson r = 0.2312
+  Pearson p = 0.036604
+
+p_he -> macro_f1_delta
+  Spearman rho = 0.0591
+  Spearman p = 0.597750
+  Pearson r = 0.0206
+  Pearson p = 0.853931
+
+support_coverage -> accuracy_delta
+  Spearman rho = -0.1625
+  Spearman p = 0.144669
+  Pearson r = -0.1010
+  Pearson p = 0.366822
+
+support_coverage -> balanced_accuracy_delta
+  Spearman rho = 0.2063
+  Spearman p = 0.063014
+  Pearson r = 0.2444
+  Pearson p = 0.026887
+
+support_coverage -> macro_f1_delta
+  Spearman rho = 0.1571
+  Spearman p = 0.158786
+  Pearson r = 0.1522
+  Pearson p = 0.172289
+
+support_entropy -> accuracy_delta
+  Spearman rho = -0.1965
+  Spearman p = 0.076822
+  Pearson r = -0.1341
+  Pearson p = 0.229855
+
+support_entropy -> balanced_accuracy_delta
+  Spearman rho = 0.2468
+  Spearman p = 0.025385
+  Pearson r = 0.3007
+  Pearson p = 0.006045
+
+support_entropy -> macro_f1_delta
+  Spearman rho = 0.1665
+  Spearman p = 0.134792
+  Pearson r = 0.1863
+  Pearson p = 0.093725
+
+support_entropy_normalized -> accuracy_delta
+  Spearman rho = -0.1933
+  Spearman p = 0.081813
+  Pearson r = -0.1341
+  Pearson p = 0.229855
+
+support_entropy_normalized -> balanced_accuracy_delta
+  Spearman rho = 0.2466
+  Spearman p = 0.025506
+  Pearson r = 0.3007
+  Pearson p = 0.006045
+
+support_entropy_normalized -> macro_f1_delta
+  Spearman rho = 0.1692
+  Spearman p = 0.128502
+  Pearson r = 0.1863
+  Pearson p = 0.093725
+

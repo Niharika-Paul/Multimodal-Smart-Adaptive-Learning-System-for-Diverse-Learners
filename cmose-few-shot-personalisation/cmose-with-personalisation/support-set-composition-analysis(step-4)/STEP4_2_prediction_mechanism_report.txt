@@ -1,0 +1,28 @@
+STEP 4-2 — PREDICTION-LEVEL MECHANISM ANALYSIS
+================================================================================
+
+Source: W0_vs_W0P_predictions.csv
+All analyses use the same paired prediction rerun.
+
+RANDOM K=20 SUMMARY
+--------------------------------------------------------------------------------
+W0 Accuracy: 63.0799%
+W0-P Accuracy: 68.6082%
+Accuracy delta: +5.5283 pp
+
+W0 Balanced Accuracy: 40.1257%
+W0-P Balanced Accuracy: 44.9142%
+Balanced Accuracy delta: +4.7886 pp
+
+W0 Macro-F1: 39.8675%
+W0-P Macro-F1: 46.6735%
+Macro-F1 delta: +6.8059 pp
+
+CORRELATION BETWEEN ENGAGE PREDICTION SHIFT AND MACRO-F1 GAIN
+--------------------------------------------------------------------------------
+Spearman rho: -0.091439
+Spearman p: 0.41391620
+Pearson r: -0.068684
+Pearson p: 0.53978788
+
+Interpretation should remain associative: lack of correlation means the magnitude of the Engage prediction shift does not explain student-level Macro-F1 gain.

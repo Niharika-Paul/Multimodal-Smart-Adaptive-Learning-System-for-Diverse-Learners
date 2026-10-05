@@ -1,0 +1,2 @@
+protocol,k_shot,n_students,mean_p_hd,mean_p_d,mean_p_e,mean_p_he,mean_support_coverage,mean_support_entropy,mean_normalized_entropy,mean_delta_accuracy,mean_delta_balanced_accuracy,mean_delta_macro_f1,mean_delta_accuracy_pp,mean_delta_balanced_accuracy_pp,mean_delta_macro_f1_pp
+random,20,82,0.023170731707317073,0.20060975609756096,0.6896341463414632,0.08658536585365853,2.841463414634146,0.7098460465626222,0.5120456855852658,0.0574522101213673,0.017152434171388124,0.04195578512480161,5.74522101213673,1.7152434171388125,4.195578512480161
