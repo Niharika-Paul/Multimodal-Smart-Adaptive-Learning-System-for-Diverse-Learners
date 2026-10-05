@@ -1,0 +1,54 @@
+W0-P: W0 GLOBAL MODEL + FEW-SHOT PERSONALIZATION
+======================================================================
+
+Description:
+Feature-level CMOSE/I3D global classifier with student-specific few-shot personalization.
+
+CMOSE ZIP:
+/content/final_data_1.zip
+
+JSON member:
+final_data_1.json
+
+Global W0 architecture:
+1024 -> 256 -> ReLU -> Dropout(0.2) -> 4-class classifier
+
+Personalization:
+Only the final 256 -> 4 classifier is fine-tuned.
+The 1024 -> 256 feature extractor is frozen.
+Personalization operates directly on the frozen 256-D representations.
+Plain CrossEntropyLoss is used on the naturally occurring K-shot support set.
+
+Global epochs: 80
+Global LR: 0.0005
+Global weight decay: 0.001
+Personalization epochs: 20
+Personalization LR: 0.001
+Personalization weight decay: 0.001
+
+Protocol groups: 82
+Outer folds: 5
+Protocols: early, random
+K: 5, 10, 20
+
+Random support seed formula:
+seed + fold_id*10000 + K*100 + sum(ord(ch) for ch in group)
+Early protocol adds +1.
+
+Expected conditions: 492
+Successful conditions: 492
+Skipped conditions: 0
+Students with all 6 conditions: 82/82
+Duplicate conditions: 0
+Support sizes correct: True
+All query sets non-empty: True
+
+FINAL SUMMARY
+----------------------------------------------------------------------
+protocol  k_shot  n_students  accuracy_mean  balanced_accuracy_mean  macro_f1_mean  recall_hd_mean  recall_d_mean  recall_e_mean  recall_he_mean
+   early       5          82       0.658753                0.431002       0.390888        0.090828       0.256977       0.796469        0.353634
+   early      10          82       0.659429                0.439290       0.402714        0.095051       0.263121       0.795506        0.369598
+   early      20          82       0.668096                0.457884       0.413169        0.108908       0.284835       0.791624        0.384505
+  random       5          82       0.682584                0.433526       0.401901        0.084660       0.260393       0.835485        0.329819
+  random      10          82       0.673689                0.435087       0.408574        0.061549       0.285954       0.787265        0.366945
+  random      20          82       0.683618                0.471372       0.446595        0.104168       0.339597       0.793129        0.394852
