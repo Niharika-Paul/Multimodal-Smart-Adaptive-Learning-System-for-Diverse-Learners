@@ -1,0 +1,222 @@
+STEP 3 — STATISTICAL VALIDATION
+================================================================================
+
+Source: W0_vs_W0P_predictions.csv
+Student-condition evaluations: 492
+
+early K=5 | Accuracy
+  W0 mean: 62.4644%
+  W0-P mean: 65.8753%
+  Mean delta: +3.4109 pp
+  Wilcoxon p: 0.00191995
+  FDR-adjusted p: 0.00561116
+  Paired Cohen d: 0.3301
+  Bootstrap mean 95% CI: [1.1657, 5.6085] pp
+  Improved: 48
+  Worsened: 27
+  Unchanged: 7
+
+early K=5 | Balanced Accuracy
+  W0 mean: 44.8211%
+  W0-P mean: 43.1002%
+  Mean delta: -1.7209 pp
+  Wilcoxon p: 0.35821637
+  FDR-adjusted p: 0.49599190
+  Paired Cohen d: -0.2050
+  Bootstrap mean 95% CI: [-3.5792, 0.0000] pp
+  Improved: 36
+  Worsened: 43
+  Unchanged: 3
+
+early K=5 | Macro-F1
+  W0 mean: 33.0168%
+  W0-P mean: 32.8865%
+  Mean delta: -0.1303 pp
+  Wilcoxon p: 0.70832218
+  FDR-adjusted p: 0.70832218
+  Paired Cohen d: -0.0165
+  Bootstrap mean 95% CI: [-1.8196, 1.5000] pp
+  Improved: 42
+  Worsened: 38
+  Unchanged: 2
+
+early K=10 | Accuracy
+  W0 mean: 62.5640%
+  W0-P mean: 65.9429%
+  Mean delta: +3.3789 pp
+  Wilcoxon p: 0.00218212
+  FDR-adjusted p: 0.00561116
+  Paired Cohen d: 0.3132
+  Bootstrap mean 95% CI: [1.0373, 5.6421] pp
+  Improved: 52
+  Worsened: 25
+  Unchanged: 5
+
+early K=10 | Balanced Accuracy
+  W0 mean: 45.1936%
+  W0-P mean: 43.9290%
+  Mean delta: -1.2646 pp
+  Wilcoxon p: 0.25968858
+  FDR-adjusted p: 0.38953287
+  Paired Cohen d: -0.1731
+  Bootstrap mean 95% CI: [-2.9030, 0.2542] pp
+  Improved: 39
+  Worsened: 41
+  Unchanged: 2
+
+early K=10 | Macro-F1
+  W0 mean: 32.8154%
+  W0-P mean: 33.2261%
+  Mean delta: +0.4106 pp
+  Wilcoxon p: 0.45550883
+  FDR-adjusted p: 0.54661059
+  Paired Cohen d: 0.0663
+  Bootstrap mean 95% CI: [-0.8779, 1.7427] pp
+  Improved: 47
+  Worsened: 34
+  Unchanged: 1
+
+early K=20 | Accuracy
+  W0 mean: 62.8059%
+  W0-P mean: 66.8096%
+  Mean delta: +4.0037 pp
+  Wilcoxon p: 0.00198684
+  FDR-adjusted p: 0.00561116
+  Paired Cohen d: 0.3485
+  Bootstrap mean 95% CI: [1.6042, 6.4716] pp
+  Improved: 50
+  Worsened: 27
+  Unchanged: 5
+
+early K=20 | Balanced Accuracy
+  W0 mean: 45.6835%
+  W0-P mean: 45.7884%
+  Mean delta: +0.1048 pp
+  Wilcoxon p: 0.51130559
+  FDR-adjusted p: 0.57521879
+  Paired Cohen d: 0.0142
+  Bootstrap mean 95% CI: [-1.5407, 1.6392] pp
+  Improved: 44
+  Worsened: 37
+  Unchanged: 1
+
+early K=20 | Macro-F1
+  W0 mean: 32.5103%
+  W0-P mean: 34.1330%
+  Mean delta: +1.6227 pp
+  Wilcoxon p: 0.02739593
+  FDR-adjusted p: 0.06014751
+  Paired Cohen d: 0.2349
+  Bootstrap mean 95% CI: [0.1346, 3.1035] pp
+  Improved: 48
+  Worsened: 33
+  Unchanged: 1
+
+random K=5 | Accuracy
+  W0 mean: 62.5240%
+  W0-P mean: 68.2584%
+  Mean delta: +5.7344 pp
+  Wilcoxon p: 0.00000236
+  FDR-adjusted p: 0.00001418
+  Paired Cohen d: 0.5915
+  Bootstrap mean 95% CI: [3.6628, 7.8347] pp
+  Improved: 55
+  Worsened: 22
+  Unchanged: 5
+
+random K=5 | Balanced Accuracy
+  W0 mean: 44.4889%
+  W0-P mean: 43.3526%
+  Mean delta: -1.1362 pp
+  Wilcoxon p: 0.40596707
+  FDR-adjusted p: 0.52195766
+  Paired Cohen d: -0.1539
+  Bootstrap mean 95% CI: [-2.7643, 0.4200] pp
+  Improved: 40
+  Worsened: 41
+  Unchanged: 1
+
+random K=5 | Macro-F1
+  W0 mean: 33.3393%
+  W0-P mean: 34.2162%
+  Mean delta: +0.8770 pp
+  Wilcoxon p: 0.18040601
+  FDR-adjusted p: 0.29520984
+  Paired Cohen d: 0.1178
+  Bootstrap mean 95% CI: [-0.7441, 2.5094] pp
+  Improved: 48
+  Worsened: 33
+  Unchanged: 1
+
+random K=10 | Accuracy
+  W0 mean: 62.9191%
+  W0-P mean: 67.3689%
+  Mean delta: +4.4498 pp
+  Wilcoxon p: 0.00068291
+  FDR-adjusted p: 0.00307310
+  Paired Cohen d: 0.4024
+  Bootstrap mean 95% CI: [2.0325, 6.8007] pp
+  Improved: 53
+  Worsened: 23
+  Unchanged: 6
+
+random K=10 | Balanced Accuracy
+  W0 mean: 44.6332%
+  W0-P mean: 43.5087%
+  Mean delta: -1.1245 pp
+  Wilcoxon p: 0.70118235
+  FDR-adjusted p: 0.70832218
+  Paired Cohen d: -0.1177
+  Bootstrap mean 95% CI: [-3.2984, 0.8872] pp
+  Improved: 41
+  Worsened: 40
+  Unchanged: 1
+
+random K=10 | Macro-F1
+  W0 mean: 33.5780%
+  W0-P mean: 34.5966%
+  Mean delta: +1.0186 pp
+  Wilcoxon p: 0.09417111
+  FDR-adjusted p: 0.16950799
+  Paired Cohen d: 0.1170
+  Bootstrap mean 95% CI: [-0.9409, 2.8240] pp
+  Improved: 49
+  Worsened: 32
+  Unchanged: 1
+
+random K=20 | Accuracy
+  W0 mean: 62.6166%
+  W0-P mean: 68.3618%
+  Mean delta: +5.7452 pp
+  Wilcoxon p: 0.00000046
+  FDR-adjusted p: 0.00000825
+  Paired Cohen d: 0.6318
+  Bootstrap mean 95% CI: [3.8437, 7.7724] pp
+  Improved: 58
+  Worsened: 20
+  Unchanged: 4
+
+random K=20 | Balanced Accuracy
+  W0 mean: 45.4219%
+  W0-P mean: 47.1372%
+  Mean delta: +1.7152 pp
+  Wilcoxon p: 0.03007375
+  FDR-adjusted p: 0.06014751
+  Paired Cohen d: 0.1931
+  Bootstrap mean 95% CI: [-0.1767, 3.6316] pp
+  Improved: 45
+  Worsened: 33
+  Unchanged: 4
+
+random K=20 | Macro-F1
+  W0 mean: 33.3672%
+  W0-P mean: 37.5628%
+  Mean delta: +4.1956 pp
+  Wilcoxon p: 0.00000100
+  FDR-adjusted p: 0.00000897
+  Paired Cohen d: 0.6182
+  Bootstrap mean 95% CI: [2.7482, 5.6842] pp
+  Improved: 58
+  Worsened: 22
+  Unchanged: 2
+
