@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --font-primary: 'Outfit', sans-serif;
+
+    --background: 210 40% 98%;
+    --foreground: 215 25% 27%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 215 25% 27%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 215 25% 27%;
+
+    --primary: 210 100% 82%;
+    --primary-foreground: 215 25% 27%;
+
+    --secondary: 335 100% 89%;
+    --secondary-foreground: 215 25% 27%;
+
+    --muted: 210 40% 94%;
+    --muted-foreground: 215 16% 47%;
+
+    --accent: 24 100% 86%;
+    --accent-foreground: 215 25% 27%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 210 40% 94%;
+    --input: 210 40% 94%;
+    --ring: 210 100% 82%;
+
+    --radius: 1.5rem;
+
+    /* Custom pastel tokens */
+    --pastel-blue: 210 100% 82%;
+    --pastel-pink: 335 100% 89%;
+    --pastel-rose: 340 100% 84%;
+    --pastel-lavender: 280 47% 82%;
+    --pastel-peach: 24 100% 86%;
+    --pastel-sage: 82 20% 61%;
+    --pastel-mint: 155 40% 80%;
+
+    --surface: 0 0% 100%;
+    --surface-warm: 30 33% 93%;
+    --surface-cool: 210 40% 96%;
+
+    --shadow-soft: 0 10px 25px -5px rgba(0, 0, 0, 0.03), 0 8px 10px -6px rgba(0, 0, 0, 0.02);
+    --shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.03);
+    --shadow-inner: inset 0 2px 4px 0 rgba(0, 0, 0, 0.04);
+
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: var(--font-primary);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-primary);
+    @apply tracking-tight;
+  }
+}
+
+@layer utilities {
+  .card-soft {
+    @apply bg-card rounded-[2rem] p-6;
+    box-shadow: var(--shadow-soft);
+  }
+
+  .card-soft-hover {
+    @apply card-soft transition-shadow duration-200;
+  }
+
+  .card-soft-hover:hover {
+    box-shadow: var(--shadow-hover);
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+
+  .pastel-glow-blue {
+    box-shadow: 0 0 20px 4px hsl(210 100% 82% / 0.3);
+  }
+
+  .pastel-glow-pink {
+    box-shadow: 0 0 20px 4px hsl(335 100% 89% / 0.3);
+  }
+
+  .shadow-soft {
+    box-shadow: var(--shadow-soft);
+  }
+
+  .shadow-hover-effect {
+    box-shadow: var(--shadow-hover);
+  }
+
+  .inner-shadow {
+    box-shadow: var(--shadow-inner);
+  }
+}
