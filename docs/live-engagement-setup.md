@@ -67,3 +67,7 @@ curl -i -X OPTIONS http://127.0.0.1:8001/analyze-frame \
 ```
 
 The webcam endpoint accepts JSON `{ "image": "data:image/jpeg;base64,...", "session_id": "..." }` at `POST /analyze-frame`. It returns face status, blink/gaze metrics, and the current engagement collection/inference state. With assets configured, allow the webcam to run until the first clip is processed to verify an actual W0-P prediction.
+
+## Existing CMOSE research scripts
+
+Research scripts that load `final_data_1.json` or the fold protocol accept `CMOSE_DATA_DIR`; result-writing scripts accept `CMOSE_OUTPUT_DIR`. Both default to the current working directory, and command-line file/output arguments can override those defaults. Keep research data and generated results outside version control.

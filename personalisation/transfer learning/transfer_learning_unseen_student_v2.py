@@ -1,6 +1,7 @@
 import argparse
 import copy
 import json
+import os
 import re
 import warnings
 from typing import Dict, List, Optional, Tuple
@@ -348,13 +349,13 @@ def build_student_level_summary(per_student_df: pd.DataFrame) -> pd.DataFrame:
 
 def main():
     parser = argparse.ArgumentParser(description="CMOSE unseen-student clip-level transfer learning evaluation (v2).")
-    parser.add_argument("--json", type=str, default=r"C:\COLLEGE\capstone\latest\final_data_1.json")
-    parser.add_argument("--folds", type=str, default=r"C:\COLLEGE\capstone\latest\cmose_h1_h2_fold_protocol.csv")
+    parser.add_argument("--json", type=str, default=os.path.join(os.environ.get("CMOSE_DATA_DIR", "."), "final_data_1.json"))
+    parser.add_argument("--folds", type=str, default=os.path.join(os.environ.get("CMOSE_DATA_DIR", "."), "cmose_h1_h2_fold_protocol.csv"))
     parser.add_argument("--k-values", type=str, default="1,5,10,20")
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--mlp-pretrain-epochs", type=int, default=30)
     parser.add_argument("--mlp-adapt-epochs", type=int, default=8)
-    parser.add_argument("--output-dir", type=str, default=r"C:\COLLEGE\capstone\latest")
+    parser.add_argument("--output-dir", type=str, default=os.environ.get("CMOSE_OUTPUT_DIR", "."))
     args = parser.parse_args()
 
     rng_global = np.random.default_rng(args.seed)

@@ -1003,12 +1003,12 @@ def main():
     parser.add_argument(
         "--json",
         type=str,
-        default=r"C:\COLLEGE\capstone\latest\final_data_1.json",
+        default=os.path.join(os.environ.get("CMOSE_DATA_DIR", "."), "final_data_1.json"),
     )
     parser.add_argument(
         "--folds",
         type=str,
-        default=r"C:\COLLEGE\capstone\latest\cmose_h1_h2_fold_protocol.csv",
+        default=os.path.join(os.environ.get("CMOSE_DATA_DIR", "."), "cmose_h1_h2_fold_protocol.csv"),
     )
     parser.add_argument(
         "--k-values",
@@ -1063,7 +1063,7 @@ def main():
     parser.add_argument(
         "--output-dir",
         type=str,
-        default=r"C:\COLLEGE\capstone\latest",
+        default=os.environ.get("CMOSE_OUTPUT_DIR", "."),
     )
 
     args = parser.parse_args()

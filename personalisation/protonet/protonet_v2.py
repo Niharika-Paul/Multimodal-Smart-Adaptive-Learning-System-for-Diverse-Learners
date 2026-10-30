@@ -1647,8 +1647,7 @@ def main():
         "--json",
         type=str,
         default=(
-            r"C:\COLLEGE\capstone\latest"
-            r"\final_data_1.json"
+            os.path.join(os.environ.get("CMOSE_DATA_DIR", "."), "final_data_1.json")
         ),
     )
 
@@ -1656,8 +1655,7 @@ def main():
         "--folds",
         type=str,
         default=(
-            r"C:\COLLEGE\capstone\latest"
-            r"\cmose_h1_h2_fold_protocol.csv"
+            os.path.join(os.environ.get("CMOSE_DATA_DIR", "."), "cmose_h1_h2_fold_protocol.csv")
         ),
     )
 
@@ -1686,7 +1684,7 @@ def main():
         "--output-dir",
         type=str,
         default=(
-            r"C:\COLLEGE\capstone\latest"
+            os.environ.get("CMOSE_OUTPUT_DIR", ".")
         ),
     )
 
