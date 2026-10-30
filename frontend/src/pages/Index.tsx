@@ -11,7 +11,7 @@ import MultimodalModules from "@/components/dashboard/MultimodalModules";
 const Index = () => {
   const [eyeMetrics, setEyeMetrics] = useState<EyeMetrics | null>(null);
 
-  const handleMetrics = useCallback((metrics: EyeMetrics) => {
+  const handleMetrics = useCallback((metrics: EyeMetrics | null) => {
     setEyeMetrics(metrics);
   }, []);
   return (
