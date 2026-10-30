@@ -130,26 +130,9 @@ const EngagementMetrics = ({ metrics }: EngagementMetricsProps) => {
     },
     {
       label: "Blink Rate",
-      value: metrics?.face_detected && metrics.blink_rate_ready
-        ? metrics.blink_rate == null
-          ? "Rate unavailable"
-          : `${metrics.blink_rate.toFixed(1)} blinks/min`
-        : metrics?.face_detected
-          ? `${metrics.total_blinks} blinks`
-          : "Waiting for face",
-      change: metrics?.face_detected && metrics.blink_rate_ready
-        ? "Calculated from completed 60-second window"
-        : metrics?.face_detected
-          ? "Current blink count"
-          : "Observation starts when a face is detected",
-      detail: metrics?.face_detected && metrics.blink_rate_ready
-        ? `${metrics.blink_window_count ?? 0} blinks in the rolling 60 seconds · ${metrics.total_blinks} session total`
-        : metrics?.face_detected
-          ? (() => {
-              const elapsed = Math.min(60, Math.floor(metrics.blink_rate_elapsed_seconds ?? 0));
-              return `${elapsed} seconds elapsed · ${60 - elapsed} seconds remaining · 60 seconds total`;
-            })()
-          : undefined,
+      value: metrics?.blink_rate_ready && metrics.blink_rate != null
+        ? `${Number.isInteger(metrics.blink_rate) ? metrics.blink_rate : metrics.blink_rate.toFixed(1)} blinks/min`
+        : "Calculating...",
       icon: Zap,
       borderColor: "border-pastel-peach",
     },
