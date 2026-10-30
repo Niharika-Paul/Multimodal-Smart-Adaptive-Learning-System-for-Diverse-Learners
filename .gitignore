@@ -8,3 +8,12 @@ node_modules/
 !.env.example
 dist/
 .vite/
+*.bak
+*.cors-backup
+Pupil-dilation/patch_api.py
+CMOSE_W0P_checkpoints_export_20261027/
+Pupil-dilation/external/
+**/video_features-master/
+*.pt
+*.pth
+*.onnx
