@@ -1,61 +1,24 @@
-# Multimodal Smart Adaptive Learning System for Diverse Learners
+# Multimodal Smart Adaptive Learning System
 
-A multimodal learning research project exploring learner engagement and personalization using eye-related signals and adaptive learning approaches.
+Research project for multimodal learner engagement estimation and adaptive learning. This repository contains the React/Vite dashboard, FastAPI webcam backend, and existing research code.
 
-## Project Structure
+## Application structure
 
-- `Pupil-dilation/` — pupil-dilation analysis and API.
-- `personalisation/` — personalization experiments and code.
-- `eye-stream-on-daisee/` — eye-stream research experiments.
-- `Fixation-Duration_Saccade-Velocity/` — fixation and saccade analysis.
-- `cmose-few-shot-personalisation/` — few-shot personalization experiments.
-- `models/` — model-related files.
-- `frontend/` — React, TypeScript, and Vite user interface.
+- `frontend/` — React, TypeScript, and Vite dashboard with dashboard, learning, analytics, settings, and live webcam pages.
+- `Pupil-dilation/` — FastAPI eye tracking, screen-gaze estimation, blink detection, I3D feature extraction, and W0-P inference.
+- `docs/live-engagement-setup.md` — setup, external model assets, environment variables, and validation details.
+- `cmose-few-shot-personalisation/`, `eye-stream-on-daisee/`, `personalisation/`, `models/`, and `Fixation-Duration_Saccade-Velocity/` — existing research experiments.
 
-## Requirements
+## Quick start
 
-- Python 3
-- Node.js and npm
-- A webcam for live webcam features
+1. Install Python dependencies from `Pupil-dilation/requirements.txt` and Node dependencies from `frontend/package-lock.json`.
+2. Set `I3D_LIBRARY_DIR` to the external `video_features` library and `W0P_CHECKPOINT_DIR` to the exported checkpoint directory. The export directory should contain `w0p_checkpoints/` and `w0_base_checkpoints/`.
+3. Set `frontend/.env.local` with `VITE_API_BASE_URL=http://127.0.0.1:8001` (this is also the default).
+4. Start the backend from `Pupil-dilation/` with `python -m uvicorn api:app --host 127.0.0.1 --port 8001`.
+5. Start the frontend from `frontend/` with `npm ci && npm run dev`.
 
-## Run the Backend
+The browser requests webcam permission and sends frames to `/analyze-frame`. The backend returns eye metrics and, after collecting a clip, real I3D/W0-P predictions. Model weights and the upstream `video_features` library are external assets and are not stored in this repository. See the setup guide for complete commands and requirements.
 
-Open Terminal and navigate to the project root:
+## Existing research dependencies
 
-```bash
-cd Pupil-dilation
-python3 -m venv .venv
-source .venv/bin/activate
-pip install fastapi uvicorn opencv-python numpy
-python -m uvicorn api:app --host 127.0.0.1 --port 8000
-```
-
-Keep this Terminal open while using the UI.
-
-## Run the Frontend
-
-Open a second Terminal window and navigate to the project root:
-
-```bash
-cd frontend
-npm install
-npm run dev -- --host 127.0.0.1
-```
-
-Open the local URL printed by Vite in your browser.
-
-## Webcam API
-
-The frontend webcam panel communicates with the backend endpoint:
-
-`POST http://127.0.0.1:8000/analyze-frame`
-
-Allow webcam access in your browser when prompted.
-
-## Notes
-
-- The webcam feature requires the backend to be running.
-- Keep `.env` files, virtual environments, dependency folders, and private data out of Git.
-- Research folders may have their own dependencies and setup instructions.
-- This repository contains research experiments; individual components may require additional datasets or configuration.
-
+The live application dependencies and startup steps are documented above. Other experiment folders may have their own data, model, and environment requirements; consult their accompanying notebooks and documentation before running those experiments.

@@ -12,26 +12,48 @@ export interface EyeMetrics {
   baseline_ready: boolean;
   engagement_score: number | null;
   blink_rate_ready: boolean;
+  blink_window_count?: number;
+  blink_rate_elapsed_seconds?: number;
+  eye_aspect_ratio?: number | null;
+  eye_contact_percent?: number | null;
+  gaze_status?: string;
+  gaze_x?: number | null;
+  gaze_y?: number | null;
+  engagement_status: string;
+  engagement_frames_collected?: number;
+  engagement_frames_required?: number;
+  engagement_label: string | null;
+  engagement_confidence: number | null;
+  engagement_class_index?: number | null;
+  engagement_model?: string | null;
+  engagement_checkpoint?: string | null;
+  engagement_personalization_group?: string | null;
+  engagement_error?: string;
 }
 
 interface WebcamPanelProps {
   onMetrics: (metrics: EyeMetrics) => void;
 }
 
-const API_URL = "http://127.0.0.1:8000";
+const API_URL = (import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8001").replace(/\/$/, "");
+const FRAME_INTERVAL_MS = 100;
 
 const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const streamRef = useRef<MediaStream | null>(null);
   const busyRef = useRef(false);
+  const runningRef = useRef(true);
+  const intervalRef = useRef<number | undefined>(undefined);
+  const sessionIdRef = useRef(crypto.randomUUID());
   const [cameraOn, setCameraOn] = useState(false);
   const [status, setStatus] = useState("Camera is off");
   const [error, setError] = useState("");
+  const [metrics, setMetrics] = useState<EyeMetrics | null>(null);
 
   useEffect(() => {
     let active = true;
-    let intervalId: number | undefined;
+    runningRef.current = true;
 
     const startCamera = async () => {
       try {
@@ -54,11 +76,11 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
         setCameraOn(true);
         setStatus("Connecting to eye tracker");
 
-        intervalId = window.setInterval(async () => {
+        intervalRef.current = window.setInterval(async () => {
           const video = videoRef.current;
           const canvas = canvasRef.current;
 
-          if (!video || !canvas || video.readyState < 2 || busyRef.current) return;
+          if (!runningRef.current || !streamRef.current || !video || !canvas || video.readyState < 2 || busyRef.current) return;
 
           busyRef.current = true;
           try {
@@ -73,7 +95,8 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
             const response = await fetch(`${API_URL}/analyze-frame`, {
               method: "POST",
               headers: { "Content-Type": "application/json" },
-              body: JSON.stringify({ image }),
+              signal: AbortSignal.timeout(15000),
+              body: JSON.stringify({ image, session_id: sessionIdRef.current }),
             });
 
             if (!response.ok) throw new Error(`Eye tracker returned ${response.status}`);
@@ -81,6 +104,7 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
             const data: EyeMetrics = await response.json();
             if (active) {
               onMetrics(data);
+              setMetrics(data);
               setStatus(data.status);
               setError("");
             }
@@ -97,7 +121,7 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
           } finally {
             busyRef.current = false;
           }
-        }, 500);
+        }, FRAME_INTERVAL_MS);
 
       } catch {
         if (active) {
@@ -111,13 +135,16 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
 
     return () => {
       active = false;
-      if (intervalId !== undefined) window.clearInterval(intervalId);
+      runningRef.current = false;
+      if (intervalRef.current !== undefined) window.clearInterval(intervalRef.current);
       streamRef.current?.getTracks().forEach((track) => track.stop());
       streamRef.current = null;
     };
   }, [onMetrics]);
 
   const stopCamera = () => {
+    runningRef.current = false;
+    if (intervalRef.current !== undefined) window.clearInterval(intervalRef.current);
     streamRef.current?.getTracks().forEach((track) => track.stop());
     streamRef.current = null;
     if (videoRef.current) videoRef.current.srcObject = null;
@@ -189,9 +216,9 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
           <span>{status}</span>
         </div>
         <div className="flex items-center gap-3">
-          <span className="h-2 w-2 rounded-full bg-muted-foreground" />
+          <span className={`h-2 w-2 rounded-full ${metrics?.engagement_label ? "bg-pastel-sage" : "bg-muted-foreground"}`} />
           <Eye size={14} className="text-muted-foreground" />
-          <span>Eye measurements only; engagement model not connected</span>
+          <span>{metrics?.engagement_label ? `Engagement: ${metrics.engagement_label}` : `Engagement model: ${metrics?.engagement_status ?? "Waiting for frames"}`}</span>
         </div>
       </div>
     </motion.div>

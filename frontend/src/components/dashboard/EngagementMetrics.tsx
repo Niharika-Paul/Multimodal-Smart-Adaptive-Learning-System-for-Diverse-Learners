@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
-import { Activity, Eye, Zap, Clock, Brain, ScanEye } from "lucide-react";
+import { Activity, Eye, Zap, Brain, ScanEye } from "lucide-react";
 import type { EyeMetrics } from "@/components/dashboard/WebcamPanel";
 
 interface MetricProps {
   label: string;
   value: string;
   change?: string;
+  detail?: string;
   icon: React.ElementType;
   borderColor: string;
   progress?: number;
@@ -51,6 +52,7 @@ const MetricCard = ({
   label,
   value,
   change,
+  detail,
   icon: Icon,
   borderColor,
   progress,
@@ -81,6 +83,11 @@ const MetricCard = ({
             {change}
           </span>
         )}
+        {detail && (
+          <span className="block text-xs text-muted-foreground">
+            {detail}
+          </span>
+        )}
       </div>
     </div>
   </motion.div>
@@ -93,26 +100,56 @@ interface EngagementMetricsProps {
 const EngagementMetrics = ({ metrics }: EngagementMetricsProps) => {
   const cards: MetricProps[] = [
     {
-      label: "Engagement Score",
-      value: "Not available",
+      label: "Model Confidence",
+      value: metrics?.engagement_confidence == null
+        ? metrics?.engagement_status === "Collecting clip frames"
+          ? `Collecting ${metrics.engagement_frames_collected ?? 0}/${metrics.engagement_frames_required ?? 65}`
+          : metrics?.engagement_status === "Extracting I3D features"
+            ? "Extracting I3D features…"
+            : metrics?.engagement_status === "Inference error"
+            ? "Inference unavailable"
+            : "Waiting for prediction"
+        : `${(metrics.engagement_confidence * 100).toFixed(1)}%`,
+      change: metrics?.engagement_checkpoint
+        ? `W0-P · ${metrics.engagement_personalization_group}`
+        : undefined,
       icon: Activity,
       borderColor: "border-pastel-blue",
+      progress: metrics?.engagement_confidence == null
+        ? undefined
+        : metrics.engagement_confidence * 100,
     },
     {
-      label: "Eye Contact",
-      value: "Not measured",
+      label: "Estimated Eye Contact",
+      value: metrics?.eye_contact_percent == null
+        ? metrics?.face_detected ? "Measuring gaze…" : "Waiting for face"
+        : `${metrics.eye_contact_percent.toFixed(1)}%`,
+      change: metrics?.gaze_status ?? "Iris position within both eye openings",
       icon: Eye,
       borderColor: "border-pastel-pink",
     },
     {
       label: "Blink Rate",
-      value: !metrics || !metrics.face_detected
-        ? "Waiting…"
-        : !metrics.blink_rate_ready
-          ? "Collecting blinks…"
-          : metrics.blink_rate == null
-            ? "Unavailable"
-            : `${metrics.blink_rate.toFixed(1)}/min`,
+      value: metrics?.face_detected && metrics.blink_rate_ready
+        ? metrics.blink_rate == null
+          ? "Rate unavailable"
+          : `${metrics.blink_rate.toFixed(1)} blinks/min`
+        : metrics?.face_detected
+          ? `${metrics.total_blinks} blinks`
+          : "Waiting for face",
+      change: metrics?.face_detected && metrics.blink_rate_ready
+        ? "Calculated from completed 60-second window"
+        : metrics?.face_detected
+          ? "Current blink count"
+          : "Observation starts when a face is detected",
+      detail: metrics?.face_detected && metrics.blink_rate_ready
+        ? `${metrics.blink_window_count ?? 0} blinks in the rolling 60 seconds · ${metrics.total_blinks} session total`
+        : metrics?.face_detected
+          ? (() => {
+              const elapsed = Math.min(60, Math.floor(metrics.blink_rate_elapsed_seconds ?? 0));
+              return `${elapsed} seconds elapsed · ${60 - elapsed} seconds remaining · 60 seconds total`;
+            })()
+          : undefined,
       icon: Zap,
       borderColor: "border-pastel-peach",
     },
@@ -132,7 +169,12 @@ const EngagementMetrics = ({ metrics }: EngagementMetricsProps) => {
     },
     {
       label: "Attention Level",
-      value: "Model not connected",
+      value: metrics?.engagement_label ?? (metrics?.engagement_status === "Inference error"
+        ? "Unavailable"
+        : metrics?.engagement_status === "Waiting for face"
+          ? "Waiting for face"
+          : "Collecting video"),
+      change: metrics?.engagement_error,
       icon: Brain,
       borderColor: "border-pastel-sage",
     },
@@ -146,7 +188,7 @@ const EngagementMetrics = ({ metrics }: EngagementMetricsProps) => {
       className="flex flex-col gap-4"
     >
       <h2 className="text-sm font-semibold text-muted-foreground uppercase tracking-wider">
-        Live Eye Metrics
+        Live Engagement & Eye Metrics
       </h2>
       <div className="grid grid-cols-2 gap-4">
         {cards.slice(0, 4).map((card) => (

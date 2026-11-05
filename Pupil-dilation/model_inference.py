@@ -1,10 +1,13 @@
 from pathlib import Path
+import os
 
 import torch
 import torch.nn.functional as F
 
 ROOT = Path(__file__).resolve().parent.parent
-CHECKPOINT_DIR = ROOT / "CMOSE_W0P_checkpoints_export_20261027"
+CHECKPOINT_DIR = Path(
+    os.environ.get("W0P_CHECKPOINT_DIR", ROOT / "CMOSE_W0P_checkpoints_export_20261027")
+).expanduser().resolve()
 DEVICE = torch.device("cpu")
 
 LABELS = [

@@ -10,7 +10,9 @@ import torch
 from omegaconf import OmegaConf
 
 BACKEND_DIR = Path(__file__).resolve().parent
-I3D_DIR = Path.home() / "Downloads" / "video_features-master"
+I3D_DIR = Path(
+    os.environ.get("I3D_LIBRARY_DIR", BACKEND_DIR / "external" / "video_features-master")
+).expanduser().resolve()
 
 if not (I3D_DIR / "models/i3d/checkpoints/i3d_rgb.pt").is_file():
     raise FileNotFoundError(f"I3D RGB checkpoint not found in {I3D_DIR}")
