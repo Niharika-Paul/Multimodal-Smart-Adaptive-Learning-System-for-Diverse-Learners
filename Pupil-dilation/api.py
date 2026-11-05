@@ -115,6 +115,10 @@ class FrameRequest(BaseModel):
     session_id: str | None = None
 
 
+class SessionRequest(BaseModel):
+    session_id: str
+
+
 class Tracker:
     def __init__(self):
         model_path = Path(__file__).resolve().parent / "face_landmarker.task"
@@ -137,6 +141,22 @@ class Tracker:
         self.eye_closed = False
         self.gaze_samples = deque()
         self.lock = Lock()
+
+    def reset_session(self):
+        """Clear all per-session tracking state without rebuilding the tracker."""
+        self.started = time.monotonic()
+        self.baseline_started = None
+        self.baseline_values.clear()
+        self.baseline_mean = 0.0
+        self.baseline_ready = False
+        self.total_blinks = 0
+        self.blink_timestamps.clear()
+        self.observation_started = None
+        self.observed_seconds = 0.0
+        self.last_observation_time = None
+        self.closed_frames = 0
+        self.eye_closed = False
+        self.gaze_samples.clear()
 
     def process(self, frame):
         now = time.monotonic()
@@ -282,14 +302,45 @@ live_i3d = LiveI3D()
 W0P_CHECKPOINT = "fold_1__video14_person0__random__K20.pt"
 
 
+def _reset_session_state(session_id):
+    global active_session_id, latest_engagement
+    tracker.reset_session()
+    live_i3d.reset()
+    latest_engagement = None
+    active_session_id = session_id
+
+
 
 @app.get("/health")
 def health():
     return {"status": "ok", "service": "eye-tracking-api"}
 
 
+@app.post("/start-session")
+def start_session(request: SessionRequest):
+    session_id = request.session_id.strip()
+    if not session_id:
+        raise HTTPException(status_code=400, detail="session_id must not be empty")
+    with tracker.lock:
+        reset = session_id != active_session_id
+        if reset:
+            _reset_session_state(session_id)
+    return {"status": "ok", "session_id": session_id, "reset": reset}
+
+
+@app.post("/end-session")
+def end_session(request: SessionRequest):
+    global active_session_id
+    with tracker.lock:
+        ended = request.session_id == active_session_id
+        if ended:
+            _reset_session_state(None)
+    return {"status": "ok", "ended": ended}
+
+
 @app.post("/analyze-frame")
 def analyze_frame(request: FrameRequest):
+    global latest_engagement
     encoded = request.image.split(",", 1)[-1]
     try:
         image_bytes = base64.b64decode(encoded, validate=True)
@@ -301,74 +352,75 @@ def analyze_frame(request: FrameRequest):
     if frame is None:
         raise HTTPException(status_code=400, detail="Could not decode image")
 
-    global latest_engagement, active_session_id
-
     session_id = request.session_id or "default"
-    if session_id != active_session_id:
-        live_i3d.reset()
-        latest_engagement = None
-        active_session_id = session_id
-
     with tracker.lock:
+        # Older clients can still use /analyze-frame without /start-session;
+        # initialize once on first frame, then reject stale session traffic.
+        if active_session_id is None:
+            _reset_session_state(session_id)
+        elif session_id != active_session_id:
+            raise HTTPException(
+                status_code=409,
+                detail="Tracking session is not active; call /start-session first",
+            )
         result = tracker.process(frame)
-
-    if not result["face_detected"]:
-        live_i3d.reset()
-        latest_engagement = None
-        result.update({
-            "engagement_status": "Waiting for face",
-            "engagement_frames_collected": 0,
-            "engagement_frames_required": live_i3d.frames_required,
-            "engagement_label": None,
-            "engagement_confidence": None,
-        })
-        return result
-
-    try:
-        embedding = live_i3d.process_frame(frame)
-        if embedding is None:
+        if not result["face_detected"]:
+            live_i3d.reset()
+            latest_engagement = None
             result.update({
-                "engagement_status": (
-                    "Prediction available" if latest_engagement else
-                    "Extracting I3D features" if live_i3d.inference_pending else
-                    "Collecting clip frames"
-                ),
+                "engagement_status": "Waiting for face",
+                "engagement_frames_collected": 0,
+                "engagement_frames_required": live_i3d.frames_required,
+                "engagement_label": None,
+                "engagement_confidence": None,
+            })
+            return result
+
+        try:
+            embedding = live_i3d.process_frame(frame)
+            if embedding is None:
+                result.update({
+                    "engagement_status": (
+                        "Prediction available" if latest_engagement else
+                        "Extracting I3D features" if live_i3d.inference_pending else
+                        "Collecting clip frames"
+                    ),
+                    "engagement_frames_collected": live_i3d.frames_collected,
+                    "engagement_frames_required": live_i3d.frames_required,
+                    "engagement_label": latest_engagement.get("label") if latest_engagement else None,
+                    "engagement_confidence": latest_engagement.get("confidence") if latest_engagement else None,
+                    "engagement_class_index": latest_engagement.get("class_index") if latest_engagement else None,
+                    "engagement_probabilities": latest_engagement.get("probabilities") if latest_engagement else None,
+                    "engagement_model": latest_engagement.get("model") if latest_engagement else None,
+                    "engagement_checkpoint": W0P_CHECKPOINT if latest_engagement else None,
+                    "engagement_personalization_group": "video14_person0" if latest_engagement else None,
+                })
+            else:
+                model = get_engagement_model(W0P_CHECKPOINT)
+                prediction = model.predict(embedding)
+                latest_engagement = prediction
+                result.update({
+                    "engagement_status": "Prediction available",
+                    "engagement_frames_collected": live_i3d.frames_required,
+                    "engagement_frames_required": live_i3d.frames_required,
+                    "engagement_label": prediction.get("label"),
+                    "engagement_confidence": prediction.get("confidence"),
+                    "engagement_class_index": prediction.get("class_index"),
+                    "engagement_probabilities": prediction.get("probabilities"),
+                    "engagement_model": prediction.get("model"),
+                    "engagement_checkpoint": W0P_CHECKPOINT,
+                    "engagement_personalization_group": "video14_person0",
+                })
+        except Exception as exc:
+            latest_engagement = None
+            result.update({
+                "engagement_status": "Inference error",
+                "engagement_label": None,
+                "engagement_confidence": None,
+                "engagement_error": str(exc),
                 "engagement_frames_collected": live_i3d.frames_collected,
                 "engagement_frames_required": live_i3d.frames_required,
-                "engagement_label": latest_engagement.get("label") if latest_engagement else None,
-                "engagement_confidence": latest_engagement.get("confidence") if latest_engagement else None,
-                "engagement_class_index": latest_engagement.get("class_index") if latest_engagement else None,
-                "engagement_probabilities": latest_engagement.get("probabilities") if latest_engagement else None,
-                "engagement_model": latest_engagement.get("model") if latest_engagement else None,
-                "engagement_checkpoint": W0P_CHECKPOINT if latest_engagement else None,
-                "engagement_personalization_group": "video14_person0" if latest_engagement else None,
             })
-        else:
-            model = get_engagement_model(W0P_CHECKPOINT)
-            prediction = model.predict(embedding)
-            latest_engagement = prediction
-            result.update({
-                "engagement_status": "Prediction available",
-                "engagement_frames_collected": live_i3d.frames_required,
-                "engagement_frames_required": live_i3d.frames_required,
-                "engagement_label": prediction.get("label"),
-                "engagement_confidence": prediction.get("confidence"),
-                "engagement_class_index": prediction.get("class_index"),
-                "engagement_probabilities": prediction.get("probabilities"),
-                "engagement_model": prediction.get("model"),
-                "engagement_checkpoint": W0P_CHECKPOINT,
-                "engagement_personalization_group": "video14_person0",
-            })
-    except Exception as exc:
-        latest_engagement = None
-        result.update({
-            "engagement_status": "Inference error",
-            "engagement_label": None,
-            "engagement_confidence": None,
-            "engagement_error": str(exc),
-            "engagement_frames_collected": live_i3d.frames_collected,
-            "engagement_frames_required": live_i3d.frames_required,
-        })
 
     return result
 

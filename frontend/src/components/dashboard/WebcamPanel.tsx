@@ -32,11 +32,27 @@ export interface EyeMetrics {
 }
 
 interface WebcamPanelProps {
-  onMetrics: (metrics: EyeMetrics) => void;
+  onMetrics: (metrics: EyeMetrics | null) => void;
 }
 
 const API_URL = (import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8001").replace(/\/$/, "");
 const FRAME_INTERVAL_MS = 100;
+
+const endTrackingSession = (sessionId: string, startRequest?: Promise<Response>) => {
+  void (async () => {
+    try {
+      await startRequest;
+      await fetch(`${API_URL}/end-session`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ session_id: sessionId }),
+        keepalive: true,
+      });
+    } catch (err) {
+      console.error("Could not close tracking session:", err);
+    }
+  })();
+};
 
 const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -45,7 +61,8 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
   const busyRef = useRef(false);
   const runningRef = useRef(true);
   const intervalRef = useRef<number | undefined>(undefined);
-  const sessionIdRef = useRef(crypto.randomUUID());
+  const sessionIdRef = useRef<string | null>(null);
+  const sessionStartRef = useRef<Promise<Response> | null>(null);
   const [cameraOn, setCameraOn] = useState(false);
   const [status, setStatus] = useState("Camera is off");
   const [error, setError] = useState("");
@@ -54,8 +71,11 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
   useEffect(() => {
     let active = true;
     runningRef.current = true;
+    setMetrics(null);
+    onMetrics(null);
 
     const startCamera = async () => {
+      let sessionId: string | null = null;
       try {
         const stream = await navigator.mediaDevices.getUserMedia({
           video: { facingMode: "user", width: { ideal: 640 }, height: { ideal: 480 } },
@@ -73,6 +93,23 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
           await videoRef.current.play();
         }
 
+        sessionId = crypto.randomUUID();
+        sessionIdRef.current = sessionId;
+        const sessionStart = fetch(`${API_URL}/start-session`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          signal: AbortSignal.timeout(15000),
+          body: JSON.stringify({ session_id: sessionId }),
+        });
+        sessionStartRef.current = sessionStart;
+        const startResponse = await sessionStart;
+        if (!startResponse.ok) throw new Error(`Could not start tracking session (${startResponse.status})`);
+        if (!active) {
+          endTrackingSession(sessionId);
+          stream.getTracks().forEach((track) => track.stop());
+          return;
+        }
+
         setCameraOn(true);
         setStatus("Connecting to eye tracker");
 
@@ -80,7 +117,8 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
           const video = videoRef.current;
           const canvas = canvasRef.current;
 
-          if (!runningRef.current || !streamRef.current || !video || !canvas || video.readyState < 2 || busyRef.current) return;
+          const currentSessionId = sessionIdRef.current;
+          if (!runningRef.current || !currentSessionId || !streamRef.current || !video || !canvas || video.readyState < 2 || busyRef.current) return;
 
           busyRef.current = true;
           try {
@@ -96,13 +134,13 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               signal: AbortSignal.timeout(15000),
-              body: JSON.stringify({ image, session_id: sessionIdRef.current }),
+              body: JSON.stringify({ image, session_id: currentSessionId }),
             });
 
             if (!response.ok) throw new Error(`Eye tracker returned ${response.status}`);
 
             const data: EyeMetrics = await response.json();
-            if (active) {
+            if (active && runningRef.current && sessionIdRef.current === currentSessionId) {
               onMetrics(data);
               setMetrics(data);
               setStatus(data.status);
@@ -110,7 +148,7 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
             }
           } catch (err) {
             console.error("Eye tracker request failed:", err);
-            if (active) {
+            if (active && runningRef.current && sessionIdRef.current === currentSessionId) {
               setStatus("API response error");
               setError(
                 err instanceof Error
@@ -124,9 +162,19 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
         }, FRAME_INTERVAL_MS);
 
       } catch {
+        if (sessionId) {
+          endTrackingSession(sessionId, sessionStartRef.current ?? undefined);
+          if (sessionIdRef.current === sessionId) sessionIdRef.current = null;
+          sessionStartRef.current = null;
+        }
+        streamRef.current?.getTracks().forEach((track) => track.stop());
+        streamRef.current = null;
+        setMetrics(null);
+        onMetrics(null);
         if (active) {
-          setStatus("Camera permission required");
-          setError("Allow camera access in your browser, then reload this page.");
+          setCameraOn(false);
+          setStatus(sessionId ? "API response error" : "Camera permission required");
+          setError(sessionId ? "Could not connect to the tracking API. Check that the backend is running." : "Allow camera access in your browser, then reload this page.");
         }
       }
     };
@@ -137,6 +185,11 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
       active = false;
       runningRef.current = false;
       if (intervalRef.current !== undefined) window.clearInterval(intervalRef.current);
+      const sessionId = sessionIdRef.current;
+      const sessionStart = sessionStartRef.current;
+      sessionIdRef.current = null;
+      sessionStartRef.current = null;
+      if (sessionId) endTrackingSession(sessionId, sessionStart ?? undefined);
       streamRef.current?.getTracks().forEach((track) => track.stop());
       streamRef.current = null;
     };
@@ -145,11 +198,19 @@ const WebcamPanel = ({ onMetrics }: WebcamPanelProps) => {
   const stopCamera = () => {
     runningRef.current = false;
     if (intervalRef.current !== undefined) window.clearInterval(intervalRef.current);
+    const sessionId = sessionIdRef.current;
+    const sessionStart = sessionStartRef.current;
+    sessionIdRef.current = null;
+    sessionStartRef.current = null;
+    if (sessionId) endTrackingSession(sessionId, sessionStart ?? undefined);
     streamRef.current?.getTracks().forEach((track) => track.stop());
     streamRef.current = null;
     if (videoRef.current) videoRef.current.srcObject = null;
     setCameraOn(false);
     setStatus("Camera stopped");
+    setMetrics(null);
+    setError("");
+    onMetrics(null);
   };
 
   return (
