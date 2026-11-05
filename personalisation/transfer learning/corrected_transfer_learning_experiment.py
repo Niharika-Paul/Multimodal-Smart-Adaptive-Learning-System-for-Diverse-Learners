@@ -1,5 +1,6 @@
 import argparse
 import json
+import os
 import re
 import warnings
 
@@ -441,11 +442,11 @@ def build_summary(results_df: pd.DataFrame):
 
 def main():
     parser = argparse.ArgumentParser(description="Corrected unseen-student transfer-learning evaluation for CMOSE engagement prediction.")
-    parser.add_argument("--json", type=str, default=r"C:\COLLEGE\capstone\latest\final_data_1.json")
-    parser.add_argument("--folds", type=str, default=r"C:\COLLEGE\capstone\latest\cmose_h1_h2_fold_protocol.csv")
+    parser.add_argument("--json", type=str, default=os.path.join(os.environ.get("CMOSE_DATA_DIR", "."), "final_data_1.json"))
+    parser.add_argument("--folds", type=str, default=os.path.join(os.environ.get("CMOSE_DATA_DIR", "."), "cmose_h1_h2_fold_protocol.csv"))
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--k-values", type=str, default="1,5,10,20")
-    parser.add_argument("--output-dir", type=str, default=r"C:\COLLEGE\capstone\latest")
+    parser.add_argument("--output-dir", type=str, default=os.environ.get("CMOSE_OUTPUT_DIR", "."))
     args = parser.parse_args()
 
     clip_df = load_clip_dataframe(args.json)

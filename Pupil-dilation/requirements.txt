@@ -6,3 +6,5 @@ mediapipe
 torch
 torchvision
 omegaconf
+h5py
+scipy

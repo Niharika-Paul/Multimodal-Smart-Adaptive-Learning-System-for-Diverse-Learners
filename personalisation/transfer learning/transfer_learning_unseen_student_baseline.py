@@ -1,5 +1,6 @@
 import argparse
 import json
+import os
 import re
 
 import numpy as np
@@ -244,11 +245,11 @@ def run_experiment(json_path: str, fold_csv_path: str, k_shot: int, seed: int = 
 
 def main():
     parser = argparse.ArgumentParser(description="Transfer-learning baseline for unseen-student CMOSE engagement prediction.")
-    parser.add_argument("--json", type=str, default=r"C:\COLLEGE\capstone\latest\final_data_1.json")
-    parser.add_argument("--folds", type=str, default=r"C:\COLLEGE\capstone\latest\cmose_h1_h2_fold_protocol.csv")
+    parser.add_argument("--json", type=str, default=os.path.join(os.environ.get("CMOSE_DATA_DIR", "."), "final_data_1.json"))
+    parser.add_argument("--folds", type=str, default=os.path.join(os.environ.get("CMOSE_DATA_DIR", "."), "cmose_h1_h2_fold_protocol.csv"))
     parser.add_argument("--k-shot", type=int, default=10)
     parser.add_argument("--seed", type=int, default=42)
-    parser.add_argument("--output", type=str, default=r"C:\COLLEGE\capstone\latest\transfer_learning_baseline_results.csv")
+    parser.add_argument("--output", type=str, default=os.path.join(os.environ.get("CMOSE_OUTPUT_DIR", "."), "transfer_learning_baseline_results.csv"))
     args = parser.parse_args()
 
     result_df = run_experiment(args.json, args.folds, args.k_shot, args.seed)

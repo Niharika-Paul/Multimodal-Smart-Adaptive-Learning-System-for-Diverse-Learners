@@ -82,7 +82,7 @@ warnings.filterwarnings("ignore")
 # 1. CONFIGURATION
 # ============================================================
 
-BASE_DIR = r"C:\COLLEGE\capstone\latest"
+BASE_DIR = os.environ.get("CMOSE_DATA_DIR", ".")
 
 REPRESENTATION_FILE = os.path.join(
     BASE_DIR,
